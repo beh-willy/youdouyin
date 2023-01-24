@@ -1,0 +1,72 @@
+<admintpl file="header" />
+<style>
+.comment_lists_table{
+	border: 0;
+	width: 100%;
+}
+.comment_lists_table td{
+	border:0;
+}
+</style>
+</head>
+<body>
+	<div class="wrap">
+		
+
+		<form method="post" class="js-ajax-form">
+
+			<if condition="!empty($lists)">
+			<table class="table table-hover table-bordered" style="text-align: center;">
+				<thead>
+					<tr>
+						<th width="15%">组ID</th>
+						<th width="40%">卡密号</th>
+						<th width="20%">状态</th>
+						<th align="center">{:L('ACTIONS')}</th>
+					</tr>
+				</thead>
+				<tbody>
+					<foreach name="lists" item="vo">
+						<tr>
+							<td>{$vo['kami_id']}</td>
+							<td class="copy">{$vo['id']}</td>
+							<td>{$vo['status']}</td>
+							<td align="center">	
+								<input type="button" name="copy" value="复制" onclick="copys('{$vo['id']}')">
+							</td>
+							
+						</tr>
+					</foreach>
+				</tbody>
+			</table>
+
+			<else />
+				<table style="border: none;width: 100%;">
+					<tbody>
+						<tr>
+							<td style="border: none;height: 50px;line-height: 50px;text-align: center;">暂无评论数据~</td>
+						</tr>
+					</tbody>
+				</table>
+			</if>
+			<div class="pagination">{$page}</div>
+		</form>
+	</div>
+	<script src="__PUBLIC__/js/common.js"></script>
+	<script src="__PUBLIC__/layer/layer.js"></script>
+	<script type="text/javascript" src="http://www.jq22.com/demo/clipboard.js-master201703170013/dist/clipboard.min.js"></script>
+	<script type="text/javascript">
+		function copys(e){
+
+			var input = document.createElement('input');
+			input.setAttribute('type', 'hidden');
+			input.setAttribute('value', e);
+			input.select();
+			document.execCommand("Copy"); // 执行浏览器复制命令
+			alert("已复制好");
+		}
+    
+  </script>
+	
+</body>
+</html>

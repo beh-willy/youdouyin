@@ -1,0 +1,1171 @@
+[ 2020-05-27T16:56:02+08:00 ] 14.17.3.65 /appapi/Sharelogin?code=YGH2XZ
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001409s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001763s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000874s ]
+SQL: SHOW COLUMNS FROM `cmf_config` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `cmf_config_private` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `cmf_config_private` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0013s ]
+SQL: SELECT `id`,`code` FROM `cmf_users` WHERE ( code='YGH2XZ' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+SQL: SELECT * FROM `cmf_config_private` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: game_switch /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1922 行.
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+NOTIC: [8] Undefined variable: time /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Appapi/a6493e19653be99ccc8ca2f3884dfbdb.php 第 8 行.
+NOTIC: [8] Undefined variable: uid /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Appapi/a6493e19653be99ccc8ca2f3884dfbdb.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007469s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007499s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000206s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000677s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000703s ]
+
+[ 2020-05-27T17:01:00+08:00 ] 113.96.219.250 /appapi/Sharelogin?code=YGH2XZ
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001123s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+SQL: SHOW COLUMNS FROM `cmf_config` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cmf_config_private` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cmf_config_private` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0016s ]
+SQL: SELECT `id`,`code` FROM `cmf_users` WHERE ( code='YGH2XZ' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+SQL: SELECT * FROM `cmf_config_private` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: game_switch /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1922 行.
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+NOTIC: [8] Undefined variable: time /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Appapi/a6493e19653be99ccc8ca2f3884dfbdb.php 第 8 行.
+NOTIC: [8] Undefined variable: uid /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Appapi/a6493e19653be99ccc8ca2f3884dfbdb.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004981s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000143s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000385s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000405s ]
+
+[ 2020-05-27T17:05:10+08:00 ] 183.3.255.28 /appapi/Sharelogin?code=7JNEWH
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001194s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001112s ]
+SQL: SHOW COLUMNS FROM `cmf_config` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `cmf_config_private` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `cmf_config_private` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0015s ]
+SQL: SELECT `id`,`code` FROM `cmf_users` WHERE ( code='7JNEWH' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+SQL: SELECT * FROM `cmf_config_private` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: game_switch /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1922 行.
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+NOTIC: [8] Undefined variable: time /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Appapi/a6493e19653be99ccc8ca2f3884dfbdb.php 第 8 行.
+NOTIC: [8] Undefined variable: uid /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Appapi/a6493e19653be99ccc8ca2f3884dfbdb.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004954s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004986s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000135s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000365s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000384s ]
+
+[ 2020-05-27T17:05:17+08:00 ] 59.37.97.55 /appapi/Sharelogin?code=7JNEWH
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000978s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+SQL: SHOW COLUMNS FROM `cmf_config` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cmf_config_private` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `cmf_config_private` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0013s ]
+SQL: SELECT `id`,`code` FROM `cmf_users` WHERE ( code='7JNEWH' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+SQL: SELECT * FROM `cmf_config_private` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: game_switch /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1922 行.
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+NOTIC: [8] Undefined variable: time /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Appapi/a6493e19653be99ccc8ca2f3884dfbdb.php 第 8 行.
+NOTIC: [8] Undefined variable: uid /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Appapi/a6493e19653be99ccc8ca2f3884dfbdb.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005343s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005365s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000144s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000408s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000441s ]
+
+[ 2020-05-27T17:05:28+08:00 ] 112.97.59.97 /appapi/Sharelogin?code=7JNEWH
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000943s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+SQL: SHOW COLUMNS FROM `cmf_config` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `cmf_config_private` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `cmf_config_private` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0013s ]
+SQL: SELECT `id`,`code` FROM `cmf_users` WHERE ( code='7JNEWH' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+SQL: SELECT * FROM `cmf_config_private` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: game_switch /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1922 行.
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+NOTIC: [8] Undefined variable: time /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Appapi/a6493e19653be99ccc8ca2f3884dfbdb.php 第 8 行.
+NOTIC: [8] Undefined variable: uid /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Appapi/a6493e19653be99ccc8ca2f3884dfbdb.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005889s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005926s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000129s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000156s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000461s ]
+
+[ 2020-05-27T17:05:45+08:00 ] 59.36.121.176 /appapi/Sharelogin?code=7JNEWH
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000921s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000755s ]
+SQL: SHOW COLUMNS FROM `cmf_config` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `cmf_config_private` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `cmf_config_private` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0014s ]
+SQL: SELECT `id`,`code` FROM `cmf_users` WHERE ( code='7JNEWH' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+SQL: SELECT * FROM `cmf_config_private` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: game_switch /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1922 行.
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+NOTIC: [8] Undefined variable: time /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Appapi/a6493e19653be99ccc8ca2f3884dfbdb.php 第 8 行.
+NOTIC: [8] Undefined variable: uid /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Appapi/a6493e19653be99ccc8ca2f3884dfbdb.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005209s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005229s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000142s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000125s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000684s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000711s ]
+
+[ 2020-05-27T17:16:10+08:00 ] 61.129.6.159 /appapi/Sharelogin?code=7JNEWH
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000855s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+SQL: SHOW COLUMNS FROM `cmf_config` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `cmf_config_private` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `cmf_config_private` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0018s ]
+SQL: SELECT `id`,`code` FROM `cmf_users` WHERE ( code='7JNEWH' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+SQL: SELECT * FROM `cmf_config_private` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: game_switch /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1922 行.
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+NOTIC: [8] Undefined variable: time /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Appapi/a6493e19653be99ccc8ca2f3884dfbdb.php 第 8 行.
+NOTIC: [8] Undefined variable: uid /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Appapi/a6493e19653be99ccc8ca2f3884dfbdb.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005074s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005100s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000180s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000154s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000422s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000442s ]
+
+[ 2020-05-27T17:17:41+08:00 ] 61.141.78.56 /appapi/Sharelogin?code=96AEMP&nsukey=OsIjw7XVEB34eNhXqDiyAS7WgqcgUxQT5Jqld%2B7LoF%2B1faUYgVKJ9X80psZ8Omo6z522RjWGoxP8CtvdL0vQa6TvIxPk64%2BlbdoM8P9NC%2FdY3RRoERLKgS24WOCgOUf08PPAbhzVH8eATlfbK9kTaMDHHyXWQp26yOEvqK8LSQv5DjXCNsyfxnzDAFGZI60GpFxFiq1N6yBcMgtZSYstSw%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000998s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+SQL: SHOW COLUMNS FROM `cmf_config` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cmf_config_private` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `cmf_config_private` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0015s ]
+SQL: SELECT `id`,`code` FROM `cmf_users` WHERE ( code='96AEMP' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+SQL: SELECT * FROM `cmf_config_private` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: game_switch /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1922 行.
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+NOTIC: [8] Undefined variable: time /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Appapi/a6493e19653be99ccc8ca2f3884dfbdb.php 第 8 行.
+NOTIC: [8] Undefined variable: uid /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Appapi/a6493e19653be99ccc8ca2f3884dfbdb.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005429s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005452s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000175s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000365s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000387s ]
+
+[ 2020-05-27T17:18:05+08:00 ] 223.104.37.74 /appapi/Sharelogin?code=96AEMP
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+SQL: SHOW COLUMNS FROM `cmf_config` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cmf_config_private` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `cmf_config_private` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0018s ]
+SQL: SELECT `id`,`code` FROM `cmf_users` WHERE ( code='96AEMP' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+SQL: SELECT * FROM `cmf_config_private` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: game_switch /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1922 行.
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+NOTIC: [8] Undefined variable: time /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Appapi/a6493e19653be99ccc8ca2f3884dfbdb.php 第 8 行.
+NOTIC: [8] Undefined variable: uid /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Appapi/a6493e19653be99ccc8ca2f3884dfbdb.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005763s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005783s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000146s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000186s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000443s ]
+
+[ 2020-05-27T17:19:33+08:00 ] 123.151.77.71 /appapi/Sharelogin?code=96AEMP&nsukey=811sbu%2BwY5nZs8cCfTyq7PuqJhuN1t4OFrOBsciKoGZ8doze%2BvzGN7CdHqakxhbXP4pBEPbxHTe7N7lPnbgCkB0HTpQMa%2FD7%2BJUtZ47gLXTSMmbBWLn%2BHIhgnWHTtVQQSAf4ZVaZGJ5GtCoMDso0mT%2F%2FzMDz2CjEEO1s4grtPn0%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001151s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000954s ]
+SQL: SHOW COLUMNS FROM `cmf_config` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cmf_config_private` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `cmf_config_private` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0014s ]
+SQL: SELECT `id`,`code` FROM `cmf_users` WHERE ( code='96AEMP' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+SQL: SELECT * FROM `cmf_config_private` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: game_switch /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1922 行.
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+NOTIC: [8] Undefined variable: time /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Appapi/a6493e19653be99ccc8ca2f3884dfbdb.php 第 8 行.
+NOTIC: [8] Undefined variable: uid /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Appapi/a6493e19653be99ccc8ca2f3884dfbdb.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005797s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005817s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000177s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000446s ]
+
+[ 2020-05-27T17:21:35+08:00 ] 123.151.77.71 /appapi/Sharelogin?code=96AEMP&nsukey=p4A%2FYXMNvdiV3T25q5rXHL%2FAx%2FHmIM8HKUz%2FCn%2B%2BuSKpaVjSBXYooncwRndOW7xwTdkzImjRq7Pms1vhSVjdGH3Qrg7qTbVcnWpSfKXnavmIJXyzjrVZJQLHFnK2or2UKVMxgi1eumln0wp5FiwchWAaUPqFRI4PNnR1PffINLODC6TQNvJccqH1zqRV0RHzoBcAuxBeIPXKlsmodZoI5g%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001140s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000795s ]
+SQL: SHOW COLUMNS FROM `cmf_config` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cmf_config_private` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `cmf_config_private` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0021s ]
+SQL: SELECT `id`,`code` FROM `cmf_users` WHERE ( code='96AEMP' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+SQL: SELECT * FROM `cmf_config_private` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: game_switch /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1922 行.
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+NOTIC: [8] Undefined variable: time /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Appapi/a6493e19653be99ccc8ca2f3884dfbdb.php 第 8 行.
+NOTIC: [8] Undefined variable: uid /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Appapi/a6493e19653be99ccc8ca2f3884dfbdb.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004992s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000173s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000136s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000553s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000574s ]
+
+[ 2020-05-27T17:21:41+08:00 ] 61.151.206.24 /appapi/Sharelogin?code=96AEMP&nsukey=p4A%2FYXMNvdiV3T25q5rXHL%2FAx%2FHmIM8HKUz%2FCn%2B%2BuSKpaVjSBXYooncwRndOW7xwTdkzImjRq7Pms1vhSVjdGH3Qrg7qTbVcnWpSfKXnavmIJXyzjrVZJQLHFnK2or2UKVMxgi1eumln0wp5FiwchWAaUPqFRI4PNnR1PffINLODC6TQNvJccqH1zqRV0RHzoBcAuxBeIPXKlsmodZoI5g%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001416s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001946s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001025s ]
+SQL: SHOW COLUMNS FROM `cmf_config` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cmf_config_private` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `cmf_config_private` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0015s ]
+SQL: SELECT `id`,`code` FROM `cmf_users` WHERE ( code='96AEMP' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+SQL: SELECT * FROM `cmf_config_private` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: game_switch /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1922 行.
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+NOTIC: [8] Undefined variable: time /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Appapi/a6493e19653be99ccc8ca2f3884dfbdb.php 第 8 行.
+NOTIC: [8] Undefined variable: uid /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Appapi/a6493e19653be99ccc8ca2f3884dfbdb.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006523s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006582s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000189s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000964s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001018s ]
+
+[ 2020-05-27T17:21:50+08:00 ] 223.104.37.74 /appapi/Sharelogin?code=96AEMP&nsukey=p4A%2FYXMNvdiV3T25q5rXHL%2FAx%2FHmIM8HKUz%2FCn%2B%2BuSKpaVjSBXYooncwRndOW7xwTdkzImjRq7Pms1vhSVjdGH3Qrg7qTbVcnWpSfKXnavmIJXyzjrVZJQLHFnK2or2UKVMxgi1eumln0wp5FiwchWAaUPqFRI4PNnR1PffINLODC6TQNvJccqH1zqRV0RHzoBcAuxBeIPXKlsmodZoI5g%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000925s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+SQL: SHOW COLUMNS FROM `cmf_config` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `cmf_config_private` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `cmf_config_private` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0012s ]
+SQL: SELECT `id`,`code` FROM `cmf_users` WHERE ( code='96AEMP' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+SQL: SELECT * FROM `cmf_config_private` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: game_switch /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1922 行.
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+NOTIC: [8] Undefined variable: time /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Appapi/a6493e19653be99ccc8ca2f3884dfbdb.php 第 8 行.
+NOTIC: [8] Undefined variable: uid /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Appapi/a6493e19653be99ccc8ca2f3884dfbdb.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005101s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005126s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000517s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000541s ]
+
+[ 2020-05-27T17:23:10+08:00 ] 223.104.37.74 /appapi/Sharelogin?code=96AEMP&nsukey=p4A%2FYXMNvdiV3T25q5rXHL%2FAx%2FHmIM8HKUz%2FCn%2B%2BuSKpaVjSBXYooncwRndOW7xwTdkzImjRq7Pms1vhSVjdGH3Qrg7qTbVcnWpSfKXnavmIJXyzjrVZJQLHFnK2or2UKVMxgi1eumln0wp5FiwchWAaUPqFRI4PNnR1PffINLODC6TQNvJccqH1zqRV0RHzoBcAuxBeIPXKlsmodZoI5g%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001241s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+SQL: SHOW COLUMNS FROM `cmf_config` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cmf_config_private` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `cmf_config_private` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0019s ]
+SQL: SELECT `id`,`code` FROM `cmf_users` WHERE ( code='96AEMP' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+SQL: SELECT * FROM `cmf_config_private` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: game_switch /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1922 行.
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+NOTIC: [8] Undefined variable: time /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Appapi/a6493e19653be99ccc8ca2f3884dfbdb.php 第 8 行.
+NOTIC: [8] Undefined variable: uid /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Appapi/a6493e19653be99ccc8ca2f3884dfbdb.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007228s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007254s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000171s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000577s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000604s ]
+
+[ 2020-05-27T17:24:43+08:00 ] 223.104.37.74 /appapi/Sharelogin?code=96AEMP&nsukey=p4A%2FYXMNvdiV3T25q5rXHL%2FAx%2FHmIM8HKUz%2FCn%2B%2BuSKpaVjSBXYooncwRndOW7xwTdkzImjRq7Pms1vhSVjdGH3Qrg7qTbVcnWpSfKXnavmIJXyzjrVZJQLHFnK2or2UKVMxgi1eumln0wp5FiwchWAaUPqFRI4PNnR1PffINLODC6TQNvJccqH1zqRV0RHzoBcAuxBeIPXKlsmodZoI5g%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000844s ]
+SQL: SHOW COLUMNS FROM `cmf_config` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `cmf_config_private` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `cmf_config_private` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0016s ]
+SQL: SELECT `id`,`code` FROM `cmf_users` WHERE ( code='96AEMP' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+SQL: SELECT * FROM `cmf_config_private` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: game_switch /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1922 行.
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+NOTIC: [8] Undefined variable: time /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Appapi/a6493e19653be99ccc8ca2f3884dfbdb.php 第 8 行.
+NOTIC: [8] Undefined variable: uid /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Appapi/a6493e19653be99ccc8ca2f3884dfbdb.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005554s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005578s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000146s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000133s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000423s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000449s ]
+
+[ 2020-05-27T17:28:59+08:00 ] 114.85.188.15 /appapi/Sharelogin?code=96AEMP&nsukey=GrD1FBtspQJ6pzx%2B4Hedvstw7B5UW3SAY63snkFM02slGJt98VhTn71odx5vjh1GjQOtj%2F2YVHYrF86GMgADwKJI%2F3j6Yn8Khvd7bZURIdWB1fMF9OH1cpklUFYfcqfCEn3ZKSv6JcQPBDnnHJ48b1xNu3OLzCprmXf%2FYvXJR2%2F76hcyziianKdF%2F6nSL33qUw8VhMkYgm6i4Jxbx6Ro1Q%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001244s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001598s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000877s ]
+SQL: SHOW COLUMNS FROM `cmf_config` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cmf_config_private` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cmf_config_private` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0017s ]
+SQL: SELECT `id`,`code` FROM `cmf_users` WHERE ( code='96AEMP' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+SQL: SELECT * FROM `cmf_config_private` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: game_switch /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1922 行.
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+NOTIC: [8] Undefined variable: time /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Appapi/a6493e19653be99ccc8ca2f3884dfbdb.php 第 8 行.
+NOTIC: [8] Undefined variable: uid /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Appapi/a6493e19653be99ccc8ca2f3884dfbdb.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005597s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000134s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000438s ]
+
+[ 2020-05-27T17:29:03+08:00 ] 61.151.206.125 /appapi/Sharelogin?code=96AEMP&nsukey=GrD1FBtspQJ6pzx%2B4Hedvstw7B5UW3SAY63snkFM02slGJt98VhTn71odx5vjh1GjQOtj%2F2YVHYrF86GMgADwKJI%2F3j6Yn8Khvd7bZURIdWB1fMF9OH1cpklUFYfcqfCEn3ZKSv6JcQPBDnnHJ48b1xNu3OLzCprmXf%2FYvXJR2%2F76hcyziianKdF%2F6nSL33qUw8VhMkYgm6i4Jxbx6Ro1Q%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000960s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+SQL: SHOW COLUMNS FROM `cmf_config` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cmf_config_private` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `cmf_config_private` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0013s ]
+SQL: SELECT `id`,`code` FROM `cmf_users` WHERE ( code='96AEMP' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+SQL: SELECT * FROM `cmf_config_private` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: game_switch /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1922 行.
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+NOTIC: [8] Undefined variable: time /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Appapi/a6493e19653be99ccc8ca2f3884dfbdb.php 第 8 行.
+NOTIC: [8] Undefined variable: uid /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Appapi/a6493e19653be99ccc8ca2f3884dfbdb.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005105s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005127s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000137s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000125s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000470s ]
+
+[ 2020-05-27T17:29:06+08:00 ] 61.151.178.236 /appapi/Sharelogin?code=96AEMP
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000986s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+SQL: SHOW COLUMNS FROM `cmf_config` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cmf_config_private` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `cmf_config_private` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0021s ]
+SQL: SELECT `id`,`code` FROM `cmf_users` WHERE ( code='96AEMP' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+SQL: SELECT * FROM `cmf_config_private` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: game_switch /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1922 行.
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+NOTIC: [8] Undefined variable: time /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Appapi/a6493e19653be99ccc8ca2f3884dfbdb.php 第 8 行.
+NOTIC: [8] Undefined variable: uid /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Appapi/a6493e19653be99ccc8ca2f3884dfbdb.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004896s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004916s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000159s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000387s ]
+
+[ 2020-05-27T17:29:15+08:00 ] 61.151.207.158 /appapi/Sharelogin?code=96AEMP&nsukey=OsIjw7XVEB34eNhXqDiyAS7WgqcgUxQT5Jqld%2B7LoF%2B1faUYgVKJ9X80psZ8Omo6z522RjWGoxP8CtvdL0vQa6TvIxPk64%2BlbdoM8P9NC%2FdY3RRoERLKgS24WOCgOUf08PPAbhzVH8eATlfbK9kTaMDHHyXWQp26yOEvqK8LSQv5DjXCNsyfxnzDAFGZI60GpFxFiq1N6yBcMgtZSYstSw%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001145s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+SQL: SHOW COLUMNS FROM `cmf_config` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cmf_config_private` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `cmf_config_private` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0014s ]
+SQL: SELECT `id`,`code` FROM `cmf_users` WHERE ( code='96AEMP' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+SQL: SELECT * FROM `cmf_config_private` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: game_switch /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1922 行.
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Undefined variable: time /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Appapi/a6493e19653be99ccc8ca2f3884dfbdb.php 第 8 行.
+NOTIC: [8] Undefined variable: uid /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Appapi/a6493e19653be99ccc8ca2f3884dfbdb.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004756s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004777s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000197s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000369s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000389s ]
+
+[ 2020-05-27T17:29:32+08:00 ] 36.110.199.180 /appapi/Sharelogin?code=7JNEWH
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000989s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+SQL: SHOW COLUMNS FROM `cmf_config` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cmf_config_private` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `cmf_config_private` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0013s ]
+SQL: SELECT `id`,`code` FROM `cmf_users` WHERE ( code='7JNEWH' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+SQL: SELECT * FROM `cmf_config_private` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: game_switch /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1922 行.
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+NOTIC: [8] Undefined variable: time /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Appapi/a6493e19653be99ccc8ca2f3884dfbdb.php 第 8 行.
+NOTIC: [8] Undefined variable: uid /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Appapi/a6493e19653be99ccc8ca2f3884dfbdb.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004385s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004405s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000148s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000341s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000362s ]
+
+[ 2020-05-27T17:29:46+08:00 ] 114.85.188.15 /appapi/Sharelogin?code=96AEMP&nsukey=PqwY5c2U4d8Z0Zar7WIbi4rNC42XHoYUI94gWrgSCDbsl5%2B89kqrZHwgQaowd3STUMVBHiUE1%2B61GMJsiVHzxAWNHAMt%2FHAcNvRGBbuSKwNQUoodMF131Ze4y8i8J9MaXS5yhjpv4mZsVqfJW0gK39bGqyhtNgsiE9eE%2FH6wHVlo3wa1AmYpGhq%2BwOG0pDaoa9Mceioy6d4QM3vI1frN9Q%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000978s ]
+SQL: SHOW COLUMNS FROM `cmf_config` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cmf_config_private` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cmf_config_private` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0019s ]
+SQL: SELECT `id`,`code` FROM `cmf_users` WHERE ( code='96AEMP' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+SQL: SELECT * FROM `cmf_config_private` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: game_switch /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1922 行.
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+NOTIC: [8] Undefined variable: time /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Appapi/a6493e19653be99ccc8ca2f3884dfbdb.php 第 8 行.
+NOTIC: [8] Undefined variable: uid /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Appapi/a6493e19653be99ccc8ca2f3884dfbdb.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004839s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004860s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000185s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000396s ]
+
+[ 2020-05-27T17:29:49+08:00 ] 61.151.206.125 /appapi/Sharelogin?code=96AEMP&nsukey=PqwY5c2U4d8Z0Zar7WIbi4rNC42XHoYUI94gWrgSCDbsl5%2B89kqrZHwgQaowd3STUMVBHiUE1%2B61GMJsiVHzxAWNHAMt%2FHAcNvRGBbuSKwNQUoodMF131Ze4y8i8J9MaXS5yhjpv4mZsVqfJW0gK39bGqyhtNgsiE9eE%2FH6wHVlo3wa1AmYpGhq%2BwOG0pDaoa9Mceioy6d4QM3vI1frN9Q%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000991s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+SQL: SHOW COLUMNS FROM `cmf_config` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cmf_config_private` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `cmf_config_private` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0013s ]
+SQL: SELECT `id`,`code` FROM `cmf_users` WHERE ( code='96AEMP' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+SQL: SELECT * FROM `cmf_config_private` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: game_switch /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1922 行.
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+NOTIC: [8] Undefined variable: time /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Appapi/a6493e19653be99ccc8ca2f3884dfbdb.php 第 8 行.
+NOTIC: [8] Undefined variable: uid /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Appapi/a6493e19653be99ccc8ca2f3884dfbdb.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004568s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004589s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000125s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000129s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000369s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000389s ]
+
+[ 2020-05-27T17:29:51+08:00 ] 61.151.206.125 /appapi/Sharelogin?code=96AEMP&nsukey=PqwY5c2U4d8Z0Zar7WIbi4rNC42XHoYUI94gWrgSCDbsl5%2B89kqrZHwgQaowd3STUMVBHiUE1%2B61GMJsiVHzxAWNHAMt%2FHAcNvRGBbuSKwNQUoodMF131Ze4y8i8J9MaXS5yhjpv4mZsVqfJW0gK39bGqyhtNgsiE9eE%2FH6wHVlo3wa1AmYpGhq%2BwOG0pDaoa9Mceioy6d4QM3vI1frN9Q%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000831s ]
+SQL: SHOW COLUMNS FROM `cmf_config` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `cmf_config_private` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `cmf_config_private` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0024s ]
+SQL: SELECT `id`,`code` FROM `cmf_users` WHERE ( code='96AEMP' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+SQL: SELECT * FROM `cmf_config_private` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: game_switch /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1922 行.
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+NOTIC: [8] Undefined variable: time /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Appapi/a6493e19653be99ccc8ca2f3884dfbdb.php 第 8 行.
+NOTIC: [8] Undefined variable: uid /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Appapi/a6493e19653be99ccc8ca2f3884dfbdb.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005916s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005937s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000178s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000467s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000495s ]
+
+[ 2020-05-27T17:29:57+08:00 ] 114.85.188.15 /appapi/Sharelogin?code=96AEMP&nsukey=PqwY5c2U4d8Z0Zar7WIbi4rNC42XHoYUI94gWrgSCDbsl5%2B89kqrZHwgQaowd3STUMVBHiUE1%2B61GMJsiVHzxAWNHAMt%2FHAcNvRGBbuSKwNQUoodMF131Ze4y8i8J9MaXS5yhjpv4mZsVqfJW0gK39bGqyhtNgsiE9eE%2FH6wHVlo3wa1AmYpGhq%2BwOG0pDaoa9Mceioy6d4QM3vI1frN9Q%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+SQL: SHOW COLUMNS FROM `cmf_config` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `cmf_config_private` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `cmf_config_private` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0014s ]
+SQL: SELECT `id`,`code` FROM `cmf_users` WHERE ( code='96AEMP' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+SQL: SELECT * FROM `cmf_config_private` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: game_switch /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1922 行.
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+NOTIC: [8] Undefined variable: time /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Appapi/a6493e19653be99ccc8ca2f3884dfbdb.php 第 8 行.
+NOTIC: [8] Undefined variable: uid /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Appapi/a6493e19653be99ccc8ca2f3884dfbdb.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005338s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005359s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000199s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000125s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000453s ]
+
+[ 2020-05-27T17:33:07+08:00 ] 61.151.178.236 /appapi/Sharelogin?code=96AEMP&nsukey=p4A%2FYXMNvdiV3T25q5rXHL%2FAx%2FHmIM8HKUz%2FCn%2B%2BuSKpaVjSBXYooncwRndOW7xwTdkzImjRq7Pms1vhSVjdGH3Qrg7qTbVcnWpSfKXnavmIJXyzjrVZJQLHFnK2or2UKVMxgi1eumln0wp5FiwchWAaUPqFRI4PNnR1PffINLODC6TQNvJccqH1zqRV0RHzoBcAuxBeIPXKlsmodZoI5g%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+SQL: SHOW COLUMNS FROM `cmf_config` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `cmf_config_private` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `cmf_config_private` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0015s ]
+SQL: SELECT `id`,`code` FROM `cmf_users` WHERE ( code='96AEMP' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+SQL: SELECT * FROM `cmf_config_private` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: game_switch /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1922 行.
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+NOTIC: [8] Undefined variable: time /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Appapi/a6493e19653be99ccc8ca2f3884dfbdb.php 第 8 行.
+NOTIC: [8] Undefined variable: uid /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Appapi/a6493e19653be99ccc8ca2f3884dfbdb.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004750s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004773s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000450s ]
+
+[ 2020-05-27T17:40:21+08:00 ] 61.129.6.159 /appapi/Sharelogin?code=96AEMP&nsukey=GrD1FBtspQJ6pzx%2B4Hedvstw7B5UW3SAY63snkFM02slGJt98VhTn71odx5vjh1GjQOtj%2F2YVHYrF86GMgADwKJI%2F3j6Yn8Khvd7bZURIdWB1fMF9OH1cpklUFYfcqfCEn3ZKSv6JcQPBDnnHJ48b1xNu3OLzCprmXf%2FYvXJR2%2F76hcyziianKdF%2F6nSL33qUw8VhMkYgm6i4Jxbx6Ro1Q%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+SQL: SHOW COLUMNS FROM `cmf_config` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cmf_config_private` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cmf_config_private` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0014s ]
+SQL: SELECT `id`,`code` FROM `cmf_users` WHERE ( code='96AEMP' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+SQL: SELECT * FROM `cmf_config_private` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: game_switch /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1922 行.
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+NOTIC: [8] Undefined variable: time /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Appapi/a6493e19653be99ccc8ca2f3884dfbdb.php 第 8 行.
+NOTIC: [8] Undefined variable: uid /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Appapi/a6493e19653be99ccc8ca2f3884dfbdb.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005639s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005662s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000174s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000134s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000454s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000474s ]
+
+[ 2020-05-27T17:41:17+08:00 ] 61.129.6.225 /appapi/Sharelogin?code=96AEMP&nsukey=PqwY5c2U4d8Z0Zar7WIbi4rNC42XHoYUI94gWrgSCDbsl5%2B89kqrZHwgQaowd3STUMVBHiUE1%2B61GMJsiVHzxAWNHAMt%2FHAcNvRGBbuSKwNQUoodMF131Ze4y8i8J9MaXS5yhjpv4mZsVqfJW0gK39bGqyhtNgsiE9eE%2FH6wHVlo3wa1AmYpGhq%2BwOG0pDaoa9Mceioy6d4QM3vI1frN9Q%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001242s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001634s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+SQL: SHOW COLUMNS FROM `cmf_config` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cmf_config_private` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `cmf_config_private` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0016s ]
+SQL: SELECT `id`,`code` FROM `cmf_users` WHERE ( code='96AEMP' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+SQL: SELECT * FROM `cmf_config_private` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: game_switch /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1922 行.
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+NOTIC: [8] Undefined variable: time /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Appapi/a6493e19653be99ccc8ca2f3884dfbdb.php 第 8 行.
+NOTIC: [8] Undefined variable: uid /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Appapi/a6493e19653be99ccc8ca2f3884dfbdb.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005402s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005423s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000382s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000402s ]
+
+[ 2020-05-27T18:08:36+08:00 ] 27.115.124.6 /appapi/Sharelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001199s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+SQL: SHOW COLUMNS FROM `cmf_config` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `cmf_config_private` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `cmf_config_private` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0018s ]
+SQL: SELECT `id`,`code` FROM `cmf_users` WHERE ( code='' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+SQL: SELECT * FROM `cmf_config_private` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: game_switch /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1922 行.
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+NOTIC: [8] Undefined variable: time /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Appapi/a6493e19653be99ccc8ca2f3884dfbdb.php 第 8 行.
+NOTIC: [8] Undefined variable: uid /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Appapi/a6493e19653be99ccc8ca2f3884dfbdb.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006549s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006573s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000177s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000134s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000533s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000554s ]
+
+[ 2020-05-27T18:10:57+08:00 ] 36.110.199.8 /appapi/Sharelogin?code=&nsukey=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000821s ]
+SQL: SHOW COLUMNS FROM `cmf_config` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `cmf_config_private` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `cmf_config_private` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0015s ]
+SQL: SELECT `id`,`code` FROM `cmf_users` WHERE ( code='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+SQL: SELECT * FROM `cmf_config_private` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: game_switch /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1922 行.
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+NOTIC: [8] Undefined variable: time /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Appapi/a6493e19653be99ccc8ca2f3884dfbdb.php 第 8 行.
+NOTIC: [8] Undefined variable: uid /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Appapi/a6493e19653be99ccc8ca2f3884dfbdb.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005714s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005746s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000189s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000552s ]
+
+[ 2020-05-27T18:34:12+08:00 ] 111.206.36.15 /appapi/Sharelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+SQL: SHOW COLUMNS FROM `cmf_config` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `cmf_config_private` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `cmf_config_private` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0015s ]
+SQL: SELECT `id`,`code` FROM `cmf_users` WHERE ( code='' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+SQL: SELECT * FROM `cmf_config_private` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: game_switch /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1922 行.
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+NOTIC: [8] Undefined variable: time /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Appapi/a6493e19653be99ccc8ca2f3884dfbdb.php 第 8 行.
+NOTIC: [8] Undefined variable: uid /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Appapi/a6493e19653be99ccc8ca2f3884dfbdb.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005034s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005107s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000598s ]
+
+[ 2020-05-27T22:45:17+08:00 ] 119.62.204.132 /index.php?g=Appapi&m=Message&a=msginfo&id=15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000931s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+SQL: SHOW COLUMNS FROM `cmf_config` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cmf_config_private` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `cmf_config_private` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `cmf_admin_push` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `cmf_admin_push` WHERE ( id=15 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005195s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005218s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000411s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000431s ]
+

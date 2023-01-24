@@ -1,0 +1,190 @@
+[ 2020-05-27T18:44:16+08:00 ] 119.62.204.132 /index.php?g=User&m=Indexadmin&a=index&menuid=134
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001186s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000917s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: iszombie /www/wwwroot/lzmtfht.ne.pw/application/User/Controller/IndexadminController.class.php 第 23 行.
+NOTIC: [8] Undefined index: isban /www/wwwroot/lzmtfht.ne.pw/application/User/Controller/IndexadminController.class.php 第 28 行.
+NOTIC: [8] Undefined index: issuper /www/wwwroot/lzmtfht.ne.pw/application/User/Controller/IndexadminController.class.php 第 33 行.
+NOTIC: [8] Undefined index: ishot /www/wwwroot/lzmtfht.ne.pw/application/User/Controller/IndexadminController.class.php 第 40 行.
+NOTIC: [8] Undefined index: iszombiep /www/wwwroot/lzmtfht.ne.pw/application/User/Controller/IndexadminController.class.php 第 45 行.
+NOTIC: [8] Undefined index: start_time /www/wwwroot/lzmtfht.ne.pw/application/User/Controller/IndexadminController.class.php 第 50 行.
+NOTIC: [8] Undefined index: end_time /www/wwwroot/lzmtfht.ne.pw/application/User/Controller/IndexadminController.class.php 第 55 行.
+NOTIC: [8] Undefined index: start_time /www/wwwroot/lzmtfht.ne.pw/application/User/Controller/IndexadminController.class.php 第 59 行.
+NOTIC: [8] Undefined index: keyword /www/wwwroot/lzmtfht.ne.pw/application/User/Controller/IndexadminController.class.php 第 65 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cmf_users` WHERE `user_type` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cmf_users` WHERE `user_type` = 2 ORDER BY id DESC LIMIT 0,20   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: pList /www/wwwroot/lzmtfht.ne.pw/simplewind/Lib/Util/Page.class.php 第 226 行.
+NOTIC: [8] Undefined variable: pListStart /www/wwwroot/lzmtfht.ne.pw/simplewind/Lib/Util/Page.class.php 第 335 行.
+NOTIC: [8] Undefined variable: pListEnd /www/wwwroot/lzmtfht.ne.pw/simplewind/Lib/Util/Page.class.php 第 335 行.
+NOTIC: [8] Undefined variable: pFirst /www/wwwroot/lzmtfht.ne.pw/simplewind/Lib/Util/Page.class.php 第 335 行.
+NOTIC: [8] Undefined variable: pPrev /www/wwwroot/lzmtfht.ne.pw/simplewind/Lib/Util/Page.class.php 第 335 行.
+SQL: SHOW COLUMNS FROM `cmf_config` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+NOTIC: [8] Undefined index: iszombie /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 58 行.
+NOTIC: [8] Undefined index: iszombie /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 59 行.
+NOTIC: [8] Undefined index: iszombiep /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 64 行.
+NOTIC: [8] Undefined index: iszombiep /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 65 行.
+NOTIC: [8] Undefined index: isban /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 71 行.
+NOTIC: [8] Undefined index: isban /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 72 行.
+NOTIC: [8] Undefined index: ishot /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 77 行.
+NOTIC: [8] Undefined index: ishot /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 78 行.
+NOTIC: [8] Undefined index: issuper /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 83 行.
+NOTIC: [8] Undefined index: issuper /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 84 行.
+NOTIC: [8] Undefined index: start_time /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 87 行.
+NOTIC: [8] Undefined index: end_time /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 88 行.
+NOTIC: [8] Undefined index: keyword /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 90 行.
+NOTIC: [8] Undefined index: unexchange_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 144 行.
+NOTIC: [8] Undefined index: all_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 145 行.
+NOTIC: [8] Undefined index: unexchange_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 144 行.
+NOTIC: [8] Undefined index: all_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 145 行.
+NOTIC: [8] Undefined index: unexchange_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 144 行.
+NOTIC: [8] Undefined index: all_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 145 行.
+NOTIC: [8] Undefined index: unexchange_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 144 行.
+NOTIC: [8] Undefined index: all_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 145 行.
+NOTIC: [8] Undefined index: unexchange_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 144 行.
+NOTIC: [8] Undefined index: all_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 145 行.
+NOTIC: [8] Undefined index: unexchange_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 144 行.
+NOTIC: [8] Undefined index: all_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 145 行.
+NOTIC: [8] Undefined index: unexchange_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 144 行.
+NOTIC: [8] Undefined index: all_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 145 行.
+NOTIC: [8] Undefined index: unexchange_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 144 行.
+NOTIC: [8] Undefined index: all_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 145 行.
+NOTIC: [8] Undefined index: unexchange_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 144 行.
+NOTIC: [8] Undefined index: all_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 145 行.
+NOTIC: [8] Undefined index: unexchange_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 144 行.
+NOTIC: [8] Undefined index: all_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 145 行.
+NOTIC: [8] Undefined index: unexchange_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 144 行.
+NOTIC: [8] Undefined index: all_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 145 行.
+NOTIC: [8] Undefined index: unexchange_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 144 行.
+NOTIC: [8] Undefined index: all_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 145 行.
+NOTIC: [8] Undefined index: unexchange_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 144 行.
+NOTIC: [8] Undefined index: all_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 145 行.
+NOTIC: [8] Undefined index: unexchange_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 144 行.
+NOTIC: [8] Undefined index: all_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 145 行.
+NOTIC: [8] Undefined index: unexchange_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 144 行.
+NOTIC: [8] Undefined index: all_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 145 行.
+NOTIC: [8] Undefined index: unexchange_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 144 行.
+NOTIC: [8] Undefined index: all_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 145 行.
+NOTIC: [8] Undefined index: unexchange_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 144 行.
+NOTIC: [8] Undefined index: all_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 145 行.
+NOTIC: [8] Undefined index: unexchange_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 144 行.
+NOTIC: [8] Undefined index: all_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 145 行.
+NOTIC: [8] Undefined index: unexchange_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 144 行.
+NOTIC: [8] Undefined index: all_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 145 行.
+NOTIC: [8] Undefined index: unexchange_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 144 行.
+NOTIC: [8] Undefined index: all_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015120s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015177s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000186s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000457s ]
+
+[ 2020-05-27T18:44:16+08:00 ] 119.62.204.132 /index.php?g=User&m=Indexadmin&a=index&menuid=134
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000904s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0015s ]
+NOTIC: [8] Undefined index: iszombie /www/wwwroot/lzmtfht.ne.pw/application/User/Controller/IndexadminController.class.php 第 23 行.
+NOTIC: [8] Undefined index: isban /www/wwwroot/lzmtfht.ne.pw/application/User/Controller/IndexadminController.class.php 第 28 行.
+NOTIC: [8] Undefined index: issuper /www/wwwroot/lzmtfht.ne.pw/application/User/Controller/IndexadminController.class.php 第 33 行.
+NOTIC: [8] Undefined index: ishot /www/wwwroot/lzmtfht.ne.pw/application/User/Controller/IndexadminController.class.php 第 40 行.
+NOTIC: [8] Undefined index: iszombiep /www/wwwroot/lzmtfht.ne.pw/application/User/Controller/IndexadminController.class.php 第 45 行.
+NOTIC: [8] Undefined index: start_time /www/wwwroot/lzmtfht.ne.pw/application/User/Controller/IndexadminController.class.php 第 50 行.
+NOTIC: [8] Undefined index: end_time /www/wwwroot/lzmtfht.ne.pw/application/User/Controller/IndexadminController.class.php 第 55 行.
+NOTIC: [8] Undefined index: start_time /www/wwwroot/lzmtfht.ne.pw/application/User/Controller/IndexadminController.class.php 第 59 行.
+NOTIC: [8] Undefined index: keyword /www/wwwroot/lzmtfht.ne.pw/application/User/Controller/IndexadminController.class.php 第 65 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cmf_users` WHERE `user_type` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_users` WHERE `user_type` = 2 ORDER BY id DESC LIMIT 0,20   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: pList /www/wwwroot/lzmtfht.ne.pw/simplewind/Lib/Util/Page.class.php 第 226 行.
+NOTIC: [8] Undefined variable: pListStart /www/wwwroot/lzmtfht.ne.pw/simplewind/Lib/Util/Page.class.php 第 335 行.
+NOTIC: [8] Undefined variable: pListEnd /www/wwwroot/lzmtfht.ne.pw/simplewind/Lib/Util/Page.class.php 第 335 行.
+NOTIC: [8] Undefined variable: pFirst /www/wwwroot/lzmtfht.ne.pw/simplewind/Lib/Util/Page.class.php 第 335 行.
+NOTIC: [8] Undefined variable: pPrev /www/wwwroot/lzmtfht.ne.pw/simplewind/Lib/Util/Page.class.php 第 335 行.
+SQL: SHOW COLUMNS FROM `cmf_config` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `cmf_config` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+NOTIC: [8] Undefined index: iszombie /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 58 行.
+NOTIC: [8] Undefined index: iszombie /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 59 行.
+NOTIC: [8] Undefined index: iszombiep /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 64 行.
+NOTIC: [8] Undefined index: iszombiep /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 65 行.
+NOTIC: [8] Undefined index: isban /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 71 行.
+NOTIC: [8] Undefined index: isban /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 72 行.
+NOTIC: [8] Undefined index: ishot /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 77 行.
+NOTIC: [8] Undefined index: ishot /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 78 行.
+NOTIC: [8] Undefined index: issuper /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 83 行.
+NOTIC: [8] Undefined index: issuper /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 84 行.
+NOTIC: [8] Undefined index: start_time /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 87 行.
+NOTIC: [8] Undefined index: end_time /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 88 行.
+NOTIC: [8] Undefined index: keyword /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 90 行.
+NOTIC: [8] Undefined index: unexchange_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 144 行.
+NOTIC: [8] Undefined index: all_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 145 行.
+NOTIC: [8] Undefined index: unexchange_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 144 行.
+NOTIC: [8] Undefined index: all_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 145 行.
+NOTIC: [8] Undefined index: unexchange_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 144 行.
+NOTIC: [8] Undefined index: all_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 145 行.
+NOTIC: [8] Undefined index: unexchange_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 144 行.
+NOTIC: [8] Undefined index: all_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 145 行.
+NOTIC: [8] Undefined index: unexchange_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 144 行.
+NOTIC: [8] Undefined index: all_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 145 行.
+NOTIC: [8] Undefined index: unexchange_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 144 行.
+NOTIC: [8] Undefined index: all_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 145 行.
+NOTIC: [8] Undefined index: unexchange_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 144 行.
+NOTIC: [8] Undefined index: all_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 145 行.
+NOTIC: [8] Undefined index: unexchange_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 144 行.
+NOTIC: [8] Undefined index: all_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 145 行.
+NOTIC: [8] Undefined index: unexchange_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 144 行.
+NOTIC: [8] Undefined index: all_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 145 行.
+NOTIC: [8] Undefined index: unexchange_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 144 行.
+NOTIC: [8] Undefined index: all_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 145 行.
+NOTIC: [8] Undefined index: unexchange_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 144 行.
+NOTIC: [8] Undefined index: all_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 145 行.
+NOTIC: [8] Undefined index: unexchange_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 144 行.
+NOTIC: [8] Undefined index: all_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 145 行.
+NOTIC: [8] Undefined index: unexchange_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 144 行.
+NOTIC: [8] Undefined index: all_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 145 行.
+NOTIC: [8] Undefined index: unexchange_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 144 行.
+NOTIC: [8] Undefined index: all_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 145 行.
+NOTIC: [8] Undefined index: unexchange_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 144 行.
+NOTIC: [8] Undefined index: all_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 145 行.
+NOTIC: [8] Undefined index: unexchange_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 144 行.
+NOTIC: [8] Undefined index: all_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 145 行.
+NOTIC: [8] Undefined index: unexchange_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 144 行.
+NOTIC: [8] Undefined index: all_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 145 行.
+NOTIC: [8] Undefined index: unexchange_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 144 行.
+NOTIC: [8] Undefined index: all_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 145 行.
+NOTIC: [8] Undefined index: unexchange_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 144 行.
+NOTIC: [8] Undefined index: all_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 145 行.
+NOTIC: [8] Undefined index: unexchange_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 144 行.
+NOTIC: [8] Undefined index: all_like /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012712s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012740s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000201s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000361s ]
+

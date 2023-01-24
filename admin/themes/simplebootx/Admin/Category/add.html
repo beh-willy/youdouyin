@@ -1,0 +1,75 @@
+<admintpl file="header" />
+</head>
+<body>
+	<div class="wrap js-check-wrap">
+		<ul class="nav nav-tabs">
+			<li><a href="{:U('Category/index')}">标签分类</a></li>
+			<li class="active"><a href="#">分类添加</a></li>
+	    </ul>
+		<form class="form-horizontal js-ajax-form" action="{:U('Category/add_post')}" method="post">
+			<div class="tabbable">
+		        <div class="tab-content">
+		          <div class="tab-pane active" id="A">
+						<fieldset>
+							
+							<div class="control-group">
+								<label class="control-label">分类名称</label>
+								<div class="controls">
+									<input type="text" name="name" value=""><span class="form-required">*</span>
+								</div>
+							</div>
+
+							<div class="control-group">
+								<label class="control-label">分类归属</label>
+								<div class="controls">
+									<select name="belongto">
+										<option value="0">视频分类</option>
+										<option value="1">社区分类</option>
+									</select><span class="form-required">*</span>
+								</div>
+							</div>
+							<div class="control-group">
+								<label class="control-label">分类描述</label>
+								<div class="controls">
+									<textarea name="description" rows="5" cols="57"></textarea>
+								</div>
+							</div>
+							<div class="control-group">
+								<label class="control-label">栏目封面</label>
+								<div class="controls">
+									<div >
+										<input type="hidden" name="thumb" id="thumb" value="">
+										<a href="javascript:void(0);" onclick="flashupload('thumb_images', '附件上传','thumb',thumb_images,'1,jpg|jpeg|gif|png|bmp,1,,,1','','','');return false;">
+											<img src="__TMPL__Public/assets/images/default-thumbnail.png" id="thumb_preview" width="135" style="cursor: hand" />
+										</a>
+										<input type="button" class="btn btn-small" onclick="$('#thumb_preview').attr('src','__TMPL__Public/assets/images/default-thumbnail.png');$('#thumb').val('');return false;" value="取消图片">
+									</div>
+									<span class="form-required"></span>
+								</div>
+							</div>
+
+							<div class="control-group">
+								<label class="control-label">是否</label>
+					
+								<div class="controls">
+								<label class="radio inline" ><input type="radio" name="isreview" value="0" checked  />否</label>
+								<label class="radio inline" ><input type="radio" name="isreview" value="1" >是</label>
+							</div>
+					
+				</div>
+						</fieldset>
+		          </div>
+
+
+		        </div>
+		    </div>
+		    <div class="form-actions">
+		     	<button class="btn btn-primary js-ajax-submit"type="submit">{:L('ADD')}</button>
+		      	<a class="btn" href="{:U('AdminTerm/index')}">{:L('BACK')}</a>
+		    </div>
+		</form>
+	</div>
+	<script type="text/javascript" src="__PUBLIC__/js/common.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/content_addtop.js"></script>
+</body>
+</html>

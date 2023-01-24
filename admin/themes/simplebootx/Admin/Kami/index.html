@@ -1,0 +1,134 @@
+<admintpl file="header" />
+</head>
+<body>
+	<div class="wrap">
+		<ul class="nav nav-tabs">
+			<li class="active"><a >卡密记录</a></li>
+
+		</ul>
+		<form class="well form-search" name="form1" method="post" style="float:left" action="">
+		
+			提交时间：
+			<input type="text" name="start_time" class="js-date date" id="start_time" value="{$formget.start_time}" style="width: 80px;" autocomplete="off">-
+			<input type="text" class="js-date date" name="end_time" id="end_time" value="{$formget.end_time}" style="width: 80px;" autocomplete="off"> &nbsp; &nbsp;
+		
+			<input type="button" class="btn btn-primary" value="搜索" onclick="form1.action='{:U('Charge/index')}';form1.submit();"/>
+			
+			<div style="margin-top:10px">
+				卡密组：{$counts|default=0} 个
+			</div>		
+		</form>	
+    	
+		<form method="post" class="js-ajax-form" >
+
+		
+			<table class="table table-hover table-bordered">
+				<thead>
+					<tr>
+						<th align="center">ID</th>
+						<th>名称</th>
+						<th>金额RMB</th>
+						<th>总量</th>
+						<th>剩余量</th>
+						<th>创建时间</th>
+
+						<th align="center">{:L('ACTIONS')}</th>
+					</tr>
+				</thead>
+				<tbody>
+					
+					<foreach name="lists" item="vo">
+					<tr>
+						<td align="center">{$vo.id}</td>
+						<td>{$vo['name']}</td>	
+						<td>{$vo['money']}</td>
+						<td>{$vo['num']}</td>
+						<td>{$vo['res_num']}</td>
+						<td>{$vo.addtime|date="Y-m-d H:i:s",###}</td>
+						<td align="center">
+							<a href="javascript:void (0)" onclick="kamilists({$vo['id']},{$vo['type']})" >详情列表</a>
+							<if condition="$vo['res_num'] eq '0'">
+							 |
+							 <a href="javascript:void (0)" onclick="del({$vo['id']})" >删除</a></if>|
+							<a href="{:U('Kami/export',array('id'=>$vo['id'],'type'=>$vo['type'],'product'=>$vo['product_id']))}" >导出</a>
+						</td>
+					</tr>
+					</foreach>
+				</tbody>
+			</table>
+			<div class="pagination">{$page}</div>
+		</form>
+	</div>
+	<script src="__PUBLIC__/js/common.js"></script>
+	<script src="__PUBLIC__/layer/layer.js"></script>
+	<script type="text/javascript">
+
+
+		var del_status=0;
+
+		function del(id){
+			var p={$p};
+
+			layer.open({
+			  type: 1,
+			  title:"确定删除？",
+			  skin: 'layui-layer-rim', //加上边框
+			  area: ['20%', '30%'], //宽高
+			  content: '<div class="textArea_btn" ><input type="button" id="delete" value="删除" onclick="del_submit('+id+','+p+')" /><input type="button" id="cancel" onclick="layer.closeAll();" value="取消" /></div>'
+			});
+		}
+
+		function del_submit(id,p){
+
+			if(del_status==1){
+				return;
+			}
+			del_status=1;
+
+			$.ajax({
+				url: '/index.php?g=Admin&m=Kami&a=del',
+				type: 'POST',
+				dataType: 'json',
+				data: {id:id},
+				success:function(data){
+					var code=data.code;
+					if(code!=0){
+						layer.msg(data.msg);
+						return;
+					}
+
+					del_status=0;
+					//设置按钮不可用
+					$("#delete").attr("disabled",true);
+					$("#cancel").attr("disabled",true);
+
+					layer.msg("删除成功",{icon: 1,time:1000},function(){
+						layer.closeAll();
+						location.href='/index.php?g=Admin&m=Kami&a=index&p='+p;
+					});
+				},
+				error:function(e){
+					$("#delete").attr("disabled",false);
+					$("#cancel").attr("disabled",false);
+
+					console.log(e);
+				}
+			});
+			
+			
+		}
+
+		/*获取详情列表*/
+		function kamilists(id,product){
+			layer.open({
+				type: 2,
+				title: '卡密组详情列表',
+				shadeClose: true,
+				shade: 0.8,
+				area: ['60%', '90%'],
+				content: '/index.php?g=Admin&m=Kami&a=kamilists&kamiid='+id+'&product_type='+product
+			}); 
+		}
+	</script>
+</body>
+</html>

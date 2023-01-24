@@ -1,0 +1,1 @@
+a:2:{s:16:"banned_usernames";s:0:"";s:7:"storage";a:2:{s:4:"type";s:5:"Qiniu";s:5:"Qiniu";a:4:{s:9:"accessKey";s:0:"";s:9:"secretKey";s:0:"";s:6:"domain";s:0:"";s:6:"bucket";s:0:"";}}}

@@ -1,0 +1,51 @@
+<admintpl file="header" />
+</head>
+<body>
+	<div class="wrap">
+		<ul class="nav nav-tabs">
+			<li><a href="{:U('Agentrules/index')}">列表</a></li>
+			<li class="active"><a >修改</a></li>
+		</ul>
+		<form method="post" class="form-horizontal js-ajax-form" action="{:U('Agentrules/do_edit')}">
+		   <input type="hidden" name="id" value="{$rules['id']}">
+			<fieldset>
+				<div class="control-group">
+					<label class="control-label">最小业绩</label>
+					<div class="controls">
+						<input type="text" name="min_perfor" value="{$rules['min_perfor']}">
+						<span class="form-required">*</span>
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label">最大业绩</label>
+					<div class="controls">
+						<input type="text" name="max_perfor" value="{$rules['max_perfor']}">
+						<span class="form-required">*</span>
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label">返佣比例</label>
+					<div class="controls">
+						<input type="text" name="rebate" value="{$rules['rebate']}">
+						<span class="form-required">*</span>
+					</div>
+				</div>
+				
+				<div class="control-group">
+					<label class="control-label">序号</label>
+					<div class="controls">
+						<input type="text" name="orderno" value="{$rules['orderno']}">
+						<span class="form-required">*</span>
+					</div>
+				</div>
+
+			</fieldset>
+			<div class="form-actions">
+				<button type="submit" class="btn btn-primary js-ajax-submit">{:L('EDIT')}</button>
+				<a class="btn" href="{:U('Agentrules/index')}">{:L('BACK')}</a>
+			</div>
+		</form>
+	</div>
+	<script src="__PUBLIC__/js/common.js"></script>
+</body>
+</html>

@@ -1,0 +1,1399 @@
+[ 2020-05-26T10:08:14+08:00 ] 123.161.202.142 /index.php?g=admin&m=setting&a=clearcache
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000902s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000937s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cmf_options` [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006147s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006174s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000144s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000646s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000666s ]
+
+[ 2020-05-26T10:08:22+08:00 ] 123.161.202.142 /index.php?g=Admin&m=PushMessage&a=add&menuid=440
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+SQL: SHOW COLUMNS FROM `cmf_plugins` [ RunTime:0.0012s ]
+SQL: SELECT `name`,`hooks` FROM `cmf_plugins` WHERE ( status=1 )  [ RunTime:0.0004s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.009932s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010208s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006572s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006594s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000152s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000487s ]
+
+[ 2020-05-26T10:08:24+08:00 ] 123.161.202.142 /index.php?g=Admin&m=PushMessage&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000944s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000850s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: keyword /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/PushMessageController.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `cmf_admin_push` [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cmf_admin_push` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cmf_admin_push` ORDER BY addtime desc LIMIT 0,20   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0021s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cmf_users` WHERE ( user_type=2 and user_status=1 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+NOTIC: [8] Undefined index: keyword /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/1ec18fe7ebd1a7db811ead270774d8f7.php 第 64 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010030s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010060s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000205s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000162s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000639s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000669s ]
+
+[ 2020-05-26T20:03:11+08:00 ] 14.204.129.213 /index.php?g=admin&m=public&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001092s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007418s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007447s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000153s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000516s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000555s ]
+
+[ 2020-05-26T20:03:13+08:00 ] 14.204.129.213 /index.php?g=Admin&m=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000850s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `cmf_menu` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `cmf_menu`  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 0 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 132 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 133 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 134 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 217 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 492 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 139 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 140 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 146 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 147 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 149 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 439 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 440 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 456 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 441 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 442 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 449 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 486 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 487 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 490 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 491 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 496 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 488 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 489 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 497 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 498 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 500 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 499 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 507 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 515 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 508 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 509 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 510 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 511 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 436 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 437 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 435 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 229 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 234 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 235 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 236 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 429 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 516 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 433 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 356 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 484 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 485 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 438 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 422 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 360 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 167 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 520 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 283 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 168 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 169 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 170 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 427 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 174 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 1 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 227 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 7 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 25 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 521 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 30 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 18 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 290 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 291 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 512 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 513 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 514 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 517 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 518 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 519 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 109 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 173 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 275 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 131 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 39 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 53 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 54 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 62 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 156 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `parentid` = 100 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008297s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008320s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000132s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000138s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000394s ]
+
+[ 2020-05-26T20:03:13+08:00 ] 14.204.129.213 /index.php?g=Admin&m=Main&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001315s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001347s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cmf_users` WHERE ( id>0 and user_type=2 and last_up_time>1590494293 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `cmf_users_auth` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `cmf_users_live` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cmf_users` WHERE ( id>0 and user_type=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cmf_users_auth` WHERE ( status=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cmf_users_live` WHERE ( islive=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+NOTIC: [8] Undefined variable: charge_admin /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/14f39110225aa98f9efb6f2af8c5253a.php 第 77 行.
+NOTIC: [8] Undefined variable: charge_admin /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/14f39110225aa98f9efb6f2af8c5253a.php 第 78 行.
+NOTIC: [8] Undefined variable: charge_admin /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/14f39110225aa98f9efb6f2af8c5253a.php 第 82 行.
+NOTIC: [8] Undefined variable: charge_admin /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/14f39110225aa98f9efb6f2af8c5253a.php 第 83 行.
+NOTIC: [8] Undefined variable: source /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/14f39110225aa98f9efb6f2af8c5253a.php 第 90 行.
+NOTIC: [8] Undefined variable: source /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/14f39110225aa98f9efb6f2af8c5253a.php 第 91 行.
+NOTIC: [8] Undefined variable: source /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/14f39110225aa98f9efb6f2af8c5253a.php 第 92 行.
+NOTIC: [8] Undefined variable: examine /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/14f39110225aa98f9efb6f2af8c5253a.php 第 99 行.
+NOTIC: [8] Undefined variable: cashrecord /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/14f39110225aa98f9efb6f2af8c5253a.php 第 108 行.
+NOTIC: [8] Undefined variable: cashrecord /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/14f39110225aa98f9efb6f2af8c5253a.php 第 112 行.
+NOTIC: [8] Undefined variable: cashrecord /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/14f39110225aa98f9efb6f2af8c5253a.php 第 116 行.
+NOTIC: [8] Undefined variable: cashrecord /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/14f39110225aa98f9efb6f2af8c5253a.php 第 120 行.
+NOTIC: [8] Undefined variable: hot /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/14f39110225aa98f9efb6f2af8c5253a.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006810s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006830s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000134s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000399s ]
+
+[ 2020-05-26T20:03:17+08:00 ] 14.204.129.213 /index.php?g=Admin&m=Ads&a=sort_add&menuid=236
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001158s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000930s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007965s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007988s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000135s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000584s ]
+
+[ 2020-05-26T20:03:19+08:00 ] 14.204.129.213 /index.php?g=Admin&m=Ads&a=index&menuid=234
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `cmf_ads_sort` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`sortname` FROM `cmf_ads_sort`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `cmf_ads` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cmf_ads` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_ads` ORDER BY orderno asc LIMIT 0,20   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006385s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006414s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000177s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000479s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2020-05-26T20:07:16+08:00 ] 14.204.129.213 /index.php?g=Admin&m=Ads&a=edit&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001224s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000987s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `cmf_ads_sort` [ RunTime:0.0011s ]
+SQL: SELECT `id`,`sortname` FROM `cmf_ads_sort`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `cmf_ads` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `cmf_ads` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008789s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008817s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000157s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000533s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000562s ]
+
+[ 2020-05-26T20:07:33+08:00 ] 14.204.129.213 /index.php?g=Admin&m=Ads&a=edit_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000974s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000799s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cmf_ads` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: validate /www/wwwroot/lzmtfht.ne.pw/simplewind/Core/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /www/wwwroot/lzmtfht.ne.pw/simplewind/Core/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `cmf_ads` SET `sid`='1',`orderno`='5',`name`='年度会员|365天无限观看',`thumb`='http://load.p9sl.cn/20200526_5ecd0680a6141.jpg',`url`='',`des`='' WHERE `id` = 1 [ RunTime:0.0035s ]
+
+[ 2020-05-26T20:07:33+08:00 ] 14.204.129.213 /index.php?g=Admin&m=Ads&a=edit&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cmf_ads_sort` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`sortname` FROM `cmf_ads_sort`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `cmf_ads` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `cmf_ads` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007191s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007229s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000147s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000174s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000509s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000535s ]
+
+[ 2020-05-26T20:07:36+08:00 ] 14.204.129.213 /index.php?g=Admin&m=Ads&a=index&menuid=234
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000841s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cmf_ads_sort` [ RunTime:0.0008s ]
+SQL: SELECT `id`,`sortname` FROM `cmf_ads_sort`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `cmf_ads` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cmf_ads` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_ads` ORDER BY orderno asc LIMIT 0,20   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006493s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006513s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000441s ]
+
+[ 2020-05-26T20:14:25+08:00 ] 61.129.6.174 /index.php?g=Admin&m=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001187s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000980s ]
+
+[ 2020-05-26T20:47:15+08:00 ] 14.204.129.213 /index.php?g=Admin&m=Category&a=index&menuid=499
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001256s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001744s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001386s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `cmf_live_category` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `cmf_live_category` WHERE ( type=0 and parent_id=0 ) ORDER BY `list_order` asc  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006595s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006617s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000164s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000150s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000481s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000503s ]
+
+[ 2020-05-26T20:47:50+08:00 ] 14.204.129.213 /index.php?g=Admin&m=Category&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001082s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cmf_live_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cmf_live_category` ORDER BY `path` asc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006665s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006699s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000129s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000149s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000550s ]
+
+[ 2020-05-26T21:03:18+08:00 ] 14.204.129.213 /index.php?g=Admin&m=Category&a=add_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001144s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001259s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `cmf_live_category` [ RunTime:0.0018s ]
+NOTIC: [8] Undefined index: validate /www/wwwroot/lzmtfht.ne.pw/simplewind/Core/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /www/wwwroot/lzmtfht.ne.pw/simplewind/Core/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `cmf_live_category` (`name`,`belongto`,`description`,`thumb`,`isreview`) VALUES ('欧美','0','','http://load.p9sl.cn/20200526_5ecd139121f4c.jpg','0') [ RunTime:0.0051s ]
+NOTIC: [8] Undefined index: parent_id /www/wwwroot/lzmtfht.ne.pw/application/Admin/Model/LiveCategoryModel.class.php 第 15 行.
+SQL: UPDATE `cmf_live_category` SET `path`='0-58' WHERE ( id=58 ) [ RunTime:0.0035s ]
+
+[ 2020-05-26T21:03:18+08:00 ] 14.204.129.213 /index.php?g=Admin&m=Category&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000764s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cmf_live_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cmf_live_category` WHERE ( type=0 and parent_id=0 ) ORDER BY `list_order` asc  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006770s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006803s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000167s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000530s ]
+
+[ 2020-05-26T21:04:53+08:00 ] 14.204.129.213 /index.php?g=Admin&m=Category&a=edit&id=56
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001197s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000851s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `cmf_live_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cmf_live_category` WHERE `id` = 56 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_live_category` WHERE `id` <> 56 AND `path` NOT LIKE '%-56-%' ORDER BY `path` asc  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006872s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006894s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000470s ]
+
+[ 2020-05-26T21:05:06+08:00 ] 14.204.129.213 /index.php?g=Admin&m=Category&a=edit_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001180s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `cmf_live_category` [ RunTime:0.0016s ]
+NOTIC: [8] Undefined index: validate /www/wwwroot/lzmtfht.ne.pw/simplewind/Core/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /www/wwwroot/lzmtfht.ne.pw/simplewind/Core/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `cmf_live_category` SET `name`='成片',`belongto`='0',`description`='长片',`thumb`='http://load.p9sl.cn/20200526_5ecd13fd5ca61.jpg',`isreview`='0' WHERE `id` = '56' [ RunTime:0.0037s ]
+
+[ 2020-05-26T21:05:07+08:00 ] 14.204.129.213 /index.php?g=Admin&m=Category&a=edit&id=56
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000968s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000939s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cmf_live_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cmf_live_category` WHERE `id` = 56 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_live_category` WHERE `id` <> 56 AND `path` NOT LIKE '%-56-%' ORDER BY `path` asc  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007534s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007579s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000184s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000125s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000505s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000529s ]
+
+[ 2020-05-26T21:05:10+08:00 ] 14.204.129.213 /index.php?g=Admin&m=Category&a=edit_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000978s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cmf_live_category` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: validate /www/wwwroot/lzmtfht.ne.pw/simplewind/Core/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /www/wwwroot/lzmtfht.ne.pw/simplewind/Core/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `cmf_live_category` SET `name`='成片',`belongto`='0',`description`='',`thumb`='http://load.p9sl.cn/20200526_5ecd13fd5ca61.jpg',`isreview`='0' WHERE `id` = '56' [ RunTime:0.0024s ]
+
+[ 2020-05-26T21:05:10+08:00 ] 14.204.129.213 /index.php?g=Admin&m=Category&a=edit&id=56
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cmf_live_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cmf_live_category` WHERE `id` = 56 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_live_category` WHERE `id` <> 56 AND `path` NOT LIKE '%-56-%' ORDER BY `path` asc  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007917s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007940s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000137s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000513s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000534s ]
+
+[ 2020-05-26T21:05:27+08:00 ] 14.204.129.213 /index.php?g=Admin&m=Category&a=index&menuid=499
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001167s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000949s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cmf_live_category` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `cmf_live_category` WHERE ( type=0 and parent_id=0 ) ORDER BY `list_order` asc  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005320s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005343s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000152s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000463s ]
+
+[ 2020-05-26T21:06:32+08:00 ] 14.204.129.213 /index.php?g=Admin&m=Category&a=edit&id=31
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001238s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001636s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001078s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_live_category` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `cmf_live_category` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_live_category` WHERE `id` <> 31 AND `path` NOT LIKE '%-31-%' ORDER BY `path` asc  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007246s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007284s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000137s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000435s ]
+
+[ 2020-05-26T21:06:51+08:00 ] 14.204.129.213 /index.php?g=Admin&m=Category&a=edit_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001365s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001666s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000816s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cmf_live_category` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: validate /www/wwwroot/lzmtfht.ne.pw/simplewind/Core/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /www/wwwroot/lzmtfht.ne.pw/simplewind/Core/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `cmf_live_category` SET `name`='高清',`belongto`='0',`description`='',`thumb`='http://load.p9sl.cn/20200526_5ecd14659d41b.jpg',`isreview`='0' WHERE `id` = '31' [ RunTime:0.0032s ]
+
+[ 2020-05-26T21:06:51+08:00 ] 14.204.129.213 /index.php?g=Admin&m=Category&a=edit&id=31
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cmf_live_category` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `cmf_live_category` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_live_category` WHERE `id` <> 31 AND `path` NOT LIKE '%-31-%' ORDER BY `path` asc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006540s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006561s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000186s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000213s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000626s ]
+
+[ 2020-05-26T21:06:53+08:00 ] 14.204.129.213 /index.php?g=Admin&m=Category&a=index&menuid=499
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cmf_live_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cmf_live_category` WHERE ( type=0 and parent_id=0 ) ORDER BY `list_order` asc  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005998s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006022s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000162s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000137s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000486s ]
+
+[ 2020-05-26T23:23:07+08:00 ] 14.204.129.213 /index.php?g=Admin&m=Video&a=cateindex&menuid=516
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001156s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001072s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: ordertype /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 281 行.
+NOTIC: [8] Undefined index: keyword /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 288 行.
+NOTIC: [8] Undefined index: keyword1 /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 292 行.
+NOTIC: [8] Undefined index: is_ad /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 296 行.
+NOTIC: [8] Undefined index: is_ad /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 300 行.
+NOTIC: [8] Undefined index: keyword2 /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 305 行.
+SQL: SHOW COLUMNS FROM `cmf_users_video` [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cmf_users_video` WHERE `isdel` = 0 AND `status` = 1 AND `cate` > 0 LIMIT 1   [ RunTime:0.0015s ]
+NOTIC: [8] Undefined variable: ordertype /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 330 行.
+NOTIC: [8] Undefined variable: ordertype /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: ordertype /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 334 行.
+SQL: SELECT * FROM `cmf_users_video` WHERE `isdel` = 0 AND `status` = 1 AND `cate` > 0 ORDER BY addtime DESC LIMIT 0,20   [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `cmf_route` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `cmf_route` WHERE ( status=1 ) ORDER BY listorder asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: pList /www/wwwroot/lzmtfht.ne.pw/simplewind/Lib/Util/Page.class.php 第 226 行.
+NOTIC: [8] Undefined variable: pListEnd /www/wwwroot/lzmtfht.ne.pw/simplewind/Lib/Util/Page.class.php 第 259 行.
+NOTIC: [8] Undefined variable: pListStart /www/wwwroot/lzmtfht.ne.pw/simplewind/Lib/Util/Page.class.php 第 335 行.
+NOTIC: [8] Undefined variable: pFirst /www/wwwroot/lzmtfht.ne.pw/simplewind/Lib/Util/Page.class.php 第 335 行.
+NOTIC: [8] Undefined variable: pPrev /www/wwwroot/lzmtfht.ne.pw/simplewind/Lib/Util/Page.class.php 第 335 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+NOTIC: [8] Undefined index: ordertype /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/788451339be31920d43bdcacbb20a930.php 第 76 行.
+NOTIC: [8] Undefined index: ordertype /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/788451339be31920d43bdcacbb20a930.php 第 77 行.
+NOTIC: [8] Undefined index: ordertype /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/788451339be31920d43bdcacbb20a930.php 第 78 行.
+NOTIC: [8] Undefined index: keyword /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/788451339be31920d43bdcacbb20a930.php 第 88 行.
+NOTIC: [8] Undefined index: keyword1 /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/788451339be31920d43bdcacbb20a930.php 第 89 行.
+NOTIC: [8] Undefined index: keyword2 /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/788451339be31920d43bdcacbb20a930.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009491s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009514s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000497s ]
+
+[ 2020-05-26T23:23:10+08:00 ] 14.204.129.213 /index.php?g=Admin&m=Video&a=cateindex&menuid=516&p=27
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000864s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: ordertype /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 281 行.
+NOTIC: [8] Undefined index: keyword /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 288 行.
+NOTIC: [8] Undefined index: keyword1 /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 292 行.
+NOTIC: [8] Undefined index: is_ad /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 296 行.
+NOTIC: [8] Undefined index: is_ad /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 300 行.
+NOTIC: [8] Undefined index: keyword2 /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 305 行.
+SQL: SHOW COLUMNS FROM `cmf_users_video` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cmf_users_video` WHERE `isdel` = 0 AND `status` = 1 AND `cate` > 0 LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: ordertype /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 330 行.
+NOTIC: [8] Undefined variable: ordertype /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: ordertype /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 334 行.
+SQL: SELECT * FROM `cmf_users_video` WHERE `isdel` = 0 AND `status` = 1 AND `cate` > 0 ORDER BY addtime DESC LIMIT 520,20   [ RunTime:0.0055s ]
+NOTIC: [8] Undefined variable: pList /www/wwwroot/lzmtfht.ne.pw/simplewind/Lib/Util/Page.class.php 第 233 行.
+NOTIC: [8] Undefined variable: pListStart /www/wwwroot/lzmtfht.ne.pw/simplewind/Lib/Util/Page.class.php 第 243 行.
+NOTIC: [8] Undefined variable: pListEnd /www/wwwroot/lzmtfht.ne.pw/simplewind/Lib/Util/Page.class.php 第 335 行.
+NOTIC: [8] Undefined variable: pNext /www/wwwroot/lzmtfht.ne.pw/simplewind/Lib/Util/Page.class.php 第 335 行.
+NOTIC: [8] Undefined variable: pLast /www/wwwroot/lzmtfht.ne.pw/simplewind/Lib/Util/Page.class.php 第 335 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+NOTIC: [8] Undefined index: ordertype /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/788451339be31920d43bdcacbb20a930.php 第 76 行.
+NOTIC: [8] Undefined index: ordertype /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/788451339be31920d43bdcacbb20a930.php 第 77 行.
+NOTIC: [8] Undefined index: ordertype /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/788451339be31920d43bdcacbb20a930.php 第 78 行.
+NOTIC: [8] Undefined index: keyword /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/788451339be31920d43bdcacbb20a930.php 第 88 行.
+NOTIC: [8] Undefined index: keyword1 /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/788451339be31920d43bdcacbb20a930.php 第 89 行.
+NOTIC: [8] Undefined index: keyword2 /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/788451339be31920d43bdcacbb20a930.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008027s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008049s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000136s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000472s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000498s ]
+
+[ 2020-05-26T23:23:16+08:00 ] 14.204.129.213 /index.php?g=Admin&m=Video&a=cateindex&menuid=516&p=26
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000954s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000803s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: ordertype /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 281 行.
+NOTIC: [8] Undefined index: keyword /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 288 行.
+NOTIC: [8] Undefined index: keyword1 /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 292 行.
+NOTIC: [8] Undefined index: is_ad /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 296 行.
+NOTIC: [8] Undefined index: is_ad /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 300 行.
+NOTIC: [8] Undefined index: keyword2 /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 305 行.
+SQL: SHOW COLUMNS FROM `cmf_users_video` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cmf_users_video` WHERE `isdel` = 0 AND `status` = 1 AND `cate` > 0 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: ordertype /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 330 行.
+NOTIC: [8] Undefined variable: ordertype /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: ordertype /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 334 行.
+SQL: SELECT * FROM `cmf_users_video` WHERE `isdel` = 0 AND `status` = 1 AND `cate` > 0 ORDER BY addtime DESC LIMIT 500,20   [ RunTime:0.0032s ]
+NOTIC: [8] Undefined variable: pList /www/wwwroot/lzmtfht.ne.pw/simplewind/Lib/Util/Page.class.php 第 233 行.
+NOTIC: [8] Undefined variable: pListStart /www/wwwroot/lzmtfht.ne.pw/simplewind/Lib/Util/Page.class.php 第 243 行.
+NOTIC: [8] Undefined variable: pListEnd /www/wwwroot/lzmtfht.ne.pw/simplewind/Lib/Util/Page.class.php 第 335 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+NOTIC: [8] Undefined index: ordertype /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/788451339be31920d43bdcacbb20a930.php 第 76 行.
+NOTIC: [8] Undefined index: ordertype /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/788451339be31920d43bdcacbb20a930.php 第 77 行.
+NOTIC: [8] Undefined index: ordertype /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/788451339be31920d43bdcacbb20a930.php 第 78 行.
+NOTIC: [8] Undefined index: keyword /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/788451339be31920d43bdcacbb20a930.php 第 88 行.
+NOTIC: [8] Undefined index: keyword1 /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/788451339be31920d43bdcacbb20a930.php 第 89 行.
+NOTIC: [8] Undefined index: keyword2 /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/788451339be31920d43bdcacbb20a930.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009192s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009215s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000144s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000499s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000521s ]
+
+[ 2020-05-26T23:23:32+08:00 ] 14.204.129.213 /index.php?g=Admin&m=Video&a=cateindex&menuid=516&p=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000985s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: ordertype /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 281 行.
+NOTIC: [8] Undefined index: keyword /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 288 行.
+NOTIC: [8] Undefined index: keyword1 /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 292 行.
+NOTIC: [8] Undefined index: is_ad /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 296 行.
+NOTIC: [8] Undefined index: is_ad /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 300 行.
+NOTIC: [8] Undefined index: keyword2 /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 305 行.
+SQL: SHOW COLUMNS FROM `cmf_users_video` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cmf_users_video` WHERE `isdel` = 0 AND `status` = 1 AND `cate` > 0 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: ordertype /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 330 行.
+NOTIC: [8] Undefined variable: ordertype /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: ordertype /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 334 行.
+SQL: SELECT * FROM `cmf_users_video` WHERE `isdel` = 0 AND `status` = 1 AND `cate` > 0 ORDER BY addtime DESC LIMIT 480,20   [ RunTime:0.0025s ]
+NOTIC: [8] Undefined variable: pList /www/wwwroot/lzmtfht.ne.pw/simplewind/Lib/Util/Page.class.php 第 233 行.
+NOTIC: [8] Undefined variable: pListStart /www/wwwroot/lzmtfht.ne.pw/simplewind/Lib/Util/Page.class.php 第 243 行.
+NOTIC: [8] Undefined variable: pListEnd /www/wwwroot/lzmtfht.ne.pw/simplewind/Lib/Util/Page.class.php 第 335 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+NOTIC: [8] Undefined index: ordertype /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/788451339be31920d43bdcacbb20a930.php 第 76 行.
+NOTIC: [8] Undefined index: ordertype /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/788451339be31920d43bdcacbb20a930.php 第 77 行.
+NOTIC: [8] Undefined index: ordertype /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/788451339be31920d43bdcacbb20a930.php 第 78 行.
+NOTIC: [8] Undefined index: keyword /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/788451339be31920d43bdcacbb20a930.php 第 88 行.
+NOTIC: [8] Undefined index: keyword1 /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/788451339be31920d43bdcacbb20a930.php 第 89 行.
+NOTIC: [8] Undefined index: keyword2 /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/788451339be31920d43bdcacbb20a930.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009051s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009078s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000152s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000193s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000450s ]
+
+[ 2020-05-26T23:23:42+08:00 ] 14.204.129.213 /index.php?g=Admin&m=Video&a=del
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001620s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001068s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cmf_users_video` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `cmf_users_video` WHERE ( id=98 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: DELETE FROM `cmf_users_video` WHERE ( id=98 ) [ RunTime:0.0104s ]
+SQL: SHOW COLUMNS FROM `cmf_users_video_black` [ RunTime:0.0014s ]
+SQL: DELETE FROM `cmf_users_video_black` WHERE ( videoid=98 ) [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `cmf_users_video_comments_at_messages` [ RunTime:0.0009s ]
+SQL: DELETE FROM `cmf_users_video_comments_at_messages` WHERE ( videoid=98 ) [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `cmf_users_video_comments_messages` [ RunTime:0.0008s ]
+SQL: DELETE FROM `cmf_users_video_comments_messages` WHERE ( videoid=98 ) [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `cmf_praise_messages` [ RunTime:0.0010s ]
+SQL: DELETE FROM `cmf_praise_messages` WHERE ( videoid=98 ) [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `cmf_users_video_comments` [ RunTime:0.0010s ]
+SQL: DELETE FROM `cmf_users_video_comments` WHERE ( videoid=98 ) [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `cmf_users_video_like` [ RunTime:0.0008s ]
+SQL: DELETE FROM `cmf_users_video_like` WHERE ( videoid=98 ) [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `cmf_users_video_report` [ RunTime:0.0009s ]
+SQL: DELETE FROM `cmf_users_video_report` WHERE ( videoid=98 ) [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `cmf_users_video_comments_like` [ RunTime:0.0008s ]
+SQL: DELETE FROM `cmf_users_video_comments_like` WHERE ( videoid=98 ) [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `cmf_system_push` [ RunTime:0.0009s ]
+SQL: INSERT INTO `cmf_system_push` (`title`,`addtime`,`admin`,`ip`,`uid`,`content`) VALUES ('视频删除提醒','1590506622','admin','14.204.129.213','0','您于2020-05-01 17:19:41上传的《高中生》视频被管理员于2020-05-26 23:23:42删除') [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cmf_config_private` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `cmf_config_private` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: game_switch /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1922 行.
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+
+[ 2020-05-26T23:23:44+08:00 ] 14.204.129.213 /index.php?g=Admin&m=Video&a=passindex&p=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: ordertype /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 196 行.
+NOTIC: [8] Undefined index: keyword /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 203 行.
+NOTIC: [8] Undefined index: keyword1 /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 207 行.
+NOTIC: [8] Undefined index: keyword2 /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 212 行.
+SQL: SHOW COLUMNS FROM `cmf_users_video` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cmf_users_video` WHERE `isdel` = 0 AND `status` = 1 AND `cate` = 0 LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: ordertype /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 237 行.
+NOTIC: [8] Undefined variable: ordertype /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 239 行.
+NOTIC: [8] Undefined variable: ordertype /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 241 行.
+SQL: SELECT * FROM `cmf_users_video` WHERE `isdel` = 0 AND `status` = 1 AND `cate` = 0 ORDER BY addtime DESC LIMIT 0,20   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+NOTIC: [8] Undefined index: ordertype /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/ee3d6f06e714d5fb35c6a0ae4b37f277.php 第 76 行.
+NOTIC: [8] Undefined index: ordertype /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/ee3d6f06e714d5fb35c6a0ae4b37f277.php 第 77 行.
+NOTIC: [8] Undefined index: ordertype /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/ee3d6f06e714d5fb35c6a0ae4b37f277.php 第 78 行.
+NOTIC: [8] Undefined index: keyword /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/ee3d6f06e714d5fb35c6a0ae4b37f277.php 第 83 行.
+NOTIC: [8] Undefined index: keyword1 /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/ee3d6f06e714d5fb35c6a0ae4b37f277.php 第 84 行.
+NOTIC: [8] Undefined index: keyword2 /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/ee3d6f06e714d5fb35c6a0ae4b37f277.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008158s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008185s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000153s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000158s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000508s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000532s ]
+
+[ 2020-05-26T23:23:58+08:00 ] 14.204.129.213 /index.php?g=Admin&m=Video&a=del
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000900s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cmf_users_video` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `cmf_users_video` WHERE ( id=87 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: DELETE FROM `cmf_users_video` WHERE ( id=87 ) [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `cmf_users_video_black` [ RunTime:0.0009s ]
+SQL: DELETE FROM `cmf_users_video_black` WHERE ( videoid=87 ) [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `cmf_users_video_comments_at_messages` [ RunTime:0.0007s ]
+SQL: DELETE FROM `cmf_users_video_comments_at_messages` WHERE ( videoid=87 ) [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `cmf_users_video_comments_messages` [ RunTime:0.0008s ]
+SQL: DELETE FROM `cmf_users_video_comments_messages` WHERE ( videoid=87 ) [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `cmf_praise_messages` [ RunTime:0.0009s ]
+SQL: DELETE FROM `cmf_praise_messages` WHERE ( videoid=87 ) [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `cmf_users_video_comments` [ RunTime:0.0008s ]
+SQL: DELETE FROM `cmf_users_video_comments` WHERE ( videoid=87 ) [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `cmf_users_video_like` [ RunTime:0.0007s ]
+SQL: DELETE FROM `cmf_users_video_like` WHERE ( videoid=87 ) [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `cmf_users_video_report` [ RunTime:0.0007s ]
+SQL: DELETE FROM `cmf_users_video_report` WHERE ( videoid=87 ) [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `cmf_users_video_comments_like` [ RunTime:0.0007s ]
+SQL: DELETE FROM `cmf_users_video_comments_like` WHERE ( videoid=87 ) [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cmf_system_push` [ RunTime:0.0007s ]
+SQL: INSERT INTO `cmf_system_push` (`title`,`addtime`,`admin`,`ip`,`uid`,`content`) VALUES ('视频删除提醒','1590506638','admin','14.204.129.213','0','您于2020-05-01 17:05:43上传的《上个厕所也要自慰》视频被管理员于2020-05-26 23:23:58删除') [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `cmf_config_private` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cmf_config_private` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: game_switch /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1922 行.
+NOTIC: [8192] Function Redis::setTimeout() is deprecated /www/wwwroot/lzmtfht.ne.pw/application/Common/Common/function.php 第 1822 行.
+
+[ 2020-05-26T23:24:00+08:00 ] 14.204.129.213 /index.php?g=Admin&m=Video&a=passindex&p=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001221s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000921s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: ordertype /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 196 行.
+NOTIC: [8] Undefined index: keyword /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 203 行.
+NOTIC: [8] Undefined index: keyword1 /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 207 行.
+NOTIC: [8] Undefined index: keyword2 /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 212 行.
+SQL: SHOW COLUMNS FROM `cmf_users_video` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cmf_users_video` WHERE `isdel` = 0 AND `status` = 1 AND `cate` = 0 LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: ordertype /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 237 行.
+NOTIC: [8] Undefined variable: ordertype /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 239 行.
+NOTIC: [8] Undefined variable: ordertype /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 241 行.
+SQL: SELECT * FROM `cmf_users_video` WHERE `isdel` = 0 AND `status` = 1 AND `cate` = 0 ORDER BY addtime DESC LIMIT 0,20   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+NOTIC: [8] Undefined index: ordertype /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/ee3d6f06e714d5fb35c6a0ae4b37f277.php 第 76 行.
+NOTIC: [8] Undefined index: ordertype /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/ee3d6f06e714d5fb35c6a0ae4b37f277.php 第 77 行.
+NOTIC: [8] Undefined index: ordertype /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/ee3d6f06e714d5fb35c6a0ae4b37f277.php 第 78 行.
+NOTIC: [8] Undefined index: keyword /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/ee3d6f06e714d5fb35c6a0ae4b37f277.php 第 83 行.
+NOTIC: [8] Undefined index: keyword1 /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/ee3d6f06e714d5fb35c6a0ae4b37f277.php 第 84 行.
+NOTIC: [8] Undefined index: keyword2 /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/ee3d6f06e714d5fb35c6a0ae4b37f277.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007519s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007538s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000159s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000387s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000409s ]
+
+[ 2020-05-26T23:24:07+08:00 ] 14.204.129.213 /index.php?g=Admin&m=Video&a=cateindex&menuid=516&p=24
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000939s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000748s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: ordertype /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 281 行.
+NOTIC: [8] Undefined index: keyword /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 288 行.
+NOTIC: [8] Undefined index: keyword1 /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 292 行.
+NOTIC: [8] Undefined index: is_ad /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 296 行.
+NOTIC: [8] Undefined index: is_ad /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 300 行.
+NOTIC: [8] Undefined index: keyword2 /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 305 行.
+SQL: SHOW COLUMNS FROM `cmf_users_video` [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cmf_users_video` WHERE `isdel` = 0 AND `status` = 1 AND `cate` > 0 LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: ordertype /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 330 行.
+NOTIC: [8] Undefined variable: ordertype /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: ordertype /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 334 行.
+SQL: SELECT * FROM `cmf_users_video` WHERE `isdel` = 0 AND `status` = 1 AND `cate` > 0 ORDER BY addtime DESC LIMIT 460,20   [ RunTime:0.0025s ]
+NOTIC: [8] Undefined variable: pList /www/wwwroot/lzmtfht.ne.pw/simplewind/Lib/Util/Page.class.php 第 233 行.
+NOTIC: [8] Undefined variable: pListStart /www/wwwroot/lzmtfht.ne.pw/simplewind/Lib/Util/Page.class.php 第 243 行.
+NOTIC: [8] Undefined variable: pListEnd /www/wwwroot/lzmtfht.ne.pw/simplewind/Lib/Util/Page.class.php 第 335 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+NOTIC: [8] Undefined index: ordertype /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/788451339be31920d43bdcacbb20a930.php 第 76 行.
+NOTIC: [8] Undefined index: ordertype /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/788451339be31920d43bdcacbb20a930.php 第 77 行.
+NOTIC: [8] Undefined index: ordertype /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/788451339be31920d43bdcacbb20a930.php 第 78 行.
+NOTIC: [8] Undefined index: keyword /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/788451339be31920d43bdcacbb20a930.php 第 88 行.
+NOTIC: [8] Undefined index: keyword1 /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/788451339be31920d43bdcacbb20a930.php 第 89 行.
+NOTIC: [8] Undefined index: keyword2 /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/788451339be31920d43bdcacbb20a930.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008572s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008595s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000189s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000458s ]
+
+[ 2020-05-26T23:24:21+08:00 ] 14.204.129.213 /index.php?g=Admin&m=Video&a=cateindex&menuid=516&p=23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000992s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: ordertype /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 281 行.
+NOTIC: [8] Undefined index: keyword /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 288 行.
+NOTIC: [8] Undefined index: keyword1 /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 292 行.
+NOTIC: [8] Undefined index: is_ad /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 296 行.
+NOTIC: [8] Undefined index: is_ad /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 300 行.
+NOTIC: [8] Undefined index: keyword2 /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 305 行.
+SQL: SHOW COLUMNS FROM `cmf_users_video` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cmf_users_video` WHERE `isdel` = 0 AND `status` = 1 AND `cate` > 0 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: ordertype /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 330 行.
+NOTIC: [8] Undefined variable: ordertype /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: ordertype /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 334 行.
+SQL: SELECT * FROM `cmf_users_video` WHERE `isdel` = 0 AND `status` = 1 AND `cate` > 0 ORDER BY addtime DESC LIMIT 440,20   [ RunTime:0.0026s ]
+NOTIC: [8] Undefined variable: pList /www/wwwroot/lzmtfht.ne.pw/simplewind/Lib/Util/Page.class.php 第 233 行.
+NOTIC: [8] Undefined variable: pListStart /www/wwwroot/lzmtfht.ne.pw/simplewind/Lib/Util/Page.class.php 第 243 行.
+NOTIC: [8] Undefined variable: pListEnd /www/wwwroot/lzmtfht.ne.pw/simplewind/Lib/Util/Page.class.php 第 335 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+NOTIC: [8] Undefined index: ordertype /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/788451339be31920d43bdcacbb20a930.php 第 76 行.
+NOTIC: [8] Undefined index: ordertype /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/788451339be31920d43bdcacbb20a930.php 第 77 行.
+NOTIC: [8] Undefined index: ordertype /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/788451339be31920d43bdcacbb20a930.php 第 78 行.
+NOTIC: [8] Undefined index: keyword /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/788451339be31920d43bdcacbb20a930.php 第 88 行.
+NOTIC: [8] Undefined index: keyword1 /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/788451339be31920d43bdcacbb20a930.php 第 89 行.
+NOTIC: [8] Undefined index: keyword2 /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/788451339be31920d43bdcacbb20a930.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008579s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000149s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000411s ]
+
+[ 2020-05-26T23:24:39+08:00 ] 14.204.129.213 /index.php?g=Admin&m=Video&a=cateindex&menuid=516&p=22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000938s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: ordertype /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 281 行.
+NOTIC: [8] Undefined index: keyword /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 288 行.
+NOTIC: [8] Undefined index: keyword1 /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 292 行.
+NOTIC: [8] Undefined index: is_ad /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 296 行.
+NOTIC: [8] Undefined index: is_ad /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 300 行.
+NOTIC: [8] Undefined index: keyword2 /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 305 行.
+SQL: SHOW COLUMNS FROM `cmf_users_video` [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cmf_users_video` WHERE `isdel` = 0 AND `status` = 1 AND `cate` > 0 LIMIT 1   [ RunTime:0.0015s ]
+NOTIC: [8] Undefined variable: ordertype /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 330 行.
+NOTIC: [8] Undefined variable: ordertype /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: ordertype /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 334 行.
+SQL: SELECT * FROM `cmf_users_video` WHERE `isdel` = 0 AND `status` = 1 AND `cate` > 0 ORDER BY addtime DESC LIMIT 420,20   [ RunTime:0.0044s ]
+NOTIC: [8] Undefined variable: pList /www/wwwroot/lzmtfht.ne.pw/simplewind/Lib/Util/Page.class.php 第 233 行.
+NOTIC: [8] Undefined variable: pListStart /www/wwwroot/lzmtfht.ne.pw/simplewind/Lib/Util/Page.class.php 第 243 行.
+NOTIC: [8] Undefined variable: pListEnd /www/wwwroot/lzmtfht.ne.pw/simplewind/Lib/Util/Page.class.php 第 335 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+NOTIC: [8] Undefined index: ordertype /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/788451339be31920d43bdcacbb20a930.php 第 76 行.
+NOTIC: [8] Undefined index: ordertype /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/788451339be31920d43bdcacbb20a930.php 第 77 行.
+NOTIC: [8] Undefined index: ordertype /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/788451339be31920d43bdcacbb20a930.php 第 78 行.
+NOTIC: [8] Undefined index: keyword /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/788451339be31920d43bdcacbb20a930.php 第 88 行.
+NOTIC: [8] Undefined index: keyword1 /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/788451339be31920d43bdcacbb20a930.php 第 89 行.
+NOTIC: [8] Undefined index: keyword2 /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/788451339be31920d43bdcacbb20a930.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010393s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010421s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000155s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000418s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000439s ]
+
+[ 2020-05-26T23:24:49+08:00 ] 14.204.129.213 /index.php?g=Admin&m=Video&a=cateindex&menuid=516&p=21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000906s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: ordertype /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 281 行.
+NOTIC: [8] Undefined index: keyword /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 288 行.
+NOTIC: [8] Undefined index: keyword1 /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 292 行.
+NOTIC: [8] Undefined index: is_ad /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 296 行.
+NOTIC: [8] Undefined index: is_ad /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 300 行.
+NOTIC: [8] Undefined index: keyword2 /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 305 行.
+SQL: SHOW COLUMNS FROM `cmf_users_video` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cmf_users_video` WHERE `isdel` = 0 AND `status` = 1 AND `cate` > 0 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: ordertype /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 330 行.
+NOTIC: [8] Undefined variable: ordertype /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: ordertype /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 334 行.
+SQL: SELECT * FROM `cmf_users_video` WHERE `isdel` = 0 AND `status` = 1 AND `cate` > 0 ORDER BY addtime DESC LIMIT 400,20   [ RunTime:0.0023s ]
+NOTIC: [8] Undefined variable: pList /www/wwwroot/lzmtfht.ne.pw/simplewind/Lib/Util/Page.class.php 第 233 行.
+NOTIC: [8] Undefined variable: pListStart /www/wwwroot/lzmtfht.ne.pw/simplewind/Lib/Util/Page.class.php 第 243 行.
+NOTIC: [8] Undefined variable: pListEnd /www/wwwroot/lzmtfht.ne.pw/simplewind/Lib/Util/Page.class.php 第 273 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+NOTIC: [8] Undefined index: ordertype /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/788451339be31920d43bdcacbb20a930.php 第 76 行.
+NOTIC: [8] Undefined index: ordertype /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/788451339be31920d43bdcacbb20a930.php 第 77 行.
+NOTIC: [8] Undefined index: ordertype /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/788451339be31920d43bdcacbb20a930.php 第 78 行.
+NOTIC: [8] Undefined index: keyword /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/788451339be31920d43bdcacbb20a930.php 第 88 行.
+NOTIC: [8] Undefined index: keyword1 /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/788451339be31920d43bdcacbb20a930.php 第 89 行.
+NOTIC: [8] Undefined index: keyword2 /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/788451339be31920d43bdcacbb20a930.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008068s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008090s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000150s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000425s ]
+
+[ 2020-05-26T23:25:04+08:00 ] 14.204.129.213 /index.php?g=Admin&m=Video&a=cateindex&menuid=516&p=20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000977s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: ordertype /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 281 行.
+NOTIC: [8] Undefined index: keyword /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 288 行.
+NOTIC: [8] Undefined index: keyword1 /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 292 行.
+NOTIC: [8] Undefined index: is_ad /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 296 行.
+NOTIC: [8] Undefined index: is_ad /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 300 行.
+NOTIC: [8] Undefined index: keyword2 /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 305 行.
+SQL: SHOW COLUMNS FROM `cmf_users_video` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cmf_users_video` WHERE `isdel` = 0 AND `status` = 1 AND `cate` > 0 LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: ordertype /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 330 行.
+NOTIC: [8] Undefined variable: ordertype /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: ordertype /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 334 行.
+SQL: SELECT * FROM `cmf_users_video` WHERE `isdel` = 0 AND `status` = 1 AND `cate` > 0 ORDER BY addtime DESC LIMIT 380,20   [ RunTime:0.0036s ]
+NOTIC: [8] Undefined variable: pList /www/wwwroot/lzmtfht.ne.pw/simplewind/Lib/Util/Page.class.php 第 233 行.
+NOTIC: [8] Undefined variable: pListStart /www/wwwroot/lzmtfht.ne.pw/simplewind/Lib/Util/Page.class.php 第 243 行.
+NOTIC: [8] Undefined variable: pListEnd /www/wwwroot/lzmtfht.ne.pw/simplewind/Lib/Util/Page.class.php 第 273 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+NOTIC: [8] Undefined index: ordertype /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/788451339be31920d43bdcacbb20a930.php 第 76 行.
+NOTIC: [8] Undefined index: ordertype /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/788451339be31920d43bdcacbb20a930.php 第 77 行.
+NOTIC: [8] Undefined index: ordertype /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/788451339be31920d43bdcacbb20a930.php 第 78 行.
+NOTIC: [8] Undefined index: keyword /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/788451339be31920d43bdcacbb20a930.php 第 88 行.
+NOTIC: [8] Undefined index: keyword1 /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/788451339be31920d43bdcacbb20a930.php 第 89 行.
+NOTIC: [8] Undefined index: keyword2 /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/788451339be31920d43bdcacbb20a930.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008671s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008696s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000167s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000134s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000483s ]
+
+[ 2020-05-26T23:25:16+08:00 ] 14.204.129.213 /index.php?g=Admin&m=Video&a=cateindex&menuid=516
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000989s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: ordertype /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 281 行.
+NOTIC: [8] Undefined index: keyword /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 288 行.
+NOTIC: [8] Undefined index: keyword1 /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 292 行.
+NOTIC: [8] Undefined index: is_ad /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 296 行.
+NOTIC: [8] Undefined index: is_ad /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 300 行.
+NOTIC: [8] Undefined index: keyword2 /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 305 行.
+SQL: SHOW COLUMNS FROM `cmf_users_video` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cmf_users_video` WHERE `isdel` = 0 AND `status` = 1 AND `cate` > 0 LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: ordertype /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 330 行.
+NOTIC: [8] Undefined variable: ordertype /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: ordertype /www/wwwroot/lzmtfht.ne.pw/application/Admin/Controller/VideoController.class.php 第 334 行.
+SQL: SELECT * FROM `cmf_users_video` WHERE `isdel` = 0 AND `status` = 1 AND `cate` > 0 ORDER BY addtime DESC LIMIT 0,20   [ RunTime:0.0013s ]
+NOTIC: [8] Undefined variable: pList /www/wwwroot/lzmtfht.ne.pw/simplewind/Lib/Util/Page.class.php 第 226 行.
+NOTIC: [8] Undefined variable: pListEnd /www/wwwroot/lzmtfht.ne.pw/simplewind/Lib/Util/Page.class.php 第 259 行.
+NOTIC: [8] Undefined variable: pListStart /www/wwwroot/lzmtfht.ne.pw/simplewind/Lib/Util/Page.class.php 第 335 行.
+NOTIC: [8] Undefined variable: pFirst /www/wwwroot/lzmtfht.ne.pw/simplewind/Lib/Util/Page.class.php 第 335 行.
+NOTIC: [8] Undefined variable: pPrev /www/wwwroot/lzmtfht.ne.pw/simplewind/Lib/Util/Page.class.php 第 335 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+NOTIC: [8] Undefined index: ordertype /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/788451339be31920d43bdcacbb20a930.php 第 76 行.
+NOTIC: [8] Undefined index: ordertype /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/788451339be31920d43bdcacbb20a930.php 第 77 行.
+NOTIC: [8] Undefined index: ordertype /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/788451339be31920d43bdcacbb20a930.php 第 78 行.
+NOTIC: [8] Undefined index: keyword /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/788451339be31920d43bdcacbb20a930.php 第 88 行.
+NOTIC: [8] Undefined index: keyword1 /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/788451339be31920d43bdcacbb20a930.php 第 89 行.
+NOTIC: [8] Undefined index: keyword2 /www/wwwroot/lzmtfht.ne.pw/data/runtime/Cache/Admin/788451339be31920d43bdcacbb20a930.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008977s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000125s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000467s ]
+

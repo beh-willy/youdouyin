@@ -1,0 +1,247 @@
+2020-05-22 01:02:17|DEBUG|cid not found|31
+2020-05-22 01:04:40|DEBUG|cid not found|28
+2020-05-22 01:07:39|DEBUG|cid not found|31
+2020-05-22 01:18:32|DEBUG|cid not found|31
+2020-05-22 01:23:33|DEBUG|cid not found|27
+2020-05-22 01:51:08|DEBUG|cid not found|28
+2020-05-22 02:43:41|DEBUG|cid not found|27
+2020-05-22 02:48:18|DEBUG|cid not found|29
+2020-05-22 10:13:13|ERROR|Video.buyVideo|PDOException: There is no active transaction in /www/wwwroot/lzmtfht.ne.pw/api/PhalApi/PhalApi/DB/NotORM.php:319
+Stack trace:
+#0 /www/wwwroot/lzmtfht.ne.pw/api/PhalApi/PhalApi/DB/NotORM.php(319): PDO->commit()
+#1 /www/wwwroot/lzmtfht.ne.pw/api/Appapi/Model/Video.php(174): PhalApi_DB_NotORM->commit('db_appapi')
+#2 /www/wwwroot/lzmtfht.ne.pw/api/Appapi/Domain/Video.php(33): Model_Video->buyVideo(11789, Array)
+#3 /www/wwwroot/lzmtfht.ne.pw/api/Appapi/Api/Video.php(518): Domain_Video->buyVideo(11789, Array)
+#4 /www/wwwroot/lzmtfht.ne.pw/api/PhalApi/PhalApi.php(57): Api_Video->buyVideo()
+#5 /www/wwwroot/lzmtfht.ne.pw/api/public/index.php(14): PhalApi->response()
+#6 {main}
+2020-05-22 10:21:52|ERROR|Video.buyVideo|PDOException: There is no active transaction in /www/wwwroot/lzmtfht.ne.pw/api/PhalApi/PhalApi/DB/NotORM.php:319
+Stack trace:
+#0 /www/wwwroot/lzmtfht.ne.pw/api/PhalApi/PhalApi/DB/NotORM.php(319): PDO->commit()
+#1 /www/wwwroot/lzmtfht.ne.pw/api/Appapi/Model/Video.php(174): PhalApi_DB_NotORM->commit('db_appapi')
+#2 /www/wwwroot/lzmtfht.ne.pw/api/Appapi/Domain/Video.php(33): Model_Video->buyVideo(11789, Array)
+#3 /www/wwwroot/lzmtfht.ne.pw/api/Appapi/Api/Video.php(522): Domain_Video->buyVideo(11789, Array)
+#4 /www/wwwroot/lzmtfht.ne.pw/api/PhalApi/PhalApi.php(57): Api_Video->buyVideo()
+#5 /www/wwwroot/lzmtfht.ne.pw/api/public/index.php(14): PhalApi->response()
+#6 {main}
+2020-05-22 10:23:25|ERROR|Video.buyVideo|PDOException: There is no active transaction in /www/wwwroot/lzmtfht.ne.pw/api/PhalApi/PhalApi/DB/NotORM.php:319
+Stack trace:
+#0 /www/wwwroot/lzmtfht.ne.pw/api/PhalApi/PhalApi/DB/NotORM.php(319): PDO->commit()
+#1 /www/wwwroot/lzmtfht.ne.pw/api/Appapi/Model/Video.php(174): PhalApi_DB_NotORM->commit('db_appapi')
+#2 /www/wwwroot/lzmtfht.ne.pw/api/Appapi/Domain/Video.php(33): Model_Video->buyVideo(11789, Array)
+#3 /www/wwwroot/lzmtfht.ne.pw/api/Appapi/Api/Video.php(522): Domain_Video->buyVideo(11789, Array)
+#4 /www/wwwroot/lzmtfht.ne.pw/api/PhalApi/PhalApi.php(57): Api_Video->buyVideo()
+#5 /www/wwwroot/lzmtfht.ne.pw/api/public/index.php(14): PhalApi->response()
+#6 {main}
+2020-05-22 10:25:54|ERROR|Video.buyVideo|PDOException: There is no active transaction in /www/wwwroot/lzmtfht.ne.pw/api/PhalApi/PhalApi/DB/NotORM.php:319
+Stack trace:
+#0 /www/wwwroot/lzmtfht.ne.pw/api/PhalApi/PhalApi/DB/NotORM.php(319): PDO->commit()
+#1 /www/wwwroot/lzmtfht.ne.pw/api/Appapi/Model/Video.php(174): PhalApi_DB_NotORM->commit('db_appapi')
+#2 /www/wwwroot/lzmtfht.ne.pw/api/Appapi/Domain/Video.php(33): Model_Video->buyVideo(11789, Array)
+#3 /www/wwwroot/lzmtfht.ne.pw/api/Appapi/Api/Video.php(522): Domain_Video->buyVideo(11789, Array)
+#4 /www/wwwroot/lzmtfht.ne.pw/api/PhalApi/PhalApi.php(57): Api_Video->buyVideo()
+#5 /www/wwwroot/lzmtfht.ne.pw/api/public/index.php(14): PhalApi->response()
+#6 {main}
+2020-05-22 10:29:25|ERROR|Video.buyVideo|PDOException: There is no active transaction in /www/wwwroot/lzmtfht.ne.pw/api/PhalApi/PhalApi/DB/NotORM.php:319
+Stack trace:
+#0 /www/wwwroot/lzmtfht.ne.pw/api/PhalApi/PhalApi/DB/NotORM.php(319): PDO->commit()
+#1 /www/wwwroot/lzmtfht.ne.pw/api/Appapi/Model/Video.php(174): PhalApi_DB_NotORM->commit('db_appapi')
+#2 /www/wwwroot/lzmtfht.ne.pw/api/Appapi/Domain/Video.php(33): Model_Video->buyVideo(11790, Array)
+#3 /www/wwwroot/lzmtfht.ne.pw/api/Appapi/Api/Video.php(522): Domain_Video->buyVideo(11790, Array)
+#4 /www/wwwroot/lzmtfht.ne.pw/api/PhalApi/PhalApi.php(57): Api_Video->buyVideo()
+#5 /www/wwwroot/lzmtfht.ne.pw/api/public/index.php(14): PhalApi->response()
+#6 {main}
+2020-05-22 15:34:57|DEBUG|cid not found|28
+2020-05-22 18:42:45|DEBUG|cid not found|34
+2020-05-22 18:48:48|DEBUG|cid not found|31
+2020-05-22 19:13:28|DEBUG|cid not found|28
+2020-05-22 19:15:04|DEBUG|cid not found|30
+2020-05-22 19:15:08|DEBUG|cid not found|28
+2020-05-22 19:28:44|DEBUG|cid not found|30
+2020-05-22 19:32:37|DEBUG|cid not found|30
+2020-05-22 19:34:30|DEBUG|cid not found|27
+2020-05-22 19:37:01|DEBUG|cid not found|29
+2020-05-22 19:37:03|DEBUG|cid not found|28
+2020-05-22 19:38:39|DEBUG|cid not found|29
+2020-05-22 19:40:30|DEBUG|cid not found|27
+2020-05-22 19:41:20|DEBUG|cid not found|54
+2020-05-22 19:42:17|DEBUG|cid not found|29
+2020-05-22 19:44:49|DEBUG|cid not found|28
+2020-05-22 19:46:27|DEBUG|cid not found|32
+2020-05-22 19:47:23|DEBUG|cid not found|54
+2020-05-22 19:48:22|DEBUG|cid not found|54
+2020-05-22 19:49:24|DEBUG|cid not found|29
+2020-05-22 19:50:48|DEBUG|cid not found|27
+2020-05-22 19:51:48|DEBUG|cid not found|32
+2020-05-22 19:52:40|DEBUG|cid not found|27
+2020-05-22 19:53:34|DEBUG|cid not found|27
+2020-05-22 19:54:31|DEBUG|cid not found|28
+2020-05-22 19:55:48|DEBUG|cid not found|28
+2020-05-22 19:56:39|DEBUG|cid not found|27
+2020-05-22 19:57:38|DEBUG|cid not found|32
+2020-05-22 19:58:17|DEBUG|cid not found|28
+2020-05-22 19:58:54|DEBUG|cid not found|28
+2020-05-22 20:00:48|DEBUG|cid not found|54
+2020-05-22 20:01:21|DEBUG|cid not found|54
+2020-05-22 20:01:57|DEBUG|cid not found|32
+2020-05-22 20:02:41|DEBUG|cid not found|32
+2020-05-22 20:03:20|DEBUG|cid not found|54
+2020-05-22 20:03:53|DEBUG|cid not found|28
+2020-05-22 20:04:42|DEBUG|cid not found|30
+2020-05-22 20:06:13|DEBUG|cid not found|30
+2020-05-22 20:06:46|DEBUG|cid not found|27
+2020-05-22 20:07:25|DEBUG|cid not found|54
+2020-05-22 20:08:10|DEBUG|cid not found|28
+2020-05-22 20:09:11|DEBUG|cid not found|27
+2020-05-22 20:10:28|DEBUG|cid not found|28
+2020-05-22 20:11:15|DEBUG|cid not found|27
+2020-05-22 20:11:49|DEBUG|cid not found|32
+2020-05-22 20:12:19|DEBUG|cid not found|27
+2020-05-22 20:13:20|DEBUG|cid not found|29
+2020-05-22 20:13:55|DEBUG|cid not found|29
+2020-05-22 20:14:37|DEBUG|cid not found|28
+2020-05-22 20:15:11|DEBUG|cid not found|54
+2020-05-22 20:16:06|DEBUG|cid not found|32
+2020-05-22 20:17:01|DEBUG|cid not found|29
+2020-05-22 20:17:55|DEBUG|cid not found|32
+2020-05-22 20:18:26|DEBUG|cid not found|29
+2020-05-22 20:18:59|DEBUG|cid not found|54
+2020-05-22 20:19:29|DEBUG|cid not found|28
+2020-05-22 20:20:50|DEBUG|cid not found|30
+2020-05-22 20:21:21|DEBUG|cid not found|27
+2020-05-22 20:21:52|DEBUG|cid not found|54
+2020-05-22 20:22:39|DEBUG|cid not found|28
+2020-05-22 20:23:06|DEBUG|cid not found|27
+2020-05-22 20:23:37|DEBUG|cid not found|28
+2020-05-22 20:24:03|DEBUG|cid not found|27
+2020-05-22 20:24:49|DEBUG|cid not found|30
+2020-05-22 20:25:52|DEBUG|cid not found|54
+2020-05-22 20:27:04|DEBUG|cid not found|29
+2020-05-22 20:27:45|DEBUG|cid not found|32
+2020-05-22 20:29:00|DEBUG|cid not found|32
+2020-05-22 20:29:38|DEBUG|cid not found|28
+2020-05-22 20:30:34|DEBUG|cid not found|55
+2020-05-22 20:31:54|DEBUG|cid not found|54
+2020-05-22 20:32:45|DEBUG|cid not found|54
+2020-05-22 20:33:28|DEBUG|cid not found|55
+2020-05-22 20:33:55|DEBUG|cid not found|54
+2020-05-22 20:34:34|DEBUG|cid not found|55
+2020-05-22 20:35:42|DEBUG|cid not found|32
+2020-05-22 20:36:18|DEBUG|cid not found|29
+2020-05-22 20:36:45|DEBUG|cid not found|32
+2020-05-22 20:37:32|DEBUG|cid not found|54
+2020-05-22 20:38:09|DEBUG|cid not found|32
+2020-05-22 20:38:42|DEBUG|cid not found|32
+2020-05-22 20:39:18|DEBUG|cid not found|34
+2020-05-22 20:39:53|DEBUG|cid not found|29
+2020-05-22 20:40:54|DEBUG|cid not found|54
+2020-05-22 20:41:28|DEBUG|cid not found|29
+2020-05-22 20:42:19|DEBUG|cid not found|30
+2020-05-22 20:43:05|DEBUG|cid not found|27
+2020-05-22 20:43:56|DEBUG|cid not found|28
+2020-05-22 20:45:20|DEBUG|cid not found|32
+2020-05-22 20:47:03|DEBUG|cid not found|29
+2020-05-22 20:47:38|DEBUG|cid not found|54
+2020-05-22 20:48:19|DEBUG|cid not found|29
+2020-05-22 20:48:21|DEBUG|cid not found|31
+2020-05-22 20:48:22|DEBUG|cid not found|32
+2020-05-22 20:53:08|DEBUG|cid not found|32
+2020-05-22 20:56:28|DEBUG|cid not found|54
+2020-05-22 20:56:58|DEBUG|cid not found|54
+2020-05-22 20:57:22|DEBUG|cid not found|28
+2020-05-22 20:58:01|DEBUG|cid not found|55
+2020-05-22 20:58:45|DEBUG|cid not found|28
+2020-05-22 20:58:52|DEBUG|cid not found|54
+2020-05-22 20:59:18|DEBUG|cid not found|55
+2020-05-22 20:59:54|DEBUG|cid not found|35
+2020-05-22 21:01:17|DEBUG|cid not found|29
+2020-05-22 21:01:44|DEBUG|cid not found|32
+2020-05-22 21:02:21|DEBUG|cid not found|35
+2020-05-22 21:03:09|DEBUG|cid not found|29
+2020-05-22 21:04:01|DEBUG|cid not found|32
+2020-05-22 21:04:25|DEBUG|cid not found|32
+2020-05-22 21:05:22|DEBUG|cid not found|32
+2020-05-22 21:07:22|DEBUG|cid not found|29
+2020-05-22 21:08:37|DEBUG|cid not found|28
+2020-05-22 21:12:14|DEBUG|cid not found|29
+2020-05-22 21:12:45|DEBUG|cid not found|32
+2020-05-22 21:13:21|DEBUG|cid not found|54
+2020-05-22 21:13:50|DEBUG|cid not found|27
+2020-05-22 21:14:26|DEBUG|cid not found|54
+2020-05-22 21:15:00|DEBUG|cid not found|36
+2020-05-22 21:16:10|DEBUG|cid not found|32
+2020-05-22 21:16:35|DEBUG|cid not found|54
+2020-05-22 21:18:54|DEBUG|cid not found|27
+2020-05-22 21:20:37|DEBUG|cid not found|29
+2020-05-22 21:21:07|DEBUG|cid not found|32
+2020-05-22 21:22:01|DEBUG|cid not found|32
+2020-05-22 21:22:27|DEBUG|cid not found|31
+2020-05-22 21:22:31|DEBUG|cid not found|33
+2020-05-22 21:22:55|DEBUG|cid not found|28
+2020-05-22 21:23:39|DEBUG|cid not found|54
+2020-05-22 21:24:11|DEBUG|cid not found|31
+2020-05-22 21:25:52|DEBUG|cid not found|29
+2020-05-22 21:26:17|DEBUG|cid not found|32
+2020-05-22 21:27:03|DEBUG|cid not found|28
+2020-05-22 21:27:31|DEBUG|cid not found|27
+2020-05-22 21:28:02|DEBUG|cid not found|31
+2020-05-22 21:29:36|DEBUG|cid not found|32
+2020-05-22 21:30:29|DEBUG|cid not found|32
+2020-05-22 21:32:04|DEBUG|cid not found|30
+2020-05-22 21:32:31|DEBUG|cid not found|32
+2020-05-22 21:33:04|DEBUG|cid not found|30
+2020-05-22 21:33:35|DEBUG|cid not found|27
+2020-05-22 21:34:15|DEBUG|cid not found|34
+2020-05-22 21:34:41|DEBUG|cid not found|30
+2020-05-22 21:36:14|DEBUG|cid not found|31
+2020-05-22 21:36:38|DEBUG|cid not found|29
+2020-05-22 21:37:14|DEBUG|cid not found|28
+2020-05-22 21:37:44|DEBUG|cid not found|32
+2020-05-22 21:38:15|DEBUG|cid not found|55
+2020-05-22 21:38:47|DEBUG|cid not found|29
+2020-05-22 21:39:23|DEBUG|cid not found|34
+2020-05-22 21:42:09|DEBUG|cid not found|30
+2020-05-22 21:42:37|DEBUG|cid not found|30
+2020-05-22 21:43:39|DEBUG|cid not found|30
+2020-05-22 21:44:36|DEBUG|cid not found|29
+2020-05-22 21:46:48|DEBUG|cid not found|32
+2020-05-22 21:48:11|DEBUG|cid not found|32
+2020-05-22 21:54:54|DEBUG|cid not found|31
+2020-05-22 22:01:46|DEBUG|cid not found|31
+2020-05-22 22:03:37|DEBUG|cid not found|55
+2020-05-22 22:04:25|DEBUG|cid not found|28
+2020-05-22 22:05:41|DEBUG|cid not found|28
+2020-05-22 22:15:33|DEBUG|cid not found|28
+2020-05-22 22:17:03|DEBUG|cid not found|32
+2020-05-22 22:22:19|DEBUG|cid not found|28
+2020-05-22 22:23:26|DEBUG|cid not found|30
+2020-05-22 22:24:19|DEBUG|cid not found|27
+2020-05-22 22:26:56|DEBUG|cid not found|31
+2020-05-22 22:27:33|DEBUG|cid not found|30
+2020-05-22 22:28:08|DEBUG|cid not found|30
+2020-05-22 22:28:49|DEBUG|cid not found|28
+2020-05-22 22:29:16|DEBUG|cid not found|28
+2020-05-22 22:30:21|DEBUG|cid not found|36
+2020-05-22 22:33:59|DEBUG|cid not found|28
+2020-05-22 22:38:08|DEBUG|cid not found|28
+2020-05-22 22:42:43|DEBUG|cid not found|30
+2020-05-22 22:45:43|DEBUG|cid not found|28
+2020-05-22 22:46:21|DEBUG|cid not found|28
+2020-05-22 22:47:14|DEBUG|cid not found|27
+2020-05-22 22:48:29|DEBUG|cid not found|28
+2020-05-22 22:49:18|DEBUG|cid not found|32
+2020-05-22 22:51:10|DEBUG|cid not found|28
+2020-05-22 22:52:45|DEBUG|cid not found|30
+2020-05-22 23:03:04|DEBUG|cid not found|27
+2020-05-22 23:04:11|DEBUG|cid not found|30
+2020-05-22 23:06:39|DEBUG|cid not found|29
+2020-05-22 23:09:14|DEBUG|cid not found|28
+2020-05-22 23:11:35|DEBUG|cid not found|30
+2020-05-22 23:12:43|DEBUG|cid not found|28
+2020-05-22 23:13:36|DEBUG|cid not found|30
+2020-05-22 23:45:57|DEBUG|cid not found|30
+2020-05-22 23:46:44|DEBUG|cid not found|27
+2020-05-22 23:48:00|DEBUG|cid not found|54
+2020-05-22 23:49:00|DEBUG|cid not found|28
+2020-05-22 23:49:47|DEBUG|cid not found|30
+2020-05-22 23:52:10|DEBUG|cid not found|28

@@ -1,0 +1,30 @@
+2020-03-28 10:03:28|ERROR|Category.getTagVideo|PDOException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-50,50' at line 1 in /www/wwwroot/jdsp.appyuanma.cn/api/PhalApi/NotORM/NotORM/Result.php:240
+Stack trace:
+#0 /www/wwwroot/jdsp.appyuanma.cn/api/PhalApi/NotORM/NotORM/Result.php(774): NotORM_Result->query('SELECT * FROM c...', Array)
+#1 /www/wwwroot/jdsp.appyuanma.cn/api/PhalApi/NotORM/NotORM/Result.php(851): NotORM_Result->execute()
+#2 /www/wwwroot/jdsp.appyuanma.cn/api/Appapi/Model/Category.php(90): NotORM_Result->fetchAll()
+#3 /www/wwwroot/jdsp.appyuanma.cn/api/Appapi/Domain/Category.php(26): Model_Category->getCategoryVideo(0, 0, '0', 11737)
+#4 /www/wwwroot/jdsp.appyuanma.cn/api/Appapi/Api/Category.php(126): Domain_Category->getCategoryVideo(0, 0, '0', 11737)
+#5 /www/wwwroot/jdsp.appyuanma.cn/api/PhalApi/PhalApi.php(57): Api_Category->getTagVideo()
+#6 /www/wwwroot/jdsp.appyuanma.cn/api/public/index.php(14): PhalApi->response()
+#7 {main}
+2020-03-28 10:03:29|ERROR|Category.getTagVideo|PDOException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-50,50' at line 1 in /www/wwwroot/jdsp.appyuanma.cn/api/PhalApi/NotORM/NotORM/Result.php:240
+Stack trace:
+#0 /www/wwwroot/jdsp.appyuanma.cn/api/PhalApi/NotORM/NotORM/Result.php(774): NotORM_Result->query('SELECT * FROM c...', Array)
+#1 /www/wwwroot/jdsp.appyuanma.cn/api/PhalApi/NotORM/NotORM/Result.php(851): NotORM_Result->execute()
+#2 /www/wwwroot/jdsp.appyuanma.cn/api/Appapi/Model/Category.php(90): NotORM_Result->fetchAll()
+#3 /www/wwwroot/jdsp.appyuanma.cn/api/Appapi/Domain/Category.php(26): Model_Category->getCategoryVideo(0, 0, '0', 11737)
+#4 /www/wwwroot/jdsp.appyuanma.cn/api/Appapi/Api/Category.php(126): Domain_Category->getCategoryVideo(0, 0, '0', 11737)
+#5 /www/wwwroot/jdsp.appyuanma.cn/api/PhalApi/PhalApi.php(57): Api_Category->getTagVideo()
+#6 /www/wwwroot/jdsp.appyuanma.cn/api/public/index.php(14): PhalApi->response()
+#7 {main}
+2020-03-28 10:03:48|ERROR|Category.getTagVideo|PDOException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-50,50' at line 1 in /www/wwwroot/jdsp.appyuanma.cn/api/PhalApi/NotORM/NotORM/Result.php:240
+Stack trace:
+#0 /www/wwwroot/jdsp.appyuanma.cn/api/PhalApi/NotORM/NotORM/Result.php(774): NotORM_Result->query('SELECT * FROM c...', Array)
+#1 /www/wwwroot/jdsp.appyuanma.cn/api/PhalApi/NotORM/NotORM/Result.php(851): NotORM_Result->execute()
+#2 /www/wwwroot/jdsp.appyuanma.cn/api/Appapi/Model/Category.php(90): NotORM_Result->fetchAll()
+#3 /www/wwwroot/jdsp.appyuanma.cn/api/Appapi/Domain/Category.php(26): Model_Category->getCategoryVideo(28, 0, '0', 11737)
+#4 /www/wwwroot/jdsp.appyuanma.cn/api/Appapi/Api/Category.php(126): Domain_Category->getCategoryVideo(28, 0, '0', 11737)
+#5 /www/wwwroot/jdsp.appyuanma.cn/api/PhalApi/PhalApi.php(57): Api_Category->getTagVideo()
+#6 /www/wwwroot/jdsp.appyuanma.cn/api/public/index.php(14): PhalApi->response()
+#7 {main}

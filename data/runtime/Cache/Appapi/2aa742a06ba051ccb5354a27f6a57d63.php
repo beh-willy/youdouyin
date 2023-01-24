@@ -1,0 +1,58 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta content="telephone=no" name="format-detection">
+    <title>身份认证</title>
+    <link rel="stylesheet" type="text/css" href="/public/appapi/auth/css/auth.css?t=<?php echo ($time); ?>">
+    
+</head>
+<body>
+    <div class="woring_title">
+        *请认真填写实名信息，否则无法通过认证
+    </div>
+    <ul class="auth_list">
+        <li>
+            <p class="auth_list_title fl">真实姓名</p>
+            <p class="auth_list_right fr">
+                <input type="text" name="realname" id="realname" placeholder="请输入真实姓名">
+            </p>
+            <p class="clearboth"></p>
+        </li>
+
+        <li>
+            <p class="auth_list_title fl">联系电话</p>
+            <p class="auth_list_right fr">
+                <input type="text" name="phone" id="phone" placeholder="请输入正确的手机号码">
+            </p>
+            <p class="clearboth"></p>
+        </li>
+
+        <li class="border_none">
+            <p class="auth_list_title fl">身份证号</p>
+            <p class="auth_list_right fr">
+                <input type="text" name="cardno" id="cardno" placeholder="请输入正确的身份证号">
+            </p>
+            <p class="clearboth"></p>
+        </li>
+    </ul>
+
+    <div class="agreement">
+        <p class="agree_area "><img src="/public/appapi/auth/images/true.png"></p> 同意<a href="./index.php?g=portal&m=page&a=index&id=28">红域用户协议</a>
+        <div class="clearboth"></div>
+    </div>
+
+    <div class="autharea">
+        <input type="button" value="开始认证" disabled="disabled">
+    </div>
+
+<script type="text/javascript">
+    var uid=<?php echo ($uid); ?>;
+</script>
+
+<script type="text/javascript" src="/public/js/jquery.js"></script>
+<script type="text/javascript" src="/public/appapi/auth/js/auth.js?t=<?php echo ($time); ?>"></script>
+<script type="text/javascript" src="/public/layer/layer.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<admintpl file="header" />
+</head>
+<body>
+	<div class="wrap">
+		<ul class="nav nav-tabs">
+			<li ><a href="{:U('Dialect/systemlikesindex')}">系统点赞视频</a></li>
+			<li class="active"><a >添加</a></li>
+		</ul>
+		
+ 
+		<form method="post" class="form-horizontal js-ajax-form" action="{:U('Dialect/add_likevideopost')}">
+		
+			<fieldset>
+				
+				<!-- <div class="control-group">
+					<label class="control-label">视频类型</label>
+					<div class="controls">
+						<label class="radio inline" for="active_true"><input type="radio" name="type" value="0"  id="active_true" checked />短视频</label>
+						<label class="radio inline" for="active_false"><input type="radio" name="type" value="1"  id="active_false">方言秀视频</label>
+					</div>
+				</div> -->
+				<div class="control-group">
+					<label class="control-label">用户ID</label>
+					<div class="controls">
+						<input type="text" name="uid">
+						<span class="form-required">*</span>
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label">视频ID</label>
+					<div class="controls">
+						<input type="text" name="videoid">
+						<span class="form-required">*</span>
+					</div>
+				</div>
+				<label>备注：点赞会给用户增减金币且不能取消</label>
+				
+			</fieldset>
+			
+			<div class="form-actions">
+				<button type="submit" class="btn btn-primary js-ajax-submit">{:L('ADD')}</button>
+				<a class="btn" href="{:U('Dialect/systemlikesindex')}">{:L('BACK')}</a>
+			</div>
+		</form>
+	</div>
+	<script src="__PUBLIC__/js/common.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/content_addtop.js"></script>
+</body>
+</html>

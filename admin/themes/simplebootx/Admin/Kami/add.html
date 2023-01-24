@@ -1,0 +1,94 @@
+<admintpl file="header" />
+</head>
+<body>
+	<div class="wrap">
+		<ul class="nav nav-tabs">
+			<li><a href="{:U('Kami/index')}">列表</a></li>
+			<li class="active"><a >添加</a></li>
+		</ul>
+		<form method="post" class="form-horizontal js-ajax-form" action="{:U('Kami/do_add')}">
+			<fieldset>
+				<div class="control-group">
+					<label class="control-label">卡密类型</label>
+					<div class="controls">
+						<label class="radio inline" ><input type="radio" name="type" value="1" checked  />VIP卡密</label>
+						<label class="radio inline" ><input type="radio" name="type" value="2" >金币卡密</label>
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label">名称</label>
+					<div class="controls">
+						<select class="card_se" id="cate_name" name="product_id">
+								<option value="">请选择分类名称</option>
+
+							</select>
+						<span class="form-required">*</span>
+					</div>
+				</div>
+			
+			
+				<div class="control-group">
+					<label class="control-label">数量</label>
+					<div class="controls">
+						<input type="text" name="num" value="0">
+						<span class="form-required">*</span>
+					</div>
+				</div>
+			
+
+			</fieldset>
+			<div class="form-actions">
+				<button type="submit" class="btn btn-primary js-ajax-submit">生成</button>
+				<a class="btn" href="{:U('Kami/index')}">{:L('BACK')}</a>
+			</div>
+		</form>
+	</div>
+	<script src="__PUBLIC__/js/common.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/content_addtop.js"></script>
+	<script type="text/javascript">
+		$(function() {
+			initCategory();
+		})
+
+		$("input[name='type']").on("click",function(){
+			$("select[name='product_id']").html('<option value="">请选择分类名称</option>')
+			
+				var val=$(this).val();
+				if(val==1){ //VIP卡密
+					$.get("/api/public?service=User.getVipInfo", function(data) {
+						
+					        $.each(data.data.info[0].vipinfo, function(key, d) {
+					            $("select[name='product_id']").append(
+					                "<option value='"+d.id+"'>" + d.name
+					                + "</option>");
+					        });
+    				}, 'json');
+				}else{
+					$.get("/api/public?service=User.getChargeRules", function(data) {
+					        $.each(data.data.info, function(key, d) {
+					            $("select[name='product_id']").append(
+					                "<option value='"+d.id+"'>" + d.coin+'金币'
+					                + "</option>");
+					        });
+    				}, 'json');
+				}
+			});
+
+
+	function initCategory() {
+
+	    // ajax请求所有分类
+	    $.get("/api/public?service=User.getVipInfo", function(data) {
+	    	
+	        $.each(data.data.info[0].vipinfo, function(key, d) {
+	            $("select[name='product_id']").append(
+	                "<option value='"+d.id+"'>" + d.name
+	                + "</option>");
+	        });
+	    }, 'json');
+
+	}
+
+</script>
+</body>
+</html>

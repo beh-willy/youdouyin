@@ -1,0 +1,279 @@
+<admintpl file="header" />
+</head>
+<body>
+	<div class="wrap">
+		<ul class="nav nav-tabs">
+			
+			<li class="active"><a >圈子添加</a></li>
+		</ul>
+		<form method="post" class="form-horizontal js-ajax-form" action="{:U('Community/add_post')}"  enctype="multipart/form-data">
+			<fieldset>
+				<div class="control-group">
+					<label class="control-label">圈子状态</label>
+					
+						<div class="controls">
+							<label class="radio inline" ><input type="radio" name="status" value="1" checked  />通过</label>
+							<label class="radio inline" ><input type="radio" name="status" value="0" >不通过</label>
+						</div>
+					
+				</div>
+				<!-- <div class="control-group">
+					<label class="control-label">上下架状态</label>
+					<div class="controls">
+						<label class="radio inline" ><input type="radio" name="isdel" value="0" checked  />上架</label>
+						<label class="radio inline" ><input type="radio" name="isdel" value="1" >下架</label>
+					</div>
+				</div> -->
+
+				<div class="control-group">
+					<label class="control-label">所有者</label>
+					<div class="controls">
+						<label class="radio inline" ><input type="radio" name="owner" value="0" checked  />管理员</label>
+						<label class="radio inline" ><input type="radio" name="owner" value="1" >用户</label>
+					</div>
+				</div>
+
+				 <div class="control-group">
+					<label class="control-label">一级分类</label>
+					<div class="controls">
+						<select class="card_se" id="cate_name" name="cate">
+								<option value="">请选择一级分类</option>
+
+							</select>
+						<span class="form-required">*</span>
+					</div>
+				</div>
+
+				<div class="control-group" id="owner_uid" style="display: none;">
+					<label class="control-label">圈子所有者用户</label>
+					<div class="controls">
+						<input type="text" name="owner_uid" onkeyup="this.value=this.value.replace(/[^0-9-]+/,'');">
+						<span class="form-required">* 请填写用户id</span>
+					</div>
+				</div>
+				
+           
+				<div class="control-group">
+					<label class="control-label">圈子标题</label>
+					<div class="controls">
+						<input type="text" name="title">
+						<span class="form-required">*</span>
+					</div>
+				</div>
+				<!--<div class="control-group" style="height: 450px;">-->
+				<!--	<label class="control-label">内容</label>-->
+				<!--	<div class="controls">-->
+				<!--		<script type="text/plain" id="container" name="content"></script>-->
+						
+				<!--	</div>-->
+				<!--</div>-->
+				<div class="control-group" style="height: 450px;">
+					<label class="control-label">内容</label>
+					<div class="controls">
+						<textarea name="content"></textarea>
+<!--						<script type="text/plain" id="container" name="content"></script>-->
+<!--						<span class="form-required">*</span>-->
+					</div>
+				</div>
+
+				<!--<div class="control-group" style="height: 450px;">-->
+				<!--	<label class="control-label">内容</label>-->
+				<!--	<div class="controls">-->
+				<!--		<script type="text/plain" id="container" name="content"></script>-->
+				<!--		<span class="form-required">*</span>-->
+				<!--	</div>-->
+				<!--</div>-->
+				<!--<textarea id="content1" name="content" style="display: none;"></textarea>-->
+
+				 <div class="control-group">
+					<label class="control-label">展示类型</label>
+					<div class="controls">
+						<select class="card_se" name="show_types" onchange="show_type(this)">
+							<option selected="selected" value="1">图片</option>
+							<option  value="2">视频</option>
+						</select>
+						<span class="form-required">*</span>
+					</div>
+				</div>
+
+
+				<div class="control-group" id="imgs">
+					<label class="control-label">图片</label>
+					<div class="controls">
+								<div >
+									<input type="hidden" name="imgs" id="thumb2" value="">
+									<a href="javascript:void(0);" onclick="flashupload('thumb_images', '附件上传','thumb2',thumb_images,'1,jpg|jpeg|gif|png|bmp,1,,,1','','','');return false;">
+										    <img src="__TMPL__Public/assets/images/default-thumbnail.png" id="thumb2_preview" width="135" style="cursor: hand" />
+									</a>
+									<input type="button" class="btn btn-small" onclick="$('#thumb2_preview').attr('src','__TMPL__Public/assets/images/default-thumbnail.png');$('#thumb2').val('');return false;" value="取消图片">
+								</div>
+						<span class="form-required">*</span>
+					</div>
+				</div>
+
+				<div class="control-group" style="display: none;" id="Communitys">
+					<label class="control-label">视频</label>
+					<div class="controls">
+						<label class="radio inline" ><input type="radio" name="Community_upload_type" value="0" checked  />视频链接</label>
+						<label class="radio inline" ><input type="radio" name="Community_upload_type" value="1" >视频文件</label>
+					</div>
+				</div>
+
+				<div class="control-group" style="display: none;" id="Community_img">
+					<label class="control-label">视频封面</label>
+					<div class="controls">
+								<div >
+									<input type="hidden" name="thumb" id="thumb1" value="">
+									<a href="javascript:void(0);" onclick="flashupload('thumb_images', '附件上传','thumb1',thumb_images,'1,jpg|jpeg|gif|png|bmp,1,,,1','','','');return false;">
+										    <img src="__TMPL__Public/assets/images/default-thumbnail.png" id="thumb1_preview" width="135" style="cursor: hand" />
+									</a>
+									<input type="button" class="btn btn-small" onclick="$('#thumb1_preview').attr('src','__TMPL__Public/assets/images/default-thumbnail.png');$('#thumb1').val('');return false;" value="取消图片">
+								</div>
+						
+					</div>
+				</div>
+
+				<div class="control-group upload_Community_area" style="display: none;">
+					<label class="control-label">上传视频</label>
+					<div class="controls">
+						<input type="file" name="file" />
+						<span class="form-required"></span>
+					</div>
+				</div>
+
+				<div class="control-group">
+					<label class="control-label">是否置顶</label>
+					<div class="controls">
+						<label class="radio inline" ><input type="radio" name="istop" value="0" checked  />否</label>
+						<label class="radio inline" ><input type="radio" name="istop" value="1" >是</label>
+					</div>
+				</div>
+
+				<div class="control-group">
+					<label class="control-label">浏览量</label>
+					<div class="controls">
+						<input type="number" name="views" value="0">
+						<span class="form-required">初始化浏览量</span>
+					</div>
+				</div>
+
+				<div class="control-group Community_url_area" style="display: none;">
+					<label class="control-label">视频链接</label>
+					<div class="controls">
+						<input type="text" name="Communitylink">
+						<span class="form-required">* 以http://或https://开头</span>
+					</div>
+				</div>
+
+				
+
+			</fieldset>
+			<div class="form-actions">
+				<button type="submit" class="btn btn-primary js-ajax-submit">{:L('ADD')}</button>
+				<a class="btn" href="{:U('Community/passindex')}">{:L('BACK')}</a>
+			</div>
+		</form>
+	</div>
+	<script type="text/javascript" src="__PUBLIC__/js/common.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/content_addtop.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/ueditor/ueditor.config.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/ueditor/ueditor.all.min.js"></script>
+	
+	
+    <!-- 实例化编辑器 -->
+    <script type="text/javascript">
+        var ue = UE.getEditor('container');
+
+        ue.addListener("blur",function(){
+		  var ue = UE.getEditor('container');
+		     console.log(111);
+		  var desc = document.getElementById("content1");
+		  desc.value=ue.getContent();
+		  })
+    </script>
+  
+	<script type="text/javascript">
+
+		function show_type(e){
+
+			if($(e).val() == 1){
+				$('#imgs').show();
+				$('#Communitys').attr("style","display:none;");
+				$('#Community_img').attr("style","display:none;");
+				$(".Community_url_area").hide();
+				$(".upload_Community_area").hide();
+			}else{
+				$('#Communitys').show();
+				$(".Community_url_area").show();
+				$('#Community_img').show();
+				$('#imgs').attr("style","display:none;");
+			}
+		}
+
+
+		$(function(){
+
+				// 初始化直播一级分类
+		    initCategory();
+
+		    // 更改一级分类后的操作
+		   /* $("select[name='cate']").change(function() {
+
+		        var cateCode = $("select[name='cate']").val();
+
+		        getSubCate(cateCode);
+
+		    });*/
+
+
+
+			$("input[name='Community_upload_type']").click(function(){
+				var val=$("input[name='Community_upload_type']:checked").val();
+				console.log(val);
+				if(val==0){
+					$(".Community_url_area").show();
+					$(".upload_Community_area").hide();
+				}else{
+					$(".Community_url_area").hide();
+					$(".upload_Community_area").show();
+					$("input[name='href']").val('');
+				}
+			});
+
+			$("input[name='owner']").on("click",function(){
+				var val=$(this).val();
+				if(val==1){ //所有者为用户
+					$("#owner_uid").show();
+				}else{
+					$("#owner_uid").hide();
+				}
+			});
+
+		});
+
+function initCategory() {
+
+    var firstCateCode;
+    // ajax请求所有分类
+    $.get("/api/public", {
+        service : "Category.GetCategory",num:1
+
+    }, function(data) {
+        //console.log(data);
+        // console.log(data);
+        $.each(data.data.info, function(key, d) {
+            $("select[name='cate']").append(
+                "<option value='"+d.id+"'>" + d.name
+                + "</option>");
+        });
+
+        // 获取第一个分类的code
+        firstCateCode = data.data.info[0].id;
+        // 根据第一个一级分类code获取对应二级分类列表
+        //getSubCate(firstCateCode);
+    }, 'json');
+
+}
+	</script>
+</body>
+</html>

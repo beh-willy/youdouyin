@@ -1,0 +1,77 @@
+<admintpl file="header" />
+</head>
+<body>
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/simpleboot/css/admin.css"/>
+	<script src="__PUBLIC__/js/common.js"></script>
+	<script src="__PUBLIC__/js/socket.io.js"></script>
+	<script src="__PUBLIC__/js/admin.js"></script>
+	<div class="buyvip" id="buyvip"></div>
+	<div class="dds-dialog-bg" id="ds-dialog-bg"></div>
+	<div class="wrap">
+		<ul class="nav nav-tabs">
+			<li class="active"><a >监控</a></li>
+		</ul>
+		<form method="post" class="js-ajax-form" >
+        <ul>
+					<foreach name="lists" item="v">
+	    		<li class="mytd">
+					<span>开播时长:<?php 
+								$times = time()-$v['showid'];
+								$result = '';
+								$hour = floor($times/3600);
+                $minute = floor(($times-3600 * $hour)/60);
+                $second = floor((($times-3600 * $hour) - 60 * $minute) % 60);
+                $result = $hour.':'.$minute.':'.$second;
+                echo  $result;?></span>
+								<div  id="<?php echo $v['uid'];?>">
+                                    <object data="__PUBLIC__/js/live.swf?v=1224" id="video_10000004_object" width="200" height="320" style="background-color:#000000;" align="middle" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://fpdownload.macromedia.com/get/flashplayer/current/swflash.cab#version=9,0,0,0">
+                                        <param name="flashVars" value="&live_url={$v['url']}">
+                                        <param name="src" value="https://imgcache.qq.com/open/qcloud/video/flash/live.swf?v=1224">
+                                        <param name="wmode" value="window">
+                                        <param name="quality" value="High">
+                                        <param name="allowScriptAccess" value="always">
+                                        <param name="allowNetworking" value="all">
+                                        <param name="allowFullScreen" value="true">
+                                        <embed style="background-color:#000000;" id="video_10000004_embed" width="200" height="320" flashvars="&live_url={$v['url']}" align="middle" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" allowfullscreen="true" bgcolor="#000000" quality="high" src="__PUBLIC__/js/live.swf?v=1224" wmode="window" invokeurls="false" allownetworking="all" allowscriptaccess="always">
+                                    </object>   
+                                </div><br>
+								<span class="name">主播:<?php echo $v['userinfo']['user_nicename'];?></span>
+								<span>房间号:<?php echo $v['uid'];?></span>
+								<div>
+									<a  onclick="closeRoom('<?php echo $v['uid'];?>')" class="full_btn mybtn">关闭</a>
+									<!-- <a  onclick="fullRoom('<?php echo $v['uid'];?>')" class="full_btn mybtn">大屏</a> -->
+								</div>
+					</li>		
+					</foreach>
+				</ul>
+			<div class="pagination"  style="clear:both">{$page}</div>
+		</form>
+	</div>
+<script type="text/javascript" src="__PUBLIC__/playback/ckplayer.js" charset="utf-8"></script>
+<script type="text/javascript">
+     var socket = new io("{$config['chatserver']}");
+    function closeRoom(roomId){
+      var data2 = {"token":"1234567","roomnum":roomId};
+			$.ajax({
+				type: "get",
+				async: false,
+				url: './index.php?g=admin&m=Monitor&a=stopRoom',
+				data:{uid:roomId},
+				dataType: "jsonp",
+				jsonp: "callback",//传递给请求处理程序或页面的，用以获得jsonp回调函数名的参数名(一般默认为:callback)
+				success: function(data){
+					if(data.status !=0){
+						alert(data.info);
+					}else{
+						socket.emit("superadminaction",data2);
+						alert("房间已关闭");
+					}
+				},
+				error:function(XMLHttpRequest, textStatus, errorThrown){
+					alert('关闭失败，请重试');
+				}
+			});
+		}
+</script>
+</body>
+</html>

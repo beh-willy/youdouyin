@@ -1,0 +1,73 @@
+<admintpl file="header" />
+</head>
+<body>
+	<div class="wrap">
+		<ul class="nav nav-tabs">
+			<!-- <li ><a href="{:U('Exchange/index')}">映票兑换记录</a></li> -->
+			<li class="active"><a >编辑</a></li>
+		</ul>
+		<form method="post" class="form-horizontal js-ajax-form" action="{:U('Exchange/edit_post')}">
+		   <input type="hidden" name="id" value="{$urgeinfo['id']}">
+		   <input type="hidden" name="uid" value="{$urgeinfo['uid']}">
+			<fieldset>
+
+				<div class="control-group">
+			
+					<label class="control-label">会员</label>
+					<div class="controls">
+						<input type="text" name="" value="{$urgeinfo['userinfo']['user_nicename']} ( {$urgeinfo['uid']} )" readonly>
+						<span class="form-required">*</span>
+					</div>
+				</div>
+				<div class="control-group">
+					<if condition="$urgeinfo['type'] eq '0'" >
+						<label class="control-label">点赞数量</label>
+					<else/>
+						<label class="control-label">观看时长</label>
+					</if>
+					<div class="controls">
+						<input type="text" name="likenums" value="{$urgeinfo['likenums']}" readonly>
+						<span class="form-required">*</span>
+					</div>
+				</div>
+				<div class="control-group">
+					<if condition="$urgeinfo['type'] eq '0'" >
+						<label class="control-label">兑换金币数量</label>
+					<else/>
+						<label class="control-label">兑换钻石数量</label>
+					</if>
+					<div class="controls">
+						<input type="text" name="votenums"  value="{$urgeinfo['votenums']}" readonly>
+						<span class="form-required">*</span>
+					</div>
+				</div>
+				
+			
+				<div class="control-group">
+					<label class="control-label">状态</label>
+					<div class="controls">
+						<label class="radio inline" for="status_0"><input type="radio" name="status" value="0" id="status_0" <if condition="$urgeinfo['status'] eq '0'">checked</if>>处理中</label>
+						<label class="radio inline" for="status_1"><input type="radio" name="status" value="1" id="status_1" <if condition="$urgeinfo['status'] eq '1'">checked</if>>成功</label>
+						<label class="radio inline" for="status_2"><input type="radio" name="status" value="2" id="status_2" <if condition="$urgeinfo['status'] eq '2'">checked</if>>拒绝</label>
+					</div>
+				</div>
+
+			</fieldset>
+			<div class="form-actions">
+			 <if condition="$urgeinfo['status'] eq '0'" >
+				<button type="submit" class="btn btn-primary js-ajax-submit">{:L('EDIT')}</button>
+			
+			<else/>
+			</if>
+			<if condition="$urgeinfo['type'] eq '0'" >
+				<a class="btn" href="{:U('Exchange/index')}">{:L('BACK')}</a>
+			<else/>
+				<a class="btn" href="{:U('Exchange/coinindex')}">{:L('BACK')}</a>
+			</if>
+			</div>
+		</form>
+	</div>
+	<script src="__PUBLIC__/js/common.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/content_addtop.js"></script>
+</body>
+</html>

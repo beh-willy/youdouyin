@@ -1,0 +1,61 @@
+<admintpl file="header" />
+</head>
+<body>
+	<div class="wrap">
+		<ul class="nav nav-tabs">
+			<li ><a href="{:U('Level/experlevel_index')}">等级列表</a></li>
+			<li class="active"><a >编辑</a></li>
+		</ul>
+		<form method="post" class="form-horizontal js-ajax-form" action="{:U('Level/experlevel_edit_post')}">
+			<fieldset>
+				<div class="control-group">
+					<label class="control-label">等级</label>
+					<div class="controls">
+						<input type="text" name="levelid" value="{$experlevel['levelid']}">
+						<input type="hidden" name="id" value="{$experlevel['id']}">
+						<span class="form-required">*</span>
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label">等级名称</label>
+					<div class="controls">
+						<input type="text" name="levelname" value="{$experlevel['levelname']}">
+						<span class="form-required">*</span>
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label">等级经验上限</label>
+					<div class="controls">
+						<input type="text" name="level_up" value="{$experlevel['level_up']}" maxlength="9">
+						<span class="form-required">*</span>
+					</div>
+				</div>	
+				<div class="control-group">
+					<label class="control-label">图标</label>
+					<div class="controls">
+						<div>
+							<input type="hidden" name="icon" id="thumb2" value="{$experlevel['icon']}">
+							<a href="javascript:void(0);" onclick="flashupload('thumb_images', '附件上传','thumb2',thumb_images,'1,jpg|jpeg|gif|png|bmp,1,,,1','','','');return false;">
+								<if condition="$experlevel['icon'] neq ''">
+										<img src="{$experlevel['icon']}" id="thumb2_preview" width="135" style="cursor: hand" />
+								<else/>
+										<img src="__TMPL__Public/assets/images/default-thumbnail.png" id="thumb2_preview" width="135" style="cursor: hand" />
+								</if>
+							</a>
+							<input type="button" class="btn btn-small" onclick="$('#thumb2_preview').attr('src','__TMPL__Public/assets/images/default-thumbnail.png');$('#thumb2').val('');return false;" value="取消图片">
+						</div>
+						<span class="form-required"></span>
+					</div>
+				</div>				
+	
+			</fieldset>
+			<div class="form-actions">
+				<button type="submit" class="btn btn-primary js-ajax-submit">{:L('EDIT')}</button>
+				<a class="btn" href="{:U('Level/experlevel_index')}">{:L('BACK')}</a>
+			</div>
+		</form>
+	</div>
+	<script src="__PUBLIC__/js/common.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/content_addtop.js"></script>
+</body>
+</html>

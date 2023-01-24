@@ -1,0 +1,47 @@
+<admintpl file="header" />
+</head>
+<body>
+	<div class="wrap">
+		<ul class="nav nav-tabs">
+			<li ><a href="{:U('Oscar/videoindex')}">举报设置列表</a></li>
+			<li class="active"><a >编辑</a></li>
+		</ul>
+		<form method="post" class="form-horizontal js-ajax-form" action="{:U('Oscar/edit_oscarvideopost')}">
+		   <input type="hidden" name="id" value="{$videoinfo['id']}">
+			<fieldset>
+				<div class="control-group">
+					<label class="control-label">视频类型</label>
+					<div class="controls">
+						<label class="radio inline" for="active_true"><input type="radio" name="type" value="0" <if condition="$videoinfo['type'] eq '0'">checked</if> id="active_true" />短视频</label>
+						<label class="radio inline" for="active_false"><input type="radio" name="type" value="1" <if condition="$videoinfo['type'] eq '1'">checked</if> id="active_false">方言秀视频</label>
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label">奖项名称</label>
+					<div class="controls">
+						<select class="select_2" name="oscarid">
+								 <foreach name="oscarlists" item="vo">
+									<option value="{$vo['id']}" <if condition="$vo['id'] eq $videoinfo['oscarid']">selected</if>>{$vo['name']}</option> 
+								</foreach>								
+						</select>
+						<span class="form-required">*</span>
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label">视频ID</label>
+					<div class="controls">
+						<input type="text" name="videoid" value="{$videoinfo['videoid']}">
+						<span class="form-required">*</span>
+					</div>
+				</div>
+			</fieldset>
+			<div class="form-actions">
+				<button type="submit" class="btn btn-primary js-ajax-submit">{:L('EDIT')}</button>
+				<a class="btn" href="{:U('Oscar/videoindex')}">{:L('BACK')}</a>
+			</div>
+		</form>
+	</div>
+	<script src="__PUBLIC__/js/common.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/content_addtop.js"></script>
+</body>
+</html>

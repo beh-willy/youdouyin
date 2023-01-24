@@ -1,0 +1,161 @@
+<admintpl file="header" />
+</head>
+<body>
+	<div class="wrap">
+		<ul class="nav nav-tabs">
+			<li class="active"><a >添加分红</a></li>
+		</ul>
+		<form method="post" class="form-horizontal js-ajax-form">
+			<fieldset>
+				
+				
+
+				<div class="control-group">
+					<label class="control-label">广告金额</label>
+					<div class="controls">
+						<input type="text" name="title" id="ad_revenue">
+						<span class="form-required">* 单位（元）</span>
+					</div>
+				</div>
+
+			</fieldset>
+			<div class="form-actions">
+				<button type="submit" id="submit" class="btn btn-primary">{:L('ADD')}</button>
+				<a class="btn" href="{:U('Bonus/classify')}">{:L('BACK')}</a>
+			</div>
+		</form>
+	</div>
+	<script src="__PUBLIC__/js/common.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/content_addtop.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/layer/layer.js"></script>
+
+	<script type="text/javascript">
+
+		var isAdd=0;
+
+		var lastid=0; 
+		
+		$("#submit").click(function(){
+
+				if(isAdd==1){
+					return;
+				}
+
+				var revenue=$("#ad_revenue").val();
+
+				if(revenue==""){
+					layer.msg("请填写广告金额");
+					return;
+				}
+
+				if(isNaN(revenue)){
+					layer.msg("广告金额请填写数字");
+					return;
+				}
+
+				if(revenue<=0){
+					layer.msg("广告金额请填写正数");
+					return;
+				}
+
+				isAdd=1;
+
+				$("#submit").attr("disabled",true).text("分红发放中……");
+
+				$.ajax({
+					url: '/index.php?g=Admin&m=Bonus&a=add_post',
+					type: 'POST',
+					dataType: 'json',
+					data: {revenue:revenue},
+
+					beforeSend:function(){
+
+						layer.open({
+						  title:"提示",
+						  type: 1,
+						  skin: 'layui-layer-demo', //样式类名
+						  closeBtn: 0, //不显示关闭按钮
+						  anim: 2,
+						  area: ['300px', '150px'],
+						  shadeClose: true, //开启遮罩关闭
+						  content: "<div style='width:90%;padding:5%;'>分红发放中…… 请耐心等待</div>"
+						});
+
+					},
+					success:function(data){
+
+
+						var code=data.code;
+						if(code!=0){
+							layer.msg(data.msg,{time:1000},function(){
+								layer.closeAll();
+							});
+
+							$("#submit").attr("disabled",false).text("添加");
+
+							return;
+						}
+
+						var id=data.info.id;
+						var count=data.info.count;
+						var total=data.info.total;
+						var num=200; //每次查询推送人数
+
+
+						do{
+
+							$.ajax({
+								url: '/index.php?g=Admin&m=Bonus&a=sendBonus',
+								type: 'POST',
+								dataType: 'json',
+								data: {lastid: lastid,num:num,msgid:id,total:total},
+								async:false,
+								
+								success:function(data){
+									if(data.code!=0){
+										layer.msg(data.msg);
+										return;
+									}
+									count=count-num;
+									lastid=data.info;
+
+									console.log("总数:"+count);
+									console.log("开始:"+lastid);
+
+									if(count<=num){
+										layer.msg("分红成功",{time:1000},function(){
+											layer.closeAll('dialog');
+											location.reload();
+										});
+									}
+
+									
+
+								},
+								error:function(e){
+									console.log(e);
+								}
+							});
+
+
+
+						}while(count>0);
+
+					},
+					error:function(e){
+						isAdd=0;
+						$("#submit").attr("disabled",false).text("添加");
+						layer.msg(e);
+					}
+				});
+				
+				
+			});
+
+
+
+		
+	</script>
+	
+</body>
+</html>

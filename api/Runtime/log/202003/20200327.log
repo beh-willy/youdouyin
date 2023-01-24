@@ -1,0 +1,10 @@
+2020-03-27 23:26:26|ERROR|Pay.chargepay|PDOException: Incorrect decimal value: '1,500.00' for column 'money' at row 1 in /www/wwwroot/jdsp.appyuanma.cn/api/PhalApi/NotORM/NotORM/Result.php:240
+Stack trace:
+#0 /www/wwwroot/jdsp.appyuanma.cn/api/PhalApi/NotORM/NotORM/Result.php(317): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/jdsp.appyuanma.cn/api/PhalApi/NotORM/NotORM/Result.php(334): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/jdsp.appyuanma.cn/api/Appapi/Model/Pay.php(34): NotORM_Result->insert(Array)
+#3 /www/wwwroot/jdsp.appyuanma.cn/api/Appapi/Domain/Pay.php(10): Model_Pay->getPayData(11738, '4', 'wxjspay', 1500, '2')
+#4 /www/wwwroot/jdsp.appyuanma.cn/api/Appapi/Api/Pay.php(73): Domain_Pay->getPayData(11738, '4', 'wxjspay', 1500, '2')
+#5 /www/wwwroot/jdsp.appyuanma.cn/api/PhalApi/PhalApi.php(57): Api_Pay->chargepay()
+#6 /www/wwwroot/jdsp.appyuanma.cn/api/public/index.php(14): PhalApi->response()
+#7 {main}
