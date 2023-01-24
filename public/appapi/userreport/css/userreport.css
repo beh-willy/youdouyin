@@ -1,0 +1,200 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica;
+}
+*{
+	-webkit-tap-highlight-color:rgba(0, 0, 0, 0);  
+	-moz-tap-highlight-color:rgba(0, 0, 0, 0);  
+	-ms-tap-highlight-color:rgba(0, 0, 0, 0);  
+	-o-tap-highlight-color:rgba(0, 0, 0, 0);  
+	tap-highlight-color:rgba(0, 0, 0, 0);  
+}
+body {
+	 background-color: #110D24;
+	 font-size: 14px;
+}
+
+.woring_title{
+	height: 50px;
+	line-height: 50px;
+	padding-left: 15px;
+	color: #CA2F71;
+	font-size: 0.8rem;
+}
+
+.report_list{
+	background:#15102C;
+}
+
+.report_list li{
+	width: 90%;
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid #1D1934;
+	list-style: none;
+	position: relative;
+	margin: 0 auto;
+
+}
+
+
+
+.report_list_title{
+	width: 93%;
+	height: 50px;
+	line-height: 50px;
+	font-size: 1rem;
+	color: #939394;
+	position: absolute;
+	left: 0;
+
+}
+
+.report_list_right{
+	width: 7%;
+	position: absolute;
+	right:0;
+
+}	
+
+/*.report_list_right input{
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	-webkit-appearance:none;
+	border-radius: 50%;
+	border:1px solid #EB3780;
+}*/
+
+/**
+* 单选框自定义样式
+**/
+.report_list_right input[type=radio]{
+    /*去除浏览器默认样式*/
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /*自定义样式*/
+    position: relative;
+    top: 20px;
+    display: inline-block;
+    vertical-align: top;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #EB3780;
+    outline: none;
+    cursor: pointer;
+    /*设置为圆形，看起来是个单选框*/
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+/**
+* 单选框 选中之后的样式
+**/
+.report_list_right input[type=radio]:after{
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    display: block;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background: #EB3780;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    transform: scale(0);
+    /*增加一些动画*/
+    -webkit-transition : all ease-in-out 50ms;
+    -moz-transition : all ease-in-out 50ms;
+    transition : all ease-in-out 50ms;
+}
+.report_list_right input[type=radio]:checked:after{
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    transform: scale(1);
+}
+
+
+.report_list li.border_none{
+	border: none;
+}
+
+.agreement{
+	height: 50px;
+	line-height: 50px;
+	padding-left: 15px;
+	color: #939394;
+	font-size: 0.8rem;
+	margin-top: 20px;
+}
+
+.agreement a{
+	text-decoration: none;
+	color:#939394;
+}
+
+.agreement .agree_area{
+	float: left;
+	width: 13px;
+	height: 13px;
+	line-height: 13px;
+	margin-top: 17px;
+	margin-right: 20px;
+	border-radius: 50%;
+	text-align: center;
+	border:1px solid #E9377E;
+	
+}
+
+.agreement .agree_area img{
+	width: 8px;
+	height: 8px;
+	margin-top: 0px;
+	display: none;
+	margin-left: -1px;
+}
+
+.reportarea{
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	margin-top: 10%;
+	
+}
+
+.reportarea input{
+	width: 100%;
+	height: 100%;
+	outline: none;
+	border: none;
+	-webkit-appearance:none;
+	color: #CA2F71;
+	font-size: 1.1rem;
+	background: #15102C;
+}
+
+.report_con{
+	display: none;
+}
+
+
+/*.fl{
+	float: left;
+}
+
+.fr{
+	float: right;
+}
+
+.clearboth{
+	clear: both;
+}*/

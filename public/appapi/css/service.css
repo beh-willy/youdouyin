@@ -1,0 +1,135 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica;
+}
+*{
+	-webkit-tap-highlight-color:rgba(0, 0, 0, 0);  
+	-moz-tap-highlight-color:rgba(0, 0, 0, 0);  
+	-ms-tap-highlight-color:rgba(0, 0, 0, 0);  
+	-o-tap-highlight-color:rgba(0, 0, 0, 0);  
+	tap-highlight-color:rgba(0, 0, 0, 0);  
+}
+body {
+	 background-color: #110D24;
+	 font-size: 14px;
+	 font-family: "微软雅黑";
+	 width: 100%;
+}
+.service_list{
+	background: #15112C;
+}
+
+.service_list li{
+	height: 80px;
+	line-height: 80px;
+	border-bottom: 1px solid #1D1934;
+	color: #939394;
+	width: 90%;
+	margin:0 auto;
+	list-style: none;
+	background: url(../images/right.png) no-repeat center right 3% #15112C;
+	position: relative;
+}
+
+.service_list li .service_list_left{
+	width: 70%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	/*padding-left: 5%;*/
+}
+
+.service_list li .service_list_left p{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+}
+
+.service_list li .service_list_left .service_list_tips{
+	line-height: 55px;
+	font-size: 1rem;
+}
+
+.service_list li .service_list_left .service_list_cons{
+	color: #FFF;
+}
+
+
+.service_list li .service_list_right{
+	position: absolute;
+	padding-right: 5%;
+	right: 0;
+	top: 0;
+	width: 25%;
+	text-align: right;
+}
+
+/*15112C*/
+
+a{
+	text-decoration: none;
+}
+
+.fl{
+	float: left;
+}
+
+.fr{
+	float: right;
+}
+
+.clearboth{
+	clear: both;
+}
+
+.shadow{
+	display: none;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: #000;
+	z-index: 2;
+	opacity:0.4;
+	filter:alpha(opacity=40); /* 针对 IE8 以及更早的版本 */
+}
+
+.confirmArea{
+	display: none;
+	height: 15%;
+	width: 80%;
+	background: #CCCDD1;
+	position: absolute;
+	z-index: 3;
+	left: 10%;
+	top: 35%;
+	border-radius: 10px;
+}
+
+.confirmMobile{
+	height: 50%;
+	border-bottom: 1px solid #626573;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 1.2rem;
+}
+
+.confirmBtnArea{
+	position: relative;
+	width: 100%;
+}
+
+.confirmBtnArea p{
+	width: 50%;
+	position: absolute;
+	text-align: center;
+	color: #397CF4;
+}
+
+.confirm_cancel{
+	border-right: 1px solid #626573;
+	left: 0;
+}
+.confirm_confirm{
+	right: 0;
+}

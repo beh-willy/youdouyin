@@ -1,0 +1,84 @@
+
+.tabList{
+	width: 100%;
+	height: 51px;
+}
+.tabList li{
+	width: 50%;
+	float: left;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	border-bottom: 1px solid #555260;
+	color: #C9C8CE;
+}
+
+.scores_tab_body{
+	width: 100%;
+	overflow:auto;
+}
+
+
+#incomeArea .list_title{
+	position: relative;
+}
+
+.income_title .datetime{
+	width:40%;
+}
+
+.income_title .type{
+	width:30%;
+}
+
+.income_title .money{
+	width:30%;
+}
+
+.tabList li.on{
+	border-bottom: 1px solid #8F8E98;
+}
+
+
+.income_list li{
+	height: 50px;
+	line-height: 50px;
+}
+
+.income_list li p{
+	float: left;
+	text-align: center;
+	color: #8c8c8c;
+}
+
+.income_list .datetime{
+	width:40%;
+}
+
+.income_list .type{
+	width:30%;
+}
+
+.income_list .money{
+	width:30%;
+}
+
+.scores_tab_bd2{
+	display: none;
+}
+
+#out_list .list_title{
+	position: relative;
+}
+
+#out_list .list{
+	margin-top: 0px;
+}
+
+.scores_tab_body .no_list{
+	text-align: center;
+    height:200px;
+    line-height: 200px;
+    color:#8c8c8c;
+	text-align: center;
+}

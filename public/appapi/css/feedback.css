@@ -1,0 +1,145 @@
+
+.feedback{
+    background:#110D24;
+    font-size: 14px;
+}
+.feedback .feedback_body{
+   
+    background:#15102C;
+    font-size: 14px;
+}
+.feedback .feedback_body .feedback_textarea{
+    position:relative;
+    border-bottom:0px solid #bfbfbf;
+    padding: 15px;
+    border: none;
+    outline: none;
+    height: 300px;
+}
+.feedback .feedback_body .feedback_textarea textarea{
+    width:100%;
+    height:200px;
+    line-height:25px;
+    color:#d7d7d7;
+    font-size:14px;
+    resize:none;
+    border:none;
+    background: #15102C;
+    overflow-y: auto;
+}
+.feedback .feedback_body .feedback_textarea .tips{
+    position:absolute;
+    bottom:10px;
+    right:10px;
+    color:#d7d7d7;
+    font-size:12px;
+}
+
+
+/***********************联系方式**************************/
+.feedback .feedback_body .feedback_tel{
+    height: 50px;
+    /*background: #CCC;*/
+    line-height: 50px;
+    border-bottom: 0px solid #F2F2F2;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.feedback .feedback_body .feedback_tel .feedback_tel_con{
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.feedback .feedback_body .feedback_tel .feedback_tel_con input{
+    width: 98%;
+    height: 30px;
+    line-height: 30px;
+    -webkit-appearance:none; /*去除input默认样式*/
+    outline: none;
+    border:0;
+    background: none;
+    color: #d7d7d7;
+    font-size: 1rem;
+}
+
+.clearboth{
+    clear: both;
+}
+
+/***********************联系方式**************************/
+
+.feedback .feedback_body .feedback_bottom{
+    position:relative;
+    height:50px;
+    line-height: 50px;
+    color: #C52F6E;
+    text-align: center;
+    font-size: 1rem;
+}
+.feedback .feedback_body .feedback_img{
+    position: relative;
+    bottom: -12px;
+}
+.feedback .feedback_body .feedback_img img{
+    margin-top: 5px;
+    width: 75px;
+    height:75px;
+    border-radius:5px;
+}
+.feedback .feedback_body .feedback_img #upload{
+	display:none;
+}
+
+.feedback .feedback_body .feedback_img .shadd {
+    display: none;
+    position: absolute;
+	top: 5px;
+	width: 85px;
+    height: 85px;
+	border-radius:5px;
+	background: rgba(0,0,0,0.4);
+	
+}
+
+.feedback .feedback_body .feedback_img .title-upload {
+    margin-top: 20px;
+	width: 100%;
+    color: #fff;
+	font-size: 0.8em;
+	text-align: center;
+}
+
+.feedback .feedback_body .feedback_img #progress1{
+    margin-left: 10%;
+    width: 80%;
+    margin-top: 17%;
+    height: 6px;
+    border: solid 1px #fff;
+    background-color: #ccc;
+    border-radius: 20px;
+    position: relative;
+}
+
+.feedback .feedback_body .feedback_img .progress {
+    width: 0;
+    height: 4px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #fff;
+}
+
+.feedback .feedback_phone_tips{
+    background: #110D24;
+    height: 40px;
+    line-height: 40px;
+    color: #848486;
+    font-size: 0.8rem;
+}
+
+

@@ -1,0 +1,69 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica;
+}
+*{
+	-webkit-tap-highlight-color:rgba(0, 0, 0, 0);  
+	-moz-tap-highlight-color:rgba(0, 0, 0, 0);  
+	-ms-tap-highlight-color:rgba(0, 0, 0, 0);  
+	-o-tap-highlight-color:rgba(0, 0, 0, 0);  
+	tap-highlight-color:rgba(0, 0, 0, 0);  
+}
+body {
+	 background-color: #110D24;
+	 font-size: 14px;
+	 font-family: "微软雅黑";
+}
+
+.icon_area{
+	height: 100px;
+	line-height: 100px;
+	margin-top: 30px;
+	text-align: center;
+}
+.icon_area img{
+	width: 60px;
+	height: 60px;
+	vertical-align: middle;
+	max-width: 100px;
+	max-height: 100px;
+}
+.edition{
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	color: #8C8C8D;
+	font-size: 1.0rem;
+}
+
+.artice_list{
+	background: #15102C;
+}
+.artice_list li{
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid #1D1934;
+	color: #939394;
+	width: 90%;
+	margin-left: 5%;
+	font-size: 1rem;
+	background: url(../images/right.png) no-repeat center right -3%;
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+.fl{
+	float: left;
+}
+
+.fr{
+	float: right;
+}
+
+.clearboth{
+	clear: both;
+}

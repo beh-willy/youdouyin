@@ -1,0 +1,276 @@
+*{
+	padding:0;
+	margin: 0;
+}
+*{
+	-webkit-tap-highlight-color:rgba(0, 0, 0, 0);  
+	-moz-tap-highlight-color:rgba(0, 0, 0, 0);  
+	-ms-tap-highlight-color:rgba(0, 0, 0, 0);  
+	-o-tap-highlight-color:rgba(0, 0, 0, 0);  
+	tap-highlight-color:rgba(0, 0, 0, 0);  
+}
+body {
+	font:14px/1.5 Arial, '\5FAE\8F6F\96C5\9ED1';
+	background:#efefef;
+}
+ul,ol,li { 
+	list-style-type:none;
+}
+img {
+	border:none;
+	vertical-align:middle;
+}
+.clear{
+	clear:both;
+}
+.clear:after{
+	display:block;
+	content:" ";
+	clear:both;
+}
+.hide{
+	display:none;
+}
+.main{
+	margin-bottom:53px;
+	background:#fff;
+}
+.main .top{
+	
+}
+.main .top img{
+	max-width:100%;
+	max-height:150px;
+}
+.tab{
+	margin: 20px 0 5px 0;
+    height: 35px;
+}
+.tab ul{
+	width: 50%;
+    margin: 0 auto;
+}
+
+.tab ul li{
+	float:left;
+	width:50%;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	font-size:12px;
+	color:#ffbe00;
+	background:#fff;
+	border:1px solid #ffbe00;
+	margin-left:-1px;
+	border-right:none;
+}
+.tab ul li:first-child{
+	border-radius:5px 0 0 5px;
+}
+.tab ul li:last-child{
+	border-right:1px solid #ffbe00;
+	margin-right:-1px;
+	border-radius: 0 5px 5px 0;
+}
+
+.tab ul li.on{
+	background:#ffbe00;
+	color:#fff;
+}
+.main .vip-time{
+	width:80%;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	color:#fdc30a;
+	border:1px solid #fdc30a;
+	border-radius:10px;
+	margin:20px auto 0;
+}
+.main .vip-privilege{
+
+}
+
+.main .vip-privilege .privilege-title{
+	height:50px;
+	line-height:50px;
+	padding-left:30px;
+	font-size:16px;
+	
+}
+
+.main .vip-privilege .privilege-list ul li{
+	position:relative;
+	padding:10px 0 10px 70px;
+	border-top:1px solid #e5e5e5;
+}
+
+.main .vip-privilege .privilege-list ul li .thumb{
+	position:absolute;
+	top:10px;
+	left:10px;
+	width:40px;
+	height:40px;
+	text-align:center;
+	
+}
+.main .vip-privilege .privilege-list ul li .thumb img{
+	width:100%;
+	height:100%;
+}
+.main .vip-privilege .privilege-list ul li .info{ 
+	
+}
+.main .vip-privilege .privilege-list ul li .info .info-title{
+	color:#000;
+	font-size:16px;
+}
+.main .vip-privilege .privilege-list ul li .info .info-des{
+	color:#999999;
+	font-size:12px;
+}
+.main .vip-privilege .privilege-list ul li .info .tip{
+	color:#bbb;
+	font-size:12px;
+}
+.buy{
+	position:fixed;
+	left:0;
+	bottom:0;
+	width:100%;
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	color:#fff;
+	background:#ffbe00;
+	font-size:16px;
+}
+
+/* 购买弹窗 */
+.buy_body{
+	background:#fff;
+}
+.buy_user{
+	padding:0 10px;
+	height:50px;
+	line-height:50px;
+	color:#676767;
+	font-size:18px;
+	border-bottom:1px solid #e5e5e5;
+}
+.buy_user span{
+	color:#000;
+}
+
+.buy-title{
+	height:30px;
+	line-height:30px;
+	color:#676767;
+}
+.buy_type{
+	padding:10px;
+	border-bottom:1px solid #e5e5e5;
+}
+.buy_tab{
+    height: 50px;
+}
+.buy_tab ul{
+    margin: 0 auto;
+}
+
+.buy_tab ul li{
+	float:left;
+	width:48%;
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	font-size:12px;
+	color:#000;
+	background:#ffecb2;
+	border:1px solid #ffecb2;
+	border-radius: 25px;
+	margin-left:1%;
+	margin-right:1%;
+	-moz-box-sizing: border-box;  /*Firefox3.5+*/
+	-webkit-box-sizing: border-box; /*Safari3.2+*/
+	-o-box-sizing: border-box; /*Opera9.6*/
+	-ms-box-sizing: border-box; /*IE8*/
+	box-sizing: border-box;
+}
+
+.buy_tab ul li.on{
+	border:1px solid #ffbe00;
+	background:#fff;
+	color:#ffbe00;
+}
+
+.buy_tab ul li .vip{
+	display: inline-block;
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    margin-top: -5px;
+	
+}
+.buy_tab ul li .vip1{
+	background:url("../images/vip/vip1.png") no-repeat center;
+	background-size:30px;
+}
+
+.buy_tab ul li .vip2{
+	background:url("../images/vip/vip2.png") no-repeat center;
+	background-size:30px;
+}
+
+.buy_length{
+	padding:10px;
+	border-bottom:1px solid #e5e5e5;	
+}
+.buy_tab_body{
+	
+}
+
+.buy_tab_body ul{
+	
+}
+.buy_tab_body ul li{
+	float:left;
+	width:24%;
+	height:50px;
+	line-height:20px;
+	text-align:center;
+	font-size:16px;
+	color:#010100;
+	background:#ffecb2;
+	border:1px solid #ffecb2;
+	border-radius: 25px;
+	margin:5px 0.5%;
+	padding:5px 0;
+	-moz-box-sizing: border-box;  /*Firefox3.5+*/
+	-webkit-box-sizing: border-box; /*Safari3.2+*/
+	-o-box-sizing: border-box; /*Opera9.6*/
+	-ms-box-sizing: border-box; /*IE8*/
+	box-sizing: border-box;
+}
+.buy_tab_body ul li span{
+	color:#6d616d;
+	font-size:12px;
+}
+.buy_tab_body ul li.on{
+	background:#fff;
+	color:#febf00;
+}
+.buy_tab_body ul li.on span{
+	color:#febf00;
+}
+
+.submit{
+	width:100%;
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	color:#fff;
+	background:#ffbe00;
+	font-size:16px;
+	margin-top:15px;
+}
