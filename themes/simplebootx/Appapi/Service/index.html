@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta content="telephone=no" name="format-detection">
+    <title>联系客服</title>
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/appapi/css/service.css?t={$time}">
+
+</head>
+<body>
+<div class="shadow"></div> 
+<ul class="service_list">
+    
+
+    <li onclick="copy_qq()" style="background-image: none;">
+        <div class="service_list_left">
+            <p class="service_list_tips">{$sitename}官方客服QQ</p>
+            <p class="service_list_cons">{$info['qq']}</p>
+        </div>
+        <div class="service_list_right">点击复制</div>
+    </li>
+
+    <li onclick="showConfirmCall()">
+        <div class="service_list_left">
+            <p class="service_list_tips">{$sitename}官方客服电话</p>
+            <p class="service_list_cons">{$info['mobile']}</p>
+        </div>
+        <div class="service_list_right"></div>
+    </li>
+   
+</ul>
+
+<div class="confirmArea">
+    <div class="confirmMobile">{$info['mobile']}</div>
+    <div class="confirmBtnArea">
+        <p class="confirm_cancel">取消</p>
+        <p class="confirm_confirm">呼叫</p>
+    </div>
+</div>
+<script type="text/javascript" src="__PUBLIC__/js/jquery.js"></script>
+<script type="text/javascript" src="__PUBLIC__/appapi/js/service.js?t={$time}"></script>
+<script type="text/javascript" src="__PUBLIC__/layer/layer.js"></script>
+
+<script type="text/javascript">
+    
+    var mobile='{$info['mobile']}';
+    var qq='{$info['qq']}';
+    function showConfirmCall(){
+
+        $(".shadow").show();
+        $(".confirmArea").show();
+    }
+
+    function copy_qq(){
+        location.href="copy://"+qq;
+        layer.msg('复制成功', {time:1000},function(){
+            location.href="copy://"+qq;
+        });
+
+    }
+</script>
+</body>
+</html>

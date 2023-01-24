@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta content="telephone=no" name="format-detection">
+	<link type="text/css" rel="stylesheet" href="__PUBLIC__/layer/theme/default/layer.css"/>
+<!-- 	<link type="text/css" rel="stylesheet" href="__PUBLIC__/appapi/css/common.css"/> -->
+	<link type="text/css" rel="stylesheet" href="__PUBLIC__/appapi/css/feedback.css?t={$time}"/>
+    <title>我要反馈</title>
+</head>
+<body class="feedback">
+    <div class="feedback_body">
+        <div class="feedback_textarea">
+            <textarea class="textarea" id="content" placeholder="请将您遇到的问题/产品建议反馈给我们。建议您尽可能详细的描述问题，便于运营童鞋帮你解决~" maxlength="200"></textarea>
+            <div class="tips">
+                <span id="input_nums">0</span>/200
+            </div>
+
+            <div class="feedback_img">
+                <img src="__PUBLIC__/appapi/images/feedback/upload.png" class="fl img-sfz" data-index="ipt-file1" onclick="file_click($(this))">
+                <div class="shad shadd" data-select="ipt-file1">
+                    <div class="title-upload">正在上传中...</div>
+                    <div id="progress1">
+                        <div class="progress ipt-file1"></div>
+                    </div>
+                </div>
+                <input value="" type="hidden" name="thumb" id="thumb" class="sf1">
+                <div id="upload"></div>
+            </div>
+
+        </div>
+
+        
+    </div>
+
+    <div class="feedback_body feedback_phone_tips" style="">
+        您的联系方式有助于我们沟通改善问题，仅工作人员可见
+    </div>
+    <div class="feedback_body" style="margin-top: 5px;">
+        <div class="feedback_tel">
+            
+             <div class="feedback_tel_con">
+                 <input type="input" id="contactMsg" placeholder="QQ/微信/邮箱/联系电话">
+             </div>
+             <div class="clearboth"></div>
+        </div>
+    </div>
+
+    <div class="feedback_body" style="margin-top:10px;">
+        <div class="feedback_bottom">提交反馈</div>    
+    </div>
+
+    <script>
+		var uid='{$uid}';
+		var token='{$token}';
+		var model='{$model}';
+		var version='{$version}';
+	</script>
+	<script src="__PUBLIC__/js/jquery.js"></script>
+	<script src="__PUBLIC__/layer/layer.js"></script>
+	<script src="__PUBLIC__/appapi/js/ajaxfileupload.js"></script>
+    <script src="__PUBLIC__/js/function.js"></script>
+	<script src="__PUBLIC__/appapi/js/feedback.js?t={$time}"></script>
+</body>
+</html>

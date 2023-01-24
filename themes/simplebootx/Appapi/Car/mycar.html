@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta content="telephone=no" name="format-detection" />
+		<title>我的坐骑</title>
+		<link type="text/css" rel="stylesheet" href="__PUBLIC__/home/css/layer.css"/>
+		<link href='__PUBLIC__/appapi/css/car.css' rel="stylesheet" type="text/css" >
+	</head>
+<body >
+	<div class="main">
+		<div class="top">
+			<img src="__PUBLIC__/appapi/images/car/car.png">
+		</div>
+		<div class="carlist">
+			<ul>
+				<volist name="user_carlist" id="v">
+				<li>
+					<div class="thumb">
+						<img src="{$v['carinfo']['thumb']}">
+					</div>
+					<div class="name">
+						{$v['carinfo']['name']}
+					</div>
+					<div class="coin">
+						到期时间<br>{$v['endtime']|date='Y-m-d',###}
+					</div>
+					<div class="set" data-carid="{$v['carid']}"  data-status="{$v['status']}">
+						<if condition="$v['status'] eq '1'">
+						卸载
+						<else/>
+						使用
+						</if>
+						
+					</div>
+				</li>
+				</volist>
+			</ul>
+		</div>
+		
+	</div>
+</body>
+<script>
+	var uid='{$uid}';
+	var token='{$token}';
+</script>
+<script src="__PUBLIC__/js/jquery.js"></script>
+<script src="__PUBLIC__/home/js/layer.js"></script>
+<script src="__PUBLIC__/appapi/js/car.js"></script>
+
+</body>
+</html>

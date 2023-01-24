@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta content="telephone=no" name="format-detection" />
+		<title>靓号</title>
+		<link type="text/css" rel="stylesheet" href="__PUBLIC__/home/css/layer.css"/>
+		<link type="text/css" rel="stylesheet" href="__PUBLIC__/home/css/swiper-3.4.2.min.css"/>
+		<link href='__PUBLIC__/appapi/css/liang.css' rel="stylesheet" type="text/css" >
+	</head>
+<body >
+	<div class="main">
+		<!-- Swiper -->
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<volist name="lianglist" id="v">
+				<div class="swiper-slide <if condition="$i eq '1'"> on</if>">{$v['length']}位靓号</div>
+				</volist>
+			</div>
+		</div>
+		<volist name="lianglist" id="v" key="k">
+		<div class="list <if condition="$k neq '1'"> hide</if>">
+			<div class="list_top">
+				尊贵靓号
+				<a href="javascript:void(0);" data-length="{$v['length']}">换一批</a>
+			</div>
+			<ul>
+				<volist name="v.list" id="vo">
+				<li>
+					<div class="thumb"></div>
+					<div class="info">
+						<p class="name">{$vo['name']}</p>
+						<p class="coin">{$vo['coin']}{$config['name_coin']}</p>
+					</div>
+					<div class="buy" data-id="{$vo['id']}" data-name="{$vo['name']}" data-coin="{$vo['coin']}{$config['name_coin']}">
+						购买
+					</div>
+				</li>
+				</volist>
+			</ul>
+		</div>
+		</volist>
+		<div class="tips">
+			<div class="title">尊贵特权</div>
+			<div class="info">
+				<p>1.发言时会携带尊贵靓号标识</p>
+			</div>
+		</div>
+	</div>
+
+</body>
+<script>
+	var name_coin='{$config['name_coin']}';
+	var uid='{$uid}';
+	var token='{$token}';
+</script>
+<script src="__PUBLIC__/js/jquery.js"></script>
+<script src="__PUBLIC__/home/js/layer.js"></script>
+<script src="__PUBLIC__/home/js/swiper-3.4.2.jquery.min.js"></script>
+<script src="__PUBLIC__/appapi/js/liang.js"></script>
+
+</body>
+</html>

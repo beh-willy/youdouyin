@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta content="telephone=no" name="format-detection">
+    <title>举报理由</title>
+		<link rel="stylesheet" href="__PUBLIC__/weui/css/weui.min.css">
+		<link rel="stylesheet" href="__PUBLIC__/weui/css/jquery-weui.min.css">				
+    <style type="text/css">
+        *{margin: 0;padding:0;font-family: "微软雅黑";}
+        body{background-color: #F5F5F9;}
+        ul{
+            background-color:#fff;
+        }
+        li{
+            border-bottom: solid 1px #F3F3F3;
+            list-style-type: none;
+            margin-left: 12px;
+            line-height: 46px;
+            font-size: 1em;
+            color: #444;
+        }
+        p{
+            border-top: solid 1px #F3F3F3;
+            border-bottom: solid 1px #F3F3F3;
+            line-height: 49px;
+            color: #373737;
+            font-size: 1.1em;
+            font-weight: 600;
+            letter-spacing: 2px;
+            padding-left: 12px;
+            background-color: #fff;
+        }
+        li img{width: 19px;float:right;margin-right: 14px;margin-top:16px;display: none;}
+        textarea{color: #DFDFDF;width: 100%;font-size: 1em;margin-top: 8px;border: none;}
+        #btm{  background-color: #F5F5F9;
+            width: 100%;
+            height: 62px;
+            position: fixed;
+            bottom: 0;
+            left: 0;}
+        button{background-color: rgb(142, 226, 211);
+            color: #fff;
+            font-family: "微软雅黑";
+            font-size: 1.2em;
+            letter-spacing: 1px;
+            width: 92%;
+            height: 47px;
+            border-radius: 30px;
+            outline: none;
+            border: 0;
+            margin-top: 5px;
+            margin-left: 4%;}
+        .num{color:#6C6C6C;position: absolute;right: 2px;bottom: 2px;}
+        #test{width: 100%;position: relative;}
+     </style>
+    <script src="__PUBLIC__/js/jquery.js"></script>
+		<script src="__PUBLIC__/weui/js/jquery-weui.min.js"></script>
+</head>
+<body>
+<p>请选择你想要举报的理由</p>
+<ul>
+	<volist name="reportinfo" id="v">
+		<!-- <li data-select="0"><span>{$v['name']}</span><img src="__PUBLIC__/appapi/images/no-check.png"></li> -->
+		<li data-select="0"><span>{$v['name']}</span><input style="width: 19px;float: right;margin-right: 14px;margin-top: 16px;" type="radio" name="content" value="{$v['name']}" checked="" id="active_true" onclick="showtest();"></li>
+		
+	</volist>
+</ul>
+<div id="test" style="display:block;">
+    <textarea placeholder=" 还有什么意见和建议" id="content"></textarea>
+    <div class="num"></div>
+</div>
+<div id="btm">
+    <button  id="save_btn">点击反馈</button>
+</div>
+<input type="hidden" id="uid" value="{$uid}">
+<input type="hidden" id="videoid" value="{$videoid}">
+<input type="hidden" id="type" value="{$type}">
+</body>
+</html>
+<script type="text/javascript">
+	var content = "";
+	function showtest(){
+		var radios = document.getElementsByName("content");
+		for (i = 0; i < radios.length; i++) {
+			if (radios[i].checked) {
+				content=radios[i].value;
+				if(content=="其他"){
+					$("#test").css('display','block');
+				}else{
+					$("#test").css('display','none');
+				}
+				break;
+			}
+		}
+	}
+    function save() {
+		var inputcontent = $('#content').val();
+        if(content=="" && inputcontent==""){
+			  $.alert('请输入意见和建议');
+			  return !1;
+		}else if(content==""){
+			content=inputcontent;
+		}
+        var uid = encodeURIComponent($('#uid').val());
+        var videoid = encodeURIComponent($('#videoid').val());
+        var type = encodeURIComponent($('#type').val());
+
+		
+		
+		
+        var url2 = document.referrer;
+        <!-- all_disabled(true); -->
+        $('#save_btn').html('正在提交，请稍候');
+        $.ajax( {
+            type: "post",
+            url: "./index.php?g=Appapi&m=Dialectreport&a=reportSave",
+            dataType: "json",
+            cache:false,
+            timeout : 30000,
+            data: {
+                content: content,
+                videoid: videoid,
+                uid: uid,
+                type: type
+            },
+            success:function(result) {
+                if (result.status == 0) {
+                    $.alert('提交成功',function(){
+											window.location.href=url2;
+										});
+                   
+                }else{
+                    $.alert(result.errormsg);
+                }
+                <!-- all_disabled(false); -->
+                $('#save_btn').html('点击反馈');
+            },
+            error : function() {
+                $.alert('网络异常');
+                <!-- all_disabled(false); -->
+                $('#save_btn').html('点击反馈');
+            }
+        });
+    }
+    $("#content").css({"height":$(window).height()-$("#btm").height()-$("ul").height()-$("p").height()-20+"px"});
+    $('#save_btn').on('click', save);
+
+    $('li').each(function() {
+        $(this).on('click', function() {
+            $(this).find("img").show();
+            var img = '';
+            if ($(this).attr('data-select') == '0') {
+                img = '__PUBLIC__/appapi/images/check.png';
+                $(this).attr('data-select', '1');
+            }else{
+                $(this).find("img").hide();
+                $(this).attr('data-select', '0');
+            }
+            $(this).find('img').attr('src', img);
+            check_input();
+        })
+    });
+
+
+</script>

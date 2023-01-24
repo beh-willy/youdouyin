@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta content="telephone=no" name="format-detection" />
+		<title>主播等级说明</title>
+		<link href='__PUBLIC__/appapi/css/level.css' rel="stylesheet" type="text/css" >
+	</head>
+<body >
+
+	<div class="explain">
+		<div class="explain-top">
+			<fieldset> 
+				<legend>主播等级兑换关系说明</legend> 
+			</fieldset>
+		</div>
+		<div class="list">
+			<table>
+				<tr>
+					<th>主播等级</th>
+					<th>经验值</th>
+				</tr>
+				<volist name="list" id="v">
+				<tr>
+					<td>M{$v['levelid']}</td>
+					<td>{$v['level_up']}</td>
+				</tr>
+				</volist>
+			</table>
+		</div>
+	</div> 
+</body>
+
+</body>
+</html>

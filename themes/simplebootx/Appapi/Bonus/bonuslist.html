@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta content="telephone=no" name="format-detection" />
+		<title>提现记录</title>
+		<link href='__PUBLIC__/appapi/css/bonus.css?t={$time}' rel="stylesheet" type="text/css" >
+		<link href='__PUBLIC__/appapi/css/bonuslist.css?t={$time}' rel="stylesheet" type="text/css" >
+	</head>
+<body >
+	
+	<ul class="tabList">
+		<li data-type="1" class="on">转入</li>
+		<li data-type="2">转出</li>
+	</ul>
+
+	<div class="scores_tab_body">
+
+		<div id="incomeArea" class="scores_tab_bd scores_tab_bd1">
+
+			<ul class="list_title income_title" >
+				<li class="datetime">时间</li>
+				<li class="type">转入方式</li>
+				<li class="money">金额</li>
+				<div class="clearboth"></div>
+			</ul>
+
+			<ul class="income_list listarea">
+				<!-- <li>
+					<p class="datetime">18-08-09 15:25</p>
+					<p class="type">平台分红</p>
+					<p class="money">20.00</p>
+					<div class="clearboth"></div>
+				</li> -->
+				
+			</ul>
+		</div>
+		
+		<div id="out_list" class="scores_tab_bd scores_tab_bd2">
+
+			<ul class="list_title">
+				<li class="datetime">时间</li>
+				<li class="type">提现方式</li>
+				<li class="money">金额</li>
+				<li class="status">状态</li>
+				<div class="clearboth"></div>
+			</ul>
+			
+			<ul class="list listarea">
+			
+				<!-- <li>
+					<p class="datetime">18-08-10 15:25</p>
+					<p class="type">微信</p>
+					<p class="money">20.00</p>
+					<p class="status">审核中</p>
+					<div class="clearboth"></div>
+				</li> -->
+
+			</ul>
+		</div>	
+
+	</div>
+	
+	
+<script src="__PUBLIC__/js/jquery.js"></script>
+<script src="__PUBLIC__/appapi/js/bonus.js?t={$time}"></script>
+<script src="__PUBLIC__/layer/layer.js"></script>
+<script>
+	var uid='{$uid}';
+	var token='{$token}';
+
+</script>
+
+
+</body>
+</html>

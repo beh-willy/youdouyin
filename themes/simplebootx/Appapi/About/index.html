@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta content="telephone=no" name="format-detection">
+    <title>关于{$sitename}</title>
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/appapi/about/css/about.css?t={$time}">
+
+</head>
+<body>
+    <div class="icon_area">
+        <img src="/icon.png">
+    </div>
+    <div class="edition">版本号 {$version}</div>
+    <ul class="artice_list">
+        <foreach name="articleList" item="vo">
+            <a href="/index.php?g=portal&m=page&a=news&id={$vo['id']}">
+                <li>{$vo['post_title']}</li>
+            </a> 
+        </foreach>
+        <a href="/index.php?g=portal&m=page&a=questions">
+            <li>{$name}</li>
+        </a>
+        <a href="/index.php?g=Appapi&m=service&a=index">
+            <li>联系客服</li>
+        </a>
+        <a href="/index.php?g=Appapi&m=feedback&a=index&uid={$uid}&token={$token}">
+            <li>我要反馈</li>
+        </a>
+
+    </ul>
+<script type="text/javascript" src="__PUBLIC__/js/jquery.js"></script>
+<script type="text/javascript" src="__PUBLIC__/appapi/about/js/about.js?t={$time}"></script>
+<script type="text/javascript" src="__PUBLIC__/layer/layer.js"></script>
+</body>
+</html>

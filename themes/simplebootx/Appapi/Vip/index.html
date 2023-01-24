@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta content="telephone=no" name="format-detection" />
+		<title>会员</title>
+		<link type="text/css" rel="stylesheet" href="__PUBLIC__/home/css/layer.css"/>
+		<link href='__PUBLIC__/appapi/css/vip.css' rel="stylesheet" type="text/css" >
+	</head>
+<body >
+	<div class="main">
+		<div class="top">
+			<img src="__PUBLIC__/appapi/images/vip/vip.png">
+		</div>
+		<div class="vip-time <if condition="!$uservip"> hide</if>">
+			{$type[$uservip['type']]} 到期：<span id="endtime">{$uservip['endtime']|date="Y-m-d",###}</span>
+		</div>
+		<div class="tab">
+			<ul>
+				<li class="on">VIP会员</li>
+				<li>至尊VIP会员</li>
+			</ul>
+		</div>
+		<div class="vip-privilege">
+			<div class="privilege-title">
+				VIP会员专属特权
+			</div>
+			<div class="privilege-list">
+				<ul>
+					<li>
+						<div class="thumb">
+							<img src="__PUBLIC__/appapi/images/vip/privilege1.png">
+						</div>
+						<div class="info">
+							<p class="info-title">尊贵身份</p>
+							<p class="info-des">携带VIP标识登场</p>
+						</div>
+					</li>
+					<li>
+						<div class="thumb">
+							<img src="__PUBLIC__/appapi/images/vip/privilege3.png">
+						</div>
+						<div class="info">
+							<p class="info-title">炫酷标识</p>
+							<p class="info-des">用户聊天显示VIP会员图标</p>
+						</div>
+					</li>
+
+				</ul>
+			</div>
+		</div>	
+		
+		<div class="vip-privilege hide">
+			<div class="privilege-title">
+				至尊VIP会员专属特权
+			</div>
+			<div class="privilege-list">
+				<ul>
+					<li>
+						<div class="thumb">
+							<img src="__PUBLIC__/appapi/images/vip/privilege1.png">
+						</div>
+						<div class="info">
+							<p class="info-title">尊贵身份</p>
+							<p class="info-des">携带VIP标识登场</p>
+						</div>
+					</li>
+					<li>
+						<div class="thumb">
+							<img src="__PUBLIC__/appapi/images/vip/privilege3.png">
+						</div>
+						<div class="info">
+							<p class="info-title">炫酷标识</p>
+							<p class="info-des">用户聊天显示至尊VIP会员图标</p>
+						</div>
+					</li>
+
+				</ul>
+			</div>
+		</div>	
+	</div>
+	<div class="buy">
+		立刻开通
+	</div>
+	<div class="buy_body hide">
+		<div class="buy_user">
+			开通账号：<span>{$userinfo['user_nicename']}</span>
+		</div>
+		<div class="buy_type">
+			<div class="buy-title">会员类型：</div>
+			<div class="buy_tab clear">
+				<ul>
+				<volist name="type" id="vo">
+					<li <if condition="$i eq '1'">class="on"</if> data-type="{$key}"><span class="vip vip{$key}"></span>{$vo}</li>
+				</volist>
+				</ul>
+			</div>
+		</div>
+		<div class="buy_length">
+			<div class="buy-title">开通时长：</div>
+			<volist name="lists" id="vo" >
+			<div class="buy_tab_body clear <if condition="$i neq '1'">hide</if>">
+				<ul>
+					<volist name="vo.list" id="v">
+					<li <if condition="$i eq '1'">class="on"</if> data-id="{$v['id']}" data-type="{$v['type']}">
+						{$long[$v['length']]}<br>
+						<span>{$v['coin']}{$config['name_coin']}</span>
+					</li>
+					</volist>
+				</ul>
+			</div>
+			</volist>
+		</div>
+		<div class="submit">
+			立刻开通
+		</div>
+	</div>
+</body>
+<script>
+	var uid='{$uid}';
+	var token='{$token}';
+	var type='{$uservip['type']}';
+</script>
+<script src="__PUBLIC__/js/jquery.js"></script>
+<script src="__PUBLIC__/home/js/layer.js"></script>
+<script src="__PUBLIC__/appapi/js/vip.js"></script>
+</body>
+</html>

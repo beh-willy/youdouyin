@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta content="telephone=no" name="format-detection" />
+		<title>我的等级</title>
+		<link href='__PUBLIC__/appapi/css/level.css' rel="stylesheet" type="text/css" >
+	</head>
+<body >
+
+	<div class="main">
+		<div class="top">
+			<ul>
+				<li class="on">观众等级</li>
+				<li>主播等级</li>
+			</ul>
+		</div>
+		<div class="top-body ">
+			<div class="level">
+				<div class="speed">
+					<div class="info">
+						<div class="name">{$levelinfo['levelid']}</div>
+						<div class="tip">击败了{$compare}%的观众</div>
+					</div>
+					<div class="level_val">
+						<!-- 累计经验值：<span id="total">{$userinfo['consumption']}</span> -->
+						累计经验值：<span id="total">{$experienceuserlevel}</span>
+						<if condition="$type eq '1'">
+							距离升级还差：<span id="next_diff">{$cha}</span>
+						<else/>
+							你已经达到最高级别
+						</if>
+					</div>
+					<div class="jindu">
+						<div class="levelnp">
+							<div class="leveln n2" id="progress" style="width:{$baifen}%; border-radius: 4px;"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="line"></div>
+			<div class="privilege">
+				<div class="title">等级特权</div>
+				<ul>
+					<li><img src="__PUBLIC__/appapi/images/v_level_id.png"></li>
+					<li><img src="__PUBLIC__/appapi/images/v_level_id2.png"></li>
+				</ul>
+			</div>
+			<div class="line"></div>
+			<div class="upgrade">
+				<div class="title">如何升级</div>
+				<div class="body">
+					<img src="__PUBLIC__/appapi/images/v_up.png">
+				</div>
+			</div>
+			<div class="tips">
+				<a href="/index.php?g=appapi&m=level&a=level">用户等级说明</a>
+			</div>
+		
+		</div>
+		
+		<div class="top-body hide">
+			<div class="level_a">
+				<div class="speed">
+					<div class="info">
+						<div class="image">
+							<div class="name">LV.{$levelinfo_a['levelid']}</div>
+						</div>
+					</div>
+					<div class="level_val">
+						<!-- 累计经验值：<span id="total">{$userinfo['votestotal']}</span> -->
+						累计经验值：<span id="total">{$experiencelivelevel}</span>
+						<if condition="$type_a eq '1'">
+							距离升级还差：<span id="next_diff">{$cha_a}</span>
+						<elseif  condition="$type_a eq '2'" />
+							映票兑换后可进行升级
+						<else/>
+							你已经达到最高级别
+						</if>
+					</div>
+					<div class="jindu">
+						<div class="levelnp">
+							<div class="leveln n2" id="progress" style="width:{$baifen_a}%; border-radius: 4px;"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="line"></div>
+			<div class="privilege">
+				<div class="title">等级特权</div>
+				<ul>
+					<li><img src="__PUBLIC__/appapi/images/m_level_id.png"></li>
+					<li><img src="__PUBLIC__/appapi/images/m_level_id2.png"></li>
+				</ul>
+			</div>
+			<div class="line"></div>
+			<div class="upgrade">
+				<div class="title">如何升级</div>
+				<div class="body">
+					<img src="__PUBLIC__/appapi/images/m_up.png">
+				</div>
+			</div>	
+			<div class="tips">
+				<a href="/index.php?g=appapi&m=level&a=level_a">主播等级说明</a>
+			</div>
+		</div>
+
+	</div> 
+</body>
+
+<script src="__PUBLIC__/js/jquery.js"></script>
+<script>
+	(function(){
+		$(".top ul li").on("click",function(){
+			$(this).siblings().removeClass("on");
+			$(this).addClass("on");
+			$(".top-body").hide().eq($(this).index()).show();
+		})
+	})()
+</script>
+</body>
+</html>

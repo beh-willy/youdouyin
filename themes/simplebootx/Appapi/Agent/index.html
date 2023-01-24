@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta content="telephone=no" name="format-detection" />
+		<title>我的分销</title>
+		<link href='__PUBLIC__/appapi/css/agent.css' rel="stylesheet" type="text/css" >
+	</head>
+<body >
+
+	<div class="home">
+		<div class="top">
+			<div class="user">
+				<img src="{$userinfo['avatar']}">
+				<br>
+				{$userinfo['user_nicename']} ID:{$userinfo['id']}
+			</div>
+			<div class="myagent">
+				<if condition="$agentinfo">
+				我的上级：{$agentinfo['user_nicename']} ID:{$agentinfo['id']}
+				<else/>
+				我的上级：无
+				<a class="agent_add" href="/index.php?g=Appapi&m=Agent&a=agent&uid={$uid}&token={$token}"></a>
+				</if>
+			</div>
+		</div>
+		<div class="lower">
+			<ul>
+				<li class="lower1">
+					<a class="see" href="/index.php?g=Appapi&m=Agent&a=one&uid={$uid}&token={$token}">
+						<i></i>
+						<div class="info">
+							<p class="lower_title">下级总提成</p>
+							<p class="lower_profit">{$agnet_profit['one_profit']}</p>
+							<div class="see">查看详情</div>
+						</div>
+					</a>
+				</li>
+				<li class="lower2">
+					<a class="see" href="/index.php?g=Appapi&m=Agent&a=two&uid={$uid}&token={$token}">
+						<i></i>
+						<div class="info">
+							<p class="lower_title">下下级总提成</p>
+							<p class="lower_profit">{$agnet_profit['two_profit']}</p>
+							<div class="see">查看详情</div>
+						</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="line"></div>
+		<div class="mycode">
+			您的邀请码：<br>
+			<span class="code">
+				<volist name="code_a" id="vo">
+				<i>{$vo}</i>
+				</volist>
+			</span>
+			<div class="copy" data-code="{$userinfo['code']}">
+				<i></i>复制
+			</div>
+			
+		</div>
+		<div class="tips">
+			邀请须知：<br>
+			每个用户都有自己的邀请码，只要您邀请的用户输入您的邀请码，对方赠送礼物时，您将获得一定的分成奖励
+		</div>
+	</div>
+<script src="__PUBLIC__/js/jquery.js"></script>
+<script src="__PUBLIC__/appapi/js/agent.js"></script>
+</body>
+</html>

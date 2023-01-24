@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta content="telephone=no" name="format-detection" />
+		<title>提现记录</title>
+		<link href='__PUBLIC__/appapi/css/bonus.css?t={$time}' rel="stylesheet" type="text/css" >
+	</head>
+<body >
+	
+	<ul class="list_title">
+		<li class="datetime">时间</li>
+		<li class="type">提现方式</li>
+		<li class="money">金额</li>
+		<li class="status">状态</li>
+		<div class="clearboth"></div>
+	</ul>
+
+		
+
+	<ul class="list">
+		<volist name="list" id="v">
+			<li>
+				<p class="datetime">{$v['addtime']}</p>
+				<p class="type">{$v['type']}</p>
+				<p class="money">{$v['money']}</p>
+				<p class="status">{$v['status']}</p>
+				<div class="clearboth"></div>
+			</li>
+		</volist>
+	</ul>
+	
+	
+<script src="__PUBLIC__/js/jquery.js"></script>
+<script>
+	var uid='{$uid}';
+	var token='{$token}';
+	var count1='{$total}';
+
+	console.log(count1);
+</script>
+
+<script>
+	$(function(){
+		function getlistmore(){
+			$.ajax({
+				url:'/index.php?g=appapi&m=Bonus&a=getticketmore',
+				data:{'page':page,'uid':uid,'token':token},
+				type:'post',
+				dataType:'json',
+				success:function(data){
+					if(data.nums>0){
+                        var nums=data.nums;
+                        var list=data.data;
+                        var html='';
+                        for(var i=0;i<nums;i++){
+
+                            html+='<li>\
+								<p class="datetime">'+list[i]['addtime']+'</p>\
+								<p class="type">'+list[i]['type']+'</p>\
+								<p class="money">'+list[i]['money']+'</p>\
+								<p class="status">'+list[i]['status']+'</p>\
+								<div class="clearboth"></div>\
+							</li>';
+                        }
+						
+						$(".list").append(html);
+					}
+					
+					if(data.isscroll==1){
+						page++;
+						isscroll=true;
+					}
+				}
+			})
+		}
+		var page=2; 
+		var isscroll=true; 
+
+		$(window).scroll(function(){  
+				var srollPos = $(window).scrollTop();    //滚动条距顶部距离(页面超出窗口的高度)  		
+				var totalheight = parseFloat($(window).height()) + parseFloat(srollPos);  
+				if(($(document).height()-50) <= totalheight  && isscroll) {  
+						isscroll=false;
+						getlistmore()
+				} 
+			console.log("page:"+page); 
+			console.log("isscroll:"+isscroll); 
+		});  
+
+
+	})
+	</script>	
+</body>
+</html>

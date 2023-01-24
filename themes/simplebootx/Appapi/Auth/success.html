@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta content="telephone=no" name="format-detection">
+    <title>身份认证</title>
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/appapi/auth/css/auth.css?t={$time}">
+
+</head>
+<body>
+    <div class="woring_title">
+        *实名认证信息如下
+    </div>
+    <ul class="auth_list">
+        <li>
+            <p class="auth_list_title fl">真实姓名</p>
+            <p class="auth_list_right fr">
+                <input type="text" name="realname" id="realname" value="{$auth['real_name']}" readonly="readonly">
+            </p>
+            <p class="clearboth"></p>
+        </li>
+
+        <li>
+            <p class="auth_list_title fl">联系电话</p>
+            <p class="auth_list_right fr">
+                <input type="text" name="phone" id="phone" value="{$auth['mobile']}" readonly="readonly">
+            </p>
+            <p class="clearboth"></p>
+        </li>
+
+        <li class="border_none">
+            <p class="auth_list_title fl">身份证号</p>
+            <p class="auth_list_right fr">
+                <input type="text" name="cardno" id="cardno" value="{$auth['cer_no']}" readonly="readonly">
+            </p>
+            <p class="clearboth"></p>
+        </li>
+    </ul>
+
+    <div class="agreement">
+        <p class="agree_area " style="background: #E9377E;" onclick="return;"><img style="display: inline;" src="__PUBLIC__/appapi/auth/images/true.png"></p> 同意<a href="./index.php?g=portal&m=page&a=index&id=28">红域用户协议</a>
+        <div class="clearboth"></div>
+    </div>
+
+    <div class="autharea">
+        <input type="button" value="已经认证" disabled="disabled" onclick="return;">
+    </div>
+
+
+<script type="text/javascript" src="__PUBLIC__/js/jquery.js"></script>
+<script type="text/javascript" src="__PUBLIC__/layer/layer.js"></script>
+</body>
+</html>
