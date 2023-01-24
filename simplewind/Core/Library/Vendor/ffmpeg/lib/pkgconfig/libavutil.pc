@@ -1,0 +1,14 @@
+prefix=/usr/loacl/ffmpeg
+exec_prefix=${prefix}
+libdir=/usr/loacl/ffmpeg/lib
+includedir=/usr/loacl/ffmpeg/include
+
+Name: libavutil
+Description: FFmpeg utility library
+Version: 56.31.100
+Requires: 
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavutil 
+Libs.private: -pthread -lm
+Cflags: -I${includedir}
